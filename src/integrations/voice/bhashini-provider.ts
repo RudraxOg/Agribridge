@@ -1,0 +1,1 @@
+import type { VoiceProvider } from "./voice-provider";export class BhashiniProvider implements VoiceProvider{async speak(text:string,locale:string):Promise<never>{void text;void locale;throw new Error("BHASHINI is not configured in prototype mode")}async listen(locale:string):Promise<never>{void locale;throw new Error("BHASHINI is not configured in prototype mode")}}

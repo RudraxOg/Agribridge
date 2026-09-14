@@ -1,0 +1,2 @@
+import { MockCallRoom } from "@/components/features/mock-call-room";import { PageHeader } from "@/components/shell/page-header";
+export default async function CallPage({params}:{params:Promise<{callId:string}>}){const {callId}=await params;return <><PageHeader eyebrow={`Mock room · ${callId}`} title="Live grading inspection" description="Prototype video interface. LiveKit remains behind the provider adapter and is disabled without credentials."/><MockCallRoom/></>}

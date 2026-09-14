@@ -1,0 +1,1 @@
+import { logisticsQuotes } from "@/lib/demo-data";import type { LogisticsProvider } from "./logistics-provider";export class MockLogisticsProvider implements LogisticsProvider{async getQuotes(input:{pickup:string;destination:string;quantityKg:number}){void input;return logisticsQuotes}}

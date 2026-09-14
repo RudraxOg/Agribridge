@@ -1,0 +1,1 @@
+import { lots } from "@/lib/demo-data";export function browsePublishedLots(input:{query?:string;grade?:"A"|"B"}){const query=input.query?.toLowerCase();return lots.filter(l=>(!input.grade||l.grade===input.grade)&&(!query||`${l.name} ${l.location} ${l.variety}`.toLowerCase().includes(query)))}

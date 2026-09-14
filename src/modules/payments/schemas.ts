@@ -1,0 +1,1 @@
+import { z } from "zod";export const createPaymentSchema=z.object({orderId:z.uuid(),amountPaise:z.bigint().positive(),method:z.enum(["upi","card"])});export const providerEventSchema=z.object({eventId:z.string().min(3),eventType:z.string().min(3),providerReference:z.string().min(3),amountPaise:z.bigint().nonnegative()});

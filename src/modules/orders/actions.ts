@@ -1,0 +1,1 @@
+"use server";import { transitionOrder,type OrderState } from "@/domain/orders/order-machine";export async function validateOrderTransition(from:OrderState,to:OrderState,actorId:string){return transitionOrder(from,to,actorId)}

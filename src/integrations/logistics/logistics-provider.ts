@@ -1,0 +1,1 @@
+import type { logisticsQuotes } from "@/lib/demo-data";export type LogisticsQuote=(typeof logisticsQuotes)[number];export interface LogisticsProvider{getQuotes(input:{pickup:string;destination:string;quantityKg:number}):Promise<LogisticsQuote[]>}

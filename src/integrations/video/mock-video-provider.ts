@@ -1,0 +1,1 @@
+import type { VideoProvider } from "./video-provider";export class MockVideoProvider implements VideoProvider{async createToken(input:{room:string;identity:string}){return{token:`mock:${input.room}:${input.identity}`,url:"mock://local",mock:true}}}

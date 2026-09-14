@@ -1,0 +1,1 @@
+import { z } from "zod";export const quoteRequestSchema=z.object({pickup:z.string().min(2),destination:z.string().min(2),quantityKg:z.number().positive(),refrigerationRequired:z.boolean().default(false)});

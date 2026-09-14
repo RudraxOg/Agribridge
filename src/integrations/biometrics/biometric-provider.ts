@@ -1,0 +1,1 @@
+export interface BiometricProvider{verifyPresence(input:{consentRecordId:string;method:"thumb-device"|"facial-liveness"}):Promise<{providerReference:string;verified:boolean;rawBiometricStored:false}>}

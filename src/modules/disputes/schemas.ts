@@ -1,0 +1,1 @@
+import { z } from "zod";export const disputeSchema=z.object({orderId:z.uuid(),category:z.enum(["quality","quantity","delivery","payment","other"]),summary:z.string().min(20).max(1500),evidencePaths:z.array(z.string()).max(10)});

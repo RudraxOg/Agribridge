@@ -1,0 +1,1 @@
+import { BaselineForecastProvider } from "@/integrations/forecasts/baseline-forecast-provider";import type { MarketPrice } from "@/integrations/market-data/market-data-provider";export function buildBaselineForecast(prices:MarketPrice[],days:15|30){return new BaselineForecastProvider().forecast(prices,days)}

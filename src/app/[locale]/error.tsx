@@ -1,0 +1,2 @@
+"use client";import { useEffect } from "react";import { ErrorState } from "@/components/shared/error-state";import { Button } from "@/components/ui/button";
+export default function ErrorPage({error,reset}:{error:Error&{digest?:string};reset:()=>void}){useEffect(()=>console.error(error),[error]);return <main id="main-content" className="mx-auto max-w-2xl p-6"><ErrorState title="This page could not load" description="Your saved drafts are safe. Check your connection and try again."/><Button className="mt-4" onClick={reset}>Try again</Button></main>}

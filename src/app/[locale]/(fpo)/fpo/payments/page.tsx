@@ -1,0 +1,2 @@
+import { PageHeader } from "@/components/shell/page-header";import { MoneyBreakdown } from "@/components/shared/money-breakdown";import { PaymentSimulator } from "@/components/features/payment-simulator";
+export default function FpoPaymentsPage(){return <><PageHeader eyebrow="Mock settlement ledger" title="Payments and releases" description="Payment provider events are append-only. Only trusted server handlers advance provider status or release milestones."/><div className="grid gap-5 xl:grid-cols-[1.25fr_.75fr]"><MoneyBreakdown/><PaymentSimulator/></div></>}

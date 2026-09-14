@@ -1,0 +1,3 @@
+import { NextResponse } from "next/server";import { z } from "zod";import { MockLogisticsProvider } from "@/integrations/logistics/mock-logistics-provider";
+const schema=z.object({pickup:z.string().min(2),destination:z.string().min(2),quantityKg:z.number().positive()});
+export async function POST(request:Request){const parsed=schema.safeParse(await request.json());if(!parsed.success)return NextResponse.json({error:"Valid pickup, destination and quantity are required"},{status:400});const quotes=await new MockLogisticsProvider().getQuotes(parsed.data);return NextResponse.json({quotes,mock:true})}

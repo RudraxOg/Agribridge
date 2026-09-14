@@ -1,0 +1,2 @@
+import { AccessToken } from "livekit-server-sdk";import { env } from "@/lib/config/env";import type { VideoProvider } from "./video-provider";
+export class LiveKitProvider implements VideoProvider{async createToken(input:{room:string;identity:string}){if(!env.LIVEKIT_API_KEY||!env.LIVEKIT_API_SECRET)throw new Error("LiveKit credentials are not configured");const token=new AccessToken(env.LIVEKIT_API_KEY,env.LIVEKIT_API_SECRET,{identity:input.identity,ttl:"1h"});token.addGrant({roomJoin:true,room:input.room});return{token:await token.toJwt(),url:env.LIVEKIT_URL,mock:false}}}

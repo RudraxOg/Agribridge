@@ -1,0 +1,2 @@
+import { NextResponse } from "next/server";import { env } from "@/lib/config/env";import { marketDataProvider } from "@/integrations/market-data";
+export async function POST(request:Request){if(!env.CRON_SECRET||request.headers.get("authorization")!==`Bearer ${env.CRON_SECRET}`)return NextResponse.json({error:"Unauthorized"},{status:401});const prices=await marketDataProvider().getPrices({limit:100});return NextResponse.json({synced:prices.length,at:new Date().toISOString()})}

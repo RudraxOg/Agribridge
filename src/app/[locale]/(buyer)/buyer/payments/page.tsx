@@ -1,0 +1,2 @@
+import { PageHeader } from "@/components/shell/page-header";import { PaymentSimulator } from "@/components/features/payment-simulator";import { MoneyBreakdown } from "@/components/shared/money-breakdown";
+export default function BuyerPayments(){return <><PageHeader eyebrow="Provider events" title="Payments" description="Simulate success, pending, failure, retry and refunds without paid credentials."/><div className="grid gap-5 xl:grid-cols-[.75fr_1.25fr]"><PaymentSimulator/><MoneyBreakdown/></div></>}

@@ -1,0 +1,1 @@
+export type PaymentResult={providerReference:string;status:"pending"|"succeeded"|"failed";amountPaise:bigint};export interface PaymentProvider{createOrder(input:{orderId:string;amountPaise:bigint}):Promise<PaymentResult>;refund(input:{providerReference:string;amountPaise:bigint}):Promise<PaymentResult>}

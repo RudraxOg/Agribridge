@@ -1,0 +1,1 @@
+import type { BiometricProvider } from "./biometric-provider";export class MockBiometricProvider implements BiometricProvider{async verifyPresence(input:{consentRecordId:string;method:"thumb-device"|"facial-liveness"}){return{providerReference:`mock_${input.method}_${input.consentRecordId.slice(-6)}`,verified:true,rawBiometricStored:false as const}}}

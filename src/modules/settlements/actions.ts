@@ -1,0 +1,1 @@
+"use server";import { transitionEscrow } from "@/domain/escrow/escrow-machine";import type { EscrowState } from "@/domain/escrow/escrow.types";export async function validateSettlementTransition(from:EscrowState,to:EscrowState,actorId:string){return transitionEscrow(from,to,actorId)}

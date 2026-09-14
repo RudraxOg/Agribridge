@@ -1,0 +1,2 @@
+import { Marketplace } from "@/components/features/marketplace";import { PageHeader } from "@/components/shell/page-header";import { requireLocale } from "@/lib/i18n/locale";
+export default async function MarketplacePage({params}:{params:Promise<{locale:string}>}){const locale=requireLocale((await params).locale);return <><PageHeader eyebrow="126 verified lots" title="Buyer marketplace" description="Compare trade-ready produce by location, grade, harvest date and certification."/><Marketplace locale={locale}/></>}

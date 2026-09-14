@@ -1,0 +1,1 @@
+export type IdentityResult={provider:string;verificationReference:string;maskedIdentifier:string;lastFour:string;status:"verified"|"failed";verifiedAt:string};export interface IdentityProvider{verify(reference:string,consentRecordId:string):Promise<IdentityResult>}

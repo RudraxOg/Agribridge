@@ -1,0 +1,3 @@
+import { NextResponse } from "next/server";import { z } from "zod";import { env } from "@/lib/config/env";import { LiveKitProvider } from "@/integrations/video/livekit-provider";import { MockVideoProvider } from "@/integrations/video/mock-video-provider";
+const schema=z.object({room:z.string().min(3),identity:z.string().min(3)});
+export async function POST(request:Request){const parsed=schema.safeParse(await request.json());if(!parsed.success)return NextResponse.json({error:"Room and identity are required"},{status:400});const provider=env.INTEGRATION_MODE==="live"?new LiveKitProvider():new MockVideoProvider();return NextResponse.json(await provider.createToken(parsed.data))}
