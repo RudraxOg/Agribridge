@@ -1,6 +1,6 @@
 # Demo access
 
-No password, OTP, bank credential or payment credential is required in mock mode.
+Mock sign-in is available for local/demo mode with username `test.username` and password `test.password`. These values are accepted only when `INTEGRATION_MODE=mock`; live mode delegates to Supabase Auth.
 
 Open `/{locale}/demo-role` and choose one of these controlled demonstrations:
 

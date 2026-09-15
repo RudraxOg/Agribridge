@@ -1,11 +1,13 @@
 "use server";
 
 import { headers } from "next/headers";
+import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
 import { createClient } from "@/lib/supabase/server";
 import { configuredAuthOrigin, safeRedirectPath } from "@/lib/auth/redirects";
 import { checkLocalRateLimit, privacyKey } from "@/lib/security/rate-limit";
+import { demoAuthCredentials } from "./demo-credentials";
 
 export type AuthActionState = { status: "idle" | "error" | "success"; message: string };
 export const initialAuthState: AuthActionState = { status: "idle", message: "" };
@@ -29,12 +31,21 @@ function authUnavailable(): AuthActionState {
 }
 
 export async function signInAction(_: AuthActionState, formData: FormData): Promise<AuthActionState> {
-  const parsed = z.object({ email: emailSchema, password: z.string().min(1).max(128), locale: localeSchema, next: z.string().optional() }).safeParse(Object.fromEntries(formData));
+  const parsed = z.object({ email: z.string().trim().max(254).min(1), password: z.string().min(1).max(128), locale: localeSchema, next: z.string().optional() }).safeParse(Object.fromEntries(formData));
   if (!parsed.success) return { status: "error", message: "Check the email and password, then try again." };
-  if (!(await limited("sign-in", parsed.data.email)).allowed) return { status: "error", message: "Too many attempts. Wait a few minutes before trying again." };
-  if ((process.env.INTEGRATION_MODE ?? "mock") === "mock") return authUnavailable();
+  const identifier = parsed.data.email.toLowerCase();
+  if (identifier !== demoAuthCredentials.username && !emailSchema.safeParse(identifier).success) return { status: "error", message: "Enter a valid email address or the demo username." };
+  if (!(await limited("sign-in", identifier)).allowed) return { status: "error", message: "Too many attempts. Wait a few minutes before trying again." };
+  if ((process.env.INTEGRATION_MODE ?? "mock") === "mock") {
+    if (identifier !== demoAuthCredentials.username || parsed.data.password !== demoAuthCredentials.password) return { status: "error", message: "We could not sign you in with those details." };
+    const store = await cookies();
+    const cookieOptions = { httpOnly: true, sameSite: "lax" as const, secure: process.env.NODE_ENV === "production", path: "/", maxAge: 60 * 60 * 8 };
+    store.set("agribridge_demo_auth", "authenticated", cookieOptions);
+    store.set("agribridge_demo_role", "fpo", cookieOptions);
+    redirect(safeRedirectPath(parsed.data.next, `/${parsed.data.locale}/fpo/overview`));
+  }
   const supabase = await createClient();
-  const { error } = await supabase.auth.signInWithPassword({ email: parsed.data.email, password: parsed.data.password });
+  const { error } = await supabase.auth.signInWithPassword({ email: identifier, password: parsed.data.password });
   if (error) return { status: "error", message: "We could not sign you in with those details." };
   redirect(safeRedirectPath(parsed.data.next, `/${parsed.data.locale}/organizations`));
 }
