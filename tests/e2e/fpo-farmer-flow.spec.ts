@@ -19,7 +19,7 @@ test("enters FPO dashboard and registers farmer in assisted mode", async ({ page
   await page.getByLabel("Phone number").fill("9876543210");
   await page.getByLabel("Village").fill("Mankapur");
   await activate(page, "Continue");
-  await page.getByLabel("Masked identity reference").fill("OFFLINE-••••-9921");
+  await page.getByLabel("Aadhaar (masked reference)").fill("OFFLINE-••••-9921");
   await activate(page, "Continue");
   await page.getByLabel("Land area").fill("2.4 acres");
   await page.getByLabel("Current crop").selectOption({ label: "Potato" });
