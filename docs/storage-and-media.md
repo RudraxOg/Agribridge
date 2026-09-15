@@ -9,11 +9,12 @@ AgriBridge separates public derivatives from private originals. PostgreSQL store
 | `public-brand-assets` | public | wordmark, compact mark, PWA and generated illustrations |
 | `public-listing-media` | policy-gated anonymous read | accepted derivatives attached to a currently published lot |
 | `private-stock-originals` | tenant roles | original photos and short video |
+| `farmer-documents` | authorized FPO roles | consented land records; seed files are synthetic |
 | `grading-certificates` | scoped signed URL | quality certificates |
 | `delivery-proofs` | order participants | loading and delivery evidence |
 | `dispute-evidence` | case participants | dispute evidence |
 
-Migration `0009_asset_catalog_and_storage.sql` adds `asset_sources`, `file_assets`, and ordered `stock_lot_assets`; migrations `0012` and `0013` add quarantine state, processing jobs and permission-based policies. Migration `0014` retires the registry document bucket and associated metadata. Checksums are unique per bucket, and object paths reject obvious sensitive terms. The listing bucket is not a blanket public bucket: anonymous reads require a clean, ready asset associated with a currently published lot. Private originals require explicit permissions.
+Migration `0009_asset_catalog_and_storage.sql` adds `asset_sources`, `file_assets`, and ordered `stock_lot_assets`; migrations `0012` and `0013` add quarantine state, processing jobs and permission-based policies. Checksums are unique per bucket, and object paths reject obvious sensitive terms. The listing bucket is not a blanket public bucket: anonymous reads require a clean, ready asset associated with a currently published lot. Private originals and farmer documents require explicit permissions.
 
 ## Runtime uploads
 
@@ -27,6 +28,6 @@ Paths use UUIDs, dates, and non-personal document types. Names, phone numbers, A
 
 `assets/manifest/assets.json` is the source of truth. Wikimedia search only appends candidates. A candidate must receive human approval and complete attribution before fetch. License validation allows CC0, public domain and CC BY 4.0; CC BY-SA 4.0 requires an explicit handled flag. Unknown, NC and ND terms fail validation.
 
-The generator creates deterministic SVG artwork, two twelve-frame sequences and three visibly watermarked synthetic PDF records. `sharp` normalizes orientation and writes metadata-free WebP, AVIF and JPEG derivatives. Upload supports dry-run and skips existing object paths. Media seeding derives stable UUIDs and uses upserts for all visible lots and sequence frames, so reruns do not duplicate rows.
+The generator creates deterministic SVG artwork, twelve initials-only avatars, two twelve-frame sequences and four visibly watermarked synthetic PDF records. `sharp` normalizes orientation and writes metadata-free WebP, AVIF and JPEG derivatives. Upload supports dry-run and skips existing object paths. Media seeding derives stable UUIDs and uses upserts for all visible lots and sequence frames, so reruns do not duplicate rows.
 
 This is an engineering guardrail, not legal advice. Each remote candidate still requires review of its source page at the time it is approved.

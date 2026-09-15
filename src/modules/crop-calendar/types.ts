@@ -1,0 +1,1 @@
+import type { quantityUnits } from "@/modules/stock/constants";export type CropCycle={commodity:string;variety?:string;sowingDate?:string;harvestStart:string;harvestEnd:string;expectedQuantity:number;unit:(typeof quantityUnits)[number]};

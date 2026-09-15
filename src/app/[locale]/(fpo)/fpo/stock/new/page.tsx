@@ -1,2 +1,2 @@
 import { StockWizard } from "@/components/features/stock-wizard"; import { PageHeader } from "@/components/shell/page-header";
-export default function NewStockPage(){return <><PageHeader eyebrow="Stock listing wizard" title="Create a trade-ready lot" description="Combine collection-centre quantity, quality evidence and certificates. Offline drafts sync when connection returns."/><StockWizard/></>}
+export default function NewStockPage(){return <><PageHeader eyebrow="Stock listing wizard" title="Create a trade-ready lot" description="Combine farmer allocations, quality evidence and certificates. Offline drafts sync when connection returns."/><StockWizard/></>}

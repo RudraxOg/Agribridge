@@ -10,7 +10,7 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 const definitions = [
   ["public-brand-assets", true], ["public-listing-media", true], ["private-stock-originals", false],
-  ["grading-certificates", false], ["delivery-proofs", false], ["dispute-evidence", false],
+  ["farmer-documents", false], ["grading-certificates", false], ["delivery-proofs", false], ["dispute-evidence", false],
 ] as const;
 
 type PlannedFile = { localPath: string; bucket: string; objectPath: string; contentType: string; cacheControl: string };
@@ -19,17 +19,11 @@ async function walk(directory: string): Promise<string[]> {
 }
 const generated = await walk(path.join(root, "assets/generated"));
 const processed = await walk(path.join(root, "assets/processed"));
-const stockPhotos = await walk(path.join(root, "public/stocks"));
-const inputs = [
-  ...generated.map((localPath) => ({ localPath, base: path.join(root, "assets/generated"), prefix: "" })),
-  ...processed.map((localPath) => ({ localPath, base: path.join(root, "assets/processed"), prefix: "" })),
-  ...stockPhotos.map((localPath) => ({ localPath, base: path.join(root, "public/stocks"), prefix: "stocks/" })),
-];
-const plans: PlannedFile[] = inputs.filter(({ localPath }) => !localPath.endsWith("index.json") && !localPath.endsWith("seed-media.sql")).map(({ localPath, base, prefix }) => {
-  const relative = `${prefix}${path.relative(base, localPath).replaceAll(path.sep, "/")}`;
+const plans: PlannedFile[] = [...generated, ...processed].filter((file) => !file.endsWith("index.json")).map((localPath) => {
+  const relative = path.relative(path.join(root, localPath.includes("/processed/") ? "assets/processed" : "assets/generated"), localPath).replaceAll(path.sep, "/");
   const ext = path.extname(localPath).toLowerCase();
-  const contentType = ext === ".svg" ? "image/svg+xml" : ext === ".webp" ? "image/webp" : ext === ".avif" ? "image/avif" : [".jpg", ".jpeg"].includes(ext) ? "image/jpeg" : ext === ".pdf" ? "application/pdf" : "application/octet-stream";
-  const bucket = relative.startsWith("brand/") || relative.startsWith("illustrations/") || relative.startsWith("vehicles/") ? "public-brand-assets" : relative.startsWith("documents/grading") ? "grading-certificates" : relative.startsWith("documents/") ? "delivery-proofs" : "public-listing-media";
+  const contentType = ext === ".svg" ? "image/svg+xml" : ext === ".webp" ? "image/webp" : ext === ".pdf" ? "application/pdf" : "application/octet-stream";
+  const bucket = relative.startsWith("brand/") || relative.startsWith("illustrations/") || relative.startsWith("vehicles/") ? "public-brand-assets" : relative.startsWith("documents/khatauni") ? "farmer-documents" : relative.startsWith("documents/grading") ? "grading-certificates" : relative.startsWith("documents/") ? "delivery-proofs" : "public-listing-media";
   return { localPath, bucket, objectPath: `demo/${relative}`, contentType, cacheControl: bucket.startsWith("public-") ? "31536000" : "3600" };
 });
 

@@ -20,4 +20,4 @@ The demo role endpoint writes an HTTP-only cookie. It demonstrates that role sel
 
 ## Offline boundary
 
-Stock drafts may be stored locally. Payment pages, sensitive API payloads, signed URLs and auth tokens are excluded from the service-worker cache. Drafts contain only operational lot fields; production must encrypt any newly introduced sensitive offline field or omit it.
+Farmer and stock drafts may be stored locally. Identity documents, payment pages, sensitive API payloads, signed URLs and auth tokens are excluded from the service-worker cache. Drafts contain only operational fields; production must encrypt any sensitive offline field or omit it.

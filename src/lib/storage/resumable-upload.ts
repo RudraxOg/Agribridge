@@ -10,7 +10,7 @@ export async function prepareImage(file: File) {
   return imageCompression(file, { maxSizeMB: 4, maxWidthOrHeight: 1600, useWebWorker: true, fileType: "image/webp", preserveExif: false });
 }
 
-type DirectUploadInput={file:Blob;filename:string;bucket:"private-stock-originals"|"grading-certificates"|"delivery-proofs"|"dispute-evidence";objectPath:string;mimeType:string;purpose:"listing-original"|"grading-certificate"|"delivery-proof"|"dispute-evidence";onProgress:(percent:number)=>void};
+type DirectUploadInput={file:Blob;filename:string;bucket:"private-stock-originals"|"farmer-documents"|"grading-certificates"|"delivery-proofs"|"dispute-evidence";objectPath:string;mimeType:string;purpose:"listing-original"|"grading-certificate"|"farmer-document"|"delivery-proof"|"dispute-evidence";onProgress:(percent:number)=>void};
 async function finalizeUpload(input:DirectUploadInput){const checksum=Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256",await input.file.arrayBuffer()))).map((byte)=>byte.toString(16).padStart(2,"0")).join("");const response=await fetch("/api/uploads/complete",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({bucket:input.bucket,objectPath:input.objectPath,mimeType:input.mimeType,byteSize:input.file.size,checksumSha256:checksum,originalFilename:input.filename,purpose:input.purpose})});if(!response.ok)throw new Error((await response.json() as{error?:string}).error??"Upload validation could not be queued");return response.json() as Promise<{assetId?:string;processingStatus?:string}>}
 export async function uploadDirect(input: DirectUploadInput) {
   const client = createClient();

@@ -91,3 +91,8 @@ export function stockOriginalPath(input: { organizationId: string; lotId: string
 export function listingDerivativePath(input: { organizationId: string; lotId: string; assetId: string; variant: "cover" | "gallery"; width: 960 | 1280 }) {
   return `${uuid.parse(input.organizationId)}/${uuid.parse(input.lotId)}/${input.variant}/${uuid.parse(input.assetId)}-${input.width}.webp`;
 }
+
+export function farmerDocumentPath(input: { organizationId: string; farmerId: string; documentType: string; assetId: string }) {
+  const documentType = z.string().regex(/^[a-z0-9-]+$/).parse(input.documentType);
+  return `${uuid.parse(input.organizationId)}/${uuid.parse(input.farmerId)}/${documentType}/${uuid.parse(input.assetId)}.pdf`;
+}

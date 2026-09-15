@@ -5,11 +5,11 @@ drop policy if exists "authorized fpo reads farmer documents" on storage.objects
 drop policy if exists "document permission reads farmer objects" on storage.objects;
 drop policy if exists "document permission uploads farmer objects" on storage.objects;
 
-delete from storage.objects where bucket_id = 'farmer-documents';
-delete from storage.buckets where id = 'farmer-documents';
-
 drop table if exists public.farmer_auth_methods;
 drop table if exists public.land_documents;
+
+delete from storage.objects where bucket_id = 'farmer-documents';
+delete from storage.buckets where id = 'farmer-documents';
 
 delete from public.stock_lot_assets
 where file_asset_id in (

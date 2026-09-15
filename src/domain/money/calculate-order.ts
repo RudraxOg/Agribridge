@@ -12,24 +12,24 @@ export function calculateOrder(input: OrderCalculationInput): OrderCalculation {
   const produceValuePaise = BigInt(quantity.mul(input.unitPricePaise.toString()).toDecimalPlaces(0, Decimal.ROUND_HALF_UP).toFixed(0));
   const fpoSharePaise = (produceValuePaise * 4n) / 100n;
   const agriBridgeSharePaise = produceValuePaise / 100n;
-  const supplierPoolPaise = produceValuePaise - fpoSharePaise - agriBridgeSharePaise;
+  const farmerPoolPaise = produceValuePaise - fpoSharePaise - agriBridgeSharePaise;
   const charges = input.charges ?? [];
   const buyerChargesPaise = sum(charges.filter((charge) => charge.bearer === "buyer").map((charge) => charge.amountPaise));
   const sellerChargesPaise = sum(charges.filter((charge) => charge.bearer === "seller").map((charge) => charge.amountPaise));
-  const supplierNetSettlementPaise = supplierPoolPaise - sellerChargesPaise;
-  if (supplierNetSettlementPaise < 0n) throw new Error("Seller charges cannot exceed the supplier settlement pool");
-  const firstReleasePaise = supplierNetSettlementPaise / 2n;
+  const netFarmerPayoutPaise = farmerPoolPaise - sellerChargesPaise;
+  if (netFarmerPayoutPaise < 0n) throw new Error("Seller charges cannot exceed the farmer payout pool");
+  const firstReleasePaise = netFarmerPayoutPaise / 2n;
 
   return {
     produceValuePaise,
     fpoSharePaise,
     agriBridgeSharePaise,
-    supplierPoolPaise,
+    farmerPoolPaise,
     buyerChargesPaise,
     sellerChargesPaise,
     buyerPayablePaise: produceValuePaise + buyerChargesPaise,
-    supplierNetSettlementPaise,
+    netFarmerPayoutPaise,
     firstReleasePaise,
-    secondReleasePaise: supplierNetSettlementPaise - firstReleasePaise,
+    secondReleasePaise: netFarmerPayoutPaise - firstReleasePaise,
   };
 }

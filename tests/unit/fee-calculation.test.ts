@@ -7,14 +7,14 @@ describe("order money calculation", () => {
     expect(result.produceValuePaise).toBe(20000000n);
     expect(result.fpoSharePaise).toBe(800000n);
     expect(result.agriBridgeSharePaise).toBe(200000n);
-    expect(result.supplierNetSettlementPaise).toBe(18850000n);
+    expect(result.netFarmerPayoutPaise).toBe(18850000n);
     expect(result.firstReleasePaise).toBe(9425000n);
     expect(result.secondReleasePaise).toBe(9425000n);
   });
 
   it("keeps an odd paise in the second release", () => {
     const result = calculateOrder({ quantity: 1, unitPricePaise: 100n });
-    expect(result.firstReleasePaise + result.secondReleasePaise).toBe(result.supplierNetSettlementPaise);
+    expect(result.firstReleasePaise + result.secondReleasePaise).toBe(result.netFarmerPayoutPaise);
     expect(result.secondReleasePaise - result.firstReleasePaise).toBe(1n);
   });
 
@@ -24,6 +24,6 @@ describe("order money calculation", () => {
       { code: "assaying", label: "Assaying", bearer: "seller", amountPaise: 100n },
     ] });
     expect(result.buyerPayablePaise).toBe(10500n);
-    expect(result.supplierNetSettlementPaise).toBe(9400n);
+    expect(result.netFarmerPayoutPaise).toBe(9400n);
   });
 });

@@ -17,7 +17,7 @@ export type AccessContext = {
   isDemo: boolean;
 };
 
-const fpoPermissions: Permission[] = ["lots.read","lots.write","lots.publish","orders.read","orders.approve","shipments.read","settlements.read","members.read","members.invite","files.upload","files.read_private","disputes.manage"];
+const fpoPermissions: Permission[] = ["farmers.read","farmers.write","lots.read","lots.write","lots.publish","orders.read","orders.approve","shipments.read","settlements.read","members.read","members.invite","files.upload","files.read_private","farmer_documents.read","disputes.manage"];
 const buyerPermissions: Permission[] = ["lots.read","orders.read","orders.create","shipments.read","settlements.read","members.read","files.read_private","disputes.manage"];
 
 function demoContext(roleCookie: string | undefined, slug?: string): AccessContext {

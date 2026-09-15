@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { assetManifestEntrySchema, licenseDecision, listingDerivativePath, sniffMime, stockOriginalPath, validateUpload } from "@/lib/storage/asset-policy";
+import { assetManifestEntrySchema, farmerDocumentPath, licenseDecision, listingDerivativePath, sniffMime, stockOriginalPath, validateUpload } from "@/lib/storage/asset-policy";
 
 const organizationId = "10000000-0000-0000-0000-000000000001";
 const lotId = "50000000-0000-0000-0000-000000000001";
@@ -28,5 +28,6 @@ describe("asset policy", () => {
   it("constructs deterministic paths without personal data", () => {
     expect(stockOriginalPath({ organizationId, lotId, assetId, extension: "JPG", date: new Date("2026-09-15T00:00:00Z") })).toBe(`${organizationId}/${lotId}/2026/09/${assetId}.jpg`);
     expect(listingDerivativePath({ organizationId, lotId, assetId, variant: "cover", width: 1280 })).toBe(`${organizationId}/${lotId}/cover/${assetId}-1280.webp`);
+    expect(farmerDocumentPath({ organizationId, farmerId: lotId, documentType: "khatauni", assetId })).not.toMatch(/name|phone|aadhaar/i);
   });
 });

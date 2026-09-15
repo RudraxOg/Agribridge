@@ -1,5 +1,5 @@
 begin;
-select plan(26);
+select plan(25);
 
 select has_table('public','roles','roles table exists');
 select has_table('public','permissions','permissions table exists');
@@ -18,15 +18,14 @@ select has_function('public','current_user_has_recent_mfa',array[]::text[],'MFA 
 select col_is_fk('public','organization_members','role_id','membership role is constrained');
 select col_is_fk('public','organization_members','user_id','membership user is constrained');
 select view_owner_is('public','marketplace_listings',current_user,'marketplace view has a known owner');
-select ok(exists(select 1 from public.roles r join public.role_permissions rp on rp.role_id=r.id join public.permissions p on p.id=rp.permission_id where r.key='fpo_operator' and p.key='lots.write'),'FPO operator can write stock lots');
-select ok(not exists(select 1 from public.permissions p where p.key in ('farmers.read','farmers.write','farmer_documents.read')),'retired registry permissions are absent');
+select ok(exists(select 1 from public.roles r join public.role_permissions rp on rp.role_id=r.id join public.permissions p on p.id=rp.permission_id where r.key='fpo_operator' and p.key='farmers.write'),'FPO operator is allowed to write farmer records');
+select ok(not exists(select 1 from public.roles r join public.role_permissions rp on rp.role_id=r.id join public.permissions p on p.id=rp.permission_id where r.key='fpo_finance' and p.key='farmers.write'),'FPO finance is denied farmer writes');
 select ok(exists(select 1 from public.roles r join public.role_permissions rp on rp.role_id=r.id join public.permissions p on p.id=rp.permission_id where r.key='logistics_driver' and p.key='shipment.position.write'),'driver can write constrained positions');
 select ok(not exists(select 1 from public.roles r join public.role_permissions rp on rp.role_id=r.id join public.permissions p on p.id=rp.permission_id where r.key='logistics_driver' and p.key='shipments.dispatch'),'driver cannot dispatch shipments');
-select ok(not exists(select 1 from public.roles r join public.role_permissions rp on rp.role_id=r.id join public.permissions p on p.id=rp.permission_id where r.key='support_agent' and p.key in ('files.read_private','settlements.read')),'support has no implicit sensitive access');
+select ok(not exists(select 1 from public.roles r join public.role_permissions rp on rp.role_id=r.id join public.permissions p on p.id=rp.permission_id where r.key='support_agent' and p.key in ('files.read_private','farmer_documents.read','settlements.read')),'support has no implicit sensitive access');
 select ok(exists(select 1 from public.roles where key='platform_admin' and scope='platform' and requires_mfa),'platform administrator requires MFA');
 select ok(exists(select 1 from public.roles where key='buyer_finance' and scope='organization' and requires_mfa),'buyer finance requires MFA');
 select ok(not exists(select 1 from public.role_permissions rp join public.roles r on r.id=rp.role_id join public.permissions p on p.id=rp.permission_id where r.scope='organization' and p.key='platform.configure'),'organization roles cannot configure the platform');
-select hasnt_table('public','lot_contributors','retired contributor table is absent');
 
 select * from finish();
 rollback;

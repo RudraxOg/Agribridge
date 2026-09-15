@@ -7,7 +7,7 @@ describe("locale message fallback", () => {
 
     expect(messages.auth.phone).toBe("Phone number");
     expect(messages.actions.retry).toBe("Try again");
-    expect(messages.stock.title).toBe("Stock management");
-    expect(messages.nav.stock).toBe("मालसाठा");
+    expect(messages.farmer.title).toBe("Farmer registry");
+    expect(messages.nav.farmers).toBe("शेतकरी");
   });
 });

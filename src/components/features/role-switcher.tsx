@@ -1,14 +1,15 @@
 "use client";
 import { useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
-import { Building2, Loader2, ShoppingBasket, Truck, Route, Shield } from "lucide-react";
+import { Building2, Loader2, ShoppingBasket, UserRound, Truck, Route, Shield } from "lucide-react";
 import { toast } from "sonner";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const roles = [
-  { id: "fpo", title: "FPO Operator", description: "Manage stock, quality evidence, orders and settlements.", icon: Building2, path: "/fpo/awadh-pragati-fpc/dashboard" },
+  { id: "fpo", title: "FPO Operator", description: "Manage farmers, crop plans, stock, orders and settlements.", icon: Building2, path: "/fpo/awadh-pragati-fpc/dashboard" },
   { id: "buyer", title: "Bulk Buyer", description: "Discover verified lots, compare quality and place bulk orders.", icon: ShoppingBasket, path: "/buyer/lucknow-fresh-mart/marketplace" },
+  { id: "assisted", title: "Assisted Farmer", description: "Use the simplified, operator-assisted registration journey.", icon: UserRound, path: "/fpo/farmers/new" },
   { id: "logistics", title: "Dispatcher", description: "Assign vehicles and move shipments through validated states.", icon: Truck, path: "/logistics/gati-demo-logistics/dispatch" },
   { id: "driver", title: "Driver", description: "View only assigned trips and submit constrained position events.", icon: Route, path: "/logistics/gati-demo-logistics/trips" },
   { id: "platform", title: "Platform Admin", description: "Review platform health and tightly scoped security events.", icon: Shield, path: "/platform/admin" },

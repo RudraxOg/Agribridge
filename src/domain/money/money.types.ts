@@ -17,11 +17,11 @@ export type OrderCalculation = {
   produceValuePaise: bigint;
   fpoSharePaise: bigint;
   agriBridgeSharePaise: bigint;
-  supplierPoolPaise: bigint;
+  farmerPoolPaise: bigint;
   buyerChargesPaise: bigint;
   sellerChargesPaise: bigint;
   buyerPayablePaise: bigint;
-  supplierNetSettlementPaise: bigint;
+  netFarmerPayoutPaise: bigint;
   firstReleasePaise: bigint;
   secondReleasePaise: bigint;
 };

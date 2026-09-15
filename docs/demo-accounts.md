@@ -4,8 +4,9 @@ No password, OTP, bank credential or payment credential is required in mock mode
 
 Open `/{locale}/demo-role` and choose one of these controlled demonstrations:
 
-- **FPO Operator** — collection-centre stock listing, orders, logistics and settlements.
+- **FPO Operator** — farmer registry, crop calendar, stock listing, orders, logistics and settlements.
 - **Bulk Buyer** — marketplace, quality evidence, multi-angle viewer, logistics quotes, checkout and orders.
+- **Assisted Farmer** — large-control, operator-assisted farmer registration.
 - **Dispatcher** — logistics assignment and shipment state workspace.
 - **Driver** — assigned-trip-only view with constrained position/proof actions.
 - **Platform Admin** — restricted, MFA-labelled operations view.

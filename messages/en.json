@@ -1,96 +1,14 @@
 {
-  "brand": {
-    "tagline": "Harvest trust. Trade better."
-  },
-  "nav": {
-    "home": "Home",
-    "overview": "Overview",
-    "stock": "Stock",
-    "orders": "Orders",
-    "marketplace": "Marketplace",
-    "logistics": "Logistics",
-    "forecast": "Forecast",
-    "payments": "Payments",
-    "help": "Help",
-    "settings": "Settings",
-    "notifications": "Notifications"
-  },
-  "auth": {
-    "signIn": "Sign in",
-    "phone": "Phone number",
-    "email": "Email address",
-    "password": "Password",
-    "continue": "Continue",
-    "demo": "Explore the guided demo"
-  },
-  "actions": {
-    "addStock": "Create stock lot",
-    "viewAll": "View all",
-    "save": "Save draft",
-    "publish": "Publish lot",
-    "filter": "Filter",
-    "compare": "Compare",
-    "addToOrder": "Add to order",
-    "requestCall": "Request grading call",
-    "pay": "Pay securely",
-    "confirm": "Confirm delivery",
-    "retry": "Try again",
-    "listen": "Listen",
-    "back": "Back",
-    "next": "Continue"
-  },
-  "status": {
-    "active": "Active",
-    "published": "Published",
-    "secured": "Funds secured",
-    "transit": "In transit",
-    "pending": "Pending",
-    "verified": "Verified",
-    "offline": "Offline draft",
-    "synced": "Synced"
-  },
-  "stock": {
-    "title": "Stock management",
-    "quality": "Quality evidence",
-    "contributors": "Contributor allocation",
-    "certificate": "Certificate",
-    "capture": "360° capture",
-    "success": "Stock lot published"
-  },
-  "marketplace": {
-    "title": "Buyer marketplace",
-    "search": "Search crop or district",
-    "map": "Map",
-    "list": "List",
-    "grade": "Grade",
-    "harvest": "Harvest",
-    "available": "available"
-  },
-  "checkout": {
-    "title": "Review and secure order",
-    "buyerPays": "What the buyer pays",
-    "distribution": "How the order amount is distributed",
-    "produce": "Produce value",
-    "firstRelease": "Loading release",
-    "secondRelease": "Delivery release",
-    "supplierSettlement": "FPO net settlement"
-  },
-  "logistics": {
-    "title": "Logistics and tracking",
-    "pickup": "Pickup",
-    "delivery": "Delivery",
-    "eta": "Estimated arrival",
-    "temperature": "Temperature",
-    "lastUpdated": "GPS last updated"
-  },
-  "errors": {
-    "generic": "Something went wrong. Your draft is safe; try again.",
-    "required": "This information is required.",
-    "unsupportedVoice": "Voice input is not supported in this browser."
-  },
-  "confirmations": {
-    "saved": "Saved on this device",
-    "payment": "Mock payment completed",
-    "delivery": "Delivery confirmed"
-  }
+  "brand": {"tagline": "Harvest trust. Trade better."},
+  "nav": {"home": "Home", "overview": "Overview", "farmers": "Farmers", "stock": "Stock", "orders": "Orders", "marketplace": "Marketplace", "logistics": "Logistics", "forecast": "Forecast", "payments": "Payments", "help": "Help", "settings": "Settings", "notifications": "Notifications"},
+  "auth": {"signIn": "Sign in", "phone": "Phone number", "email": "Email address", "password": "Password", "continue": "Continue", "demo": "Explore the guided demo"},
+  "actions": {"addFarmer": "Register farmer", "addStock": "Create stock lot", "viewAll": "View all", "save": "Save draft", "publish": "Publish lot", "filter": "Filter", "compare": "Compare", "addToOrder": "Add to order", "requestCall": "Request grading call", "pay": "Pay securely", "confirm": "Confirm delivery", "retry": "Try again", "listen": "Listen", "back": "Back", "next": "Continue"},
+  "status": {"active": "Active", "published": "Published", "secured": "Funds secured", "transit": "In transit", "pending": "Pending", "verified": "Verified", "offline": "Offline draft", "synced": "Synced"},
+  "farmer": {"title": "Farmer registry", "assisted": "Assisted registration", "basic": "Basic profile", "identity": "Identity reference", "bank": "Bank verification", "land": "Land and crop", "consent": "Consent", "success": "Farmer registration saved"},
+  "stock": {"title": "Stock management", "quality": "Quality evidence", "contributors": "Contributor allocation", "certificate": "Certificate", "capture": "360° capture", "success": "Stock lot published"},
+  "marketplace": {"title": "Buyer marketplace", "search": "Search crop or district", "map": "Map", "list": "List", "grade": "Grade", "harvest": "Harvest", "available": "available"},
+  "checkout": {"title": "Review and secure order", "buyerPays": "What the buyer pays", "distribution": "How the order amount is distributed", "produce": "Produce value", "farmerPool": "Farmer payout", "firstRelease": "Loading release", "secondRelease": "Delivery release"},
+  "logistics": {"title": "Logistics and tracking", "pickup": "Pickup", "delivery": "Delivery", "eta": "Estimated arrival", "temperature": "Temperature", "lastUpdated": "GPS last updated"},
+  "errors": {"generic": "Something went wrong. Your draft is safe; try again.", "required": "This information is required.", "unsupportedVoice": "Voice input is not supported in this browser."},
+  "confirmations": {"saved": "Saved on this device", "payment": "Mock payment completed", "delivery": "Delivery confirmed"}
 }

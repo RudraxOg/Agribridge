@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BarChart3, Boxes, CircleHelp, IndianRupee, LayoutDashboard, ShoppingBasket, Sprout, Truck } from "lucide-react";
+import { BarChart3, Boxes, CalendarDays, CircleHelp, IndianRupee, LayoutDashboard, ShoppingBasket, Sprout, Truck, Users } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { BrandLogo } from "@/components/shared/brand-logo";
 
-const icons = { overview: LayoutDashboard, stock: Boxes, orders: ShoppingBasket, logistics: Truck, forecast: BarChart3, payments: IndianRupee, marketplace: Sprout, help: CircleHelp };
+const icons = { overview: LayoutDashboard, farmers: Users, "crop-calendar": CalendarDays, stock: Boxes, orders: ShoppingBasket, logistics: Truck, forecast: BarChart3, payments: IndianRupee, marketplace: Sprout, help: CircleHelp };
 
 export type NavItem = { label: string; path: string; icon: keyof typeof icons };
 export function DesktopSidebar({ locale, items, organization }: { locale: string; items: NavItem[]; organization: string }) {

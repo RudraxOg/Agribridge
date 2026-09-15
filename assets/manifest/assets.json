@@ -648,6 +648,318 @@
     "checksumSha256": "bc4306d24e04685ac9c4c8b9bb2043d2942d85bd6484ab81491419f319a044d2"
   },
   {
+    "slug": "avatars-farmer-01",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-01",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-01.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials RV",
+      "hi": "RV अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "14b8ba32c1a2ece9a44dcde4790cbb6eccff281fd760a531ca1f5d4b3f84c0ad"
+  },
+  {
+    "slug": "avatars-farmer-02",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-02",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-02.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials SD",
+      "hi": "SD अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "52e3209df6e164634bc5e891a607b52208e4ac8f8422ae0ddf8583afc847179b"
+  },
+  {
+    "slug": "avatars-farmer-03",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-03",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-03.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials MI",
+      "hi": "MI अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "a6818b55ded50549a6d67ee96e3ee12a108839bf7ff113cf23c4d6322bdc87a2"
+  },
+  {
+    "slug": "avatars-farmer-04",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-04",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-04.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials GM",
+      "hi": "GM अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "d974d77ac14824ef729c47e5de72dee92cb00c0864c8630068501d63e899b3e6"
+  },
+  {
+    "slug": "avatars-farmer-05",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-05",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-05.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials AT",
+      "hi": "AT अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "1cb64e3788115e6e1e878916a1503b2586128eb330e7d80d0078462236093206"
+  },
+  {
+    "slug": "avatars-farmer-06",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-06",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-06.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials VP",
+      "hi": "VP अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "6dd29ea5521afdd7f04aaf9baed82f1bc235fe98565306742622c5b1b58bba31"
+  },
+  {
+    "slug": "avatars-farmer-07",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-07",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-07.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials RS",
+      "hi": "RS अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "0656f8d2b0803638eb58c2de620a584f407631632ac01b89cfdeb0cebff5294a"
+  },
+  {
+    "slug": "avatars-farmer-08",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-08",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-08.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials IA",
+      "hi": "IA अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "84c9fc72a60f5130c8c33c1d16de399d1a782c0cfdaf27efe26c9595214d8dc4"
+  },
+  {
+    "slug": "avatars-farmer-09",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-09",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-09.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials MJ",
+      "hi": "MJ अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "89cb9a6bb8640bc695082dd9666286a2766dd83198e4aaeeb58bd2dbe6bc3b6f"
+  },
+  {
+    "slug": "avatars-farmer-10",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-10",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-10.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials SP",
+      "hi": "SP अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "2b2eab0680a2ea5100f9c8ba3512f0035c2ef0ad6c03eafb1f57fa8ba1d238ac"
+  },
+  {
+    "slug": "avatars-farmer-11",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-11",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-11.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials FS",
+      "hi": "FS अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "e73fa778f86c770747dca121465fc07fbae45d961816c55cafdf169b3881e658"
+  },
+  {
+    "slug": "avatars-farmer-12",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-12",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-12.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials DM",
+      "hi": "DM अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "3db4478bec5a43d7bef0f33ef1ca03211fea1db60d952dfb1c9006148e368acf"
+  },
+  {
     "slug": "brand-mark",
     "kind": "brand",
     "query": "locally generated with agribridge-demo-v1",
@@ -1400,6 +1712,32 @@
     "checksumSha256": "7c1589009bbfc029c9f934753be0b62d90aea0e8b351c42197814ab29949ba4e"
   },
   {
+    "slug": "documents-khatauni",
+    "kind": "demo-document",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/documents-khatauni",
+    "downloadUrl": "https://agribridge.invalid/generated/documents/khatauni.pdf",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "synthetic khatauni extract, visibly watermarked as demo",
+      "hi": "SYNTHETIC KHATAUNI EXTRACT का डेमो दस्तावेज़"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "04b0ed218bda483390113c0deb0b83d1b269bc291c2d2ba1dcceff136a203bd3"
+  },
+  {
     "slug": "documents-weighbridge-slip",
     "kind": "demo-document",
     "query": "locally generated with agribridge-demo-v1",
@@ -1528,174 +1866,6 @@
     ],
     "status": "generated",
     "checksumSha256": "8abb1274854256855c7dee84af1080b6f001e720cb5b33ffa45ba4aebecc4a7f"
-  },
-  {
-    "slug": "stock-basmati",
-    "kind": "ai-generated-listing-photo",
-    "query": "AI-generated crop stock photograph for AgriBridge demo",
-    "sourceProvider": "agribridge-imagegen",
-    "sourcePageUrl": "https://agribridge.invalid/generated/stock-basmati",
-    "downloadUrl": "https://agribridge.invalid/stocks/basmati.jpg",
-    "author": "AgriBridge demo asset pipeline",
-    "licenseCode": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attributionText": "AI-generated synthetic demo photograph for AgriBridge; not a real stock lot",
-    "allowedUses": [
-      "demo",
-      "listing-seed"
-    ],
-    "cropSlug": "paddy",
-    "altText": {
-      "en": "AI-generated demo photograph of basmati paddy stock",
-      "hi": "बासमती धान के स्टॉक की एआई-निर्मित डेमो तस्वीर"
-    },
-    "targetVariants": [
-      "card",
-      "detail",
-      "original"
-    ],
-    "status": "generated",
-    "checksumSha256": "15937294c6ffb2f8393125a4a45bebaf082a71f2d4ed8a33b79622a5d9a41176"
-  },
-  {
-    "slug": "stock-mango",
-    "kind": "ai-generated-listing-photo",
-    "query": "AI-generated crop stock photograph for AgriBridge demo",
-    "sourceProvider": "agribridge-imagegen",
-    "sourcePageUrl": "https://agribridge.invalid/generated/stock-mango",
-    "downloadUrl": "https://agribridge.invalid/stocks/mango.jpg",
-    "author": "AgriBridge demo asset pipeline",
-    "licenseCode": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attributionText": "AI-generated synthetic demo photograph for AgriBridge; not a real stock lot",
-    "allowedUses": [
-      "demo",
-      "listing-seed"
-    ],
-    "cropSlug": "mango",
-    "altText": {
-      "en": "AI-generated demo photograph of mango stock",
-      "hi": "आम के स्टॉक की एआई-निर्मित डेमो तस्वीर"
-    },
-    "targetVariants": [
-      "card",
-      "detail",
-      "original"
-    ],
-    "status": "generated",
-    "checksumSha256": "df875fa378e7601bd1feac440c6f6fa614a5d5beb272131add136d4a200d90a9"
-  },
-  {
-    "slug": "stock-onion",
-    "kind": "ai-generated-listing-photo",
-    "query": "AI-generated crop stock photograph for AgriBridge demo",
-    "sourceProvider": "agribridge-imagegen",
-    "sourcePageUrl": "https://agribridge.invalid/generated/stock-onion",
-    "downloadUrl": "https://agribridge.invalid/stocks/onion.jpg",
-    "author": "AgriBridge demo asset pipeline",
-    "licenseCode": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attributionText": "AI-generated synthetic demo photograph for AgriBridge; not a real stock lot",
-    "allowedUses": [
-      "demo",
-      "listing-seed"
-    ],
-    "cropSlug": "onion",
-    "altText": {
-      "en": "AI-generated demo photograph of red onion stock",
-      "hi": "लाल प्याज के स्टॉक की एआई-निर्मित डेमो तस्वीर"
-    },
-    "targetVariants": [
-      "card",
-      "detail",
-      "original"
-    ],
-    "status": "generated",
-    "checksumSha256": "a0154b2eb68eafaa20b6b5e28a6e3757c7ef3dd2c8f5ce1339a8463a8b166343"
-  },
-  {
-    "slug": "stock-peas",
-    "kind": "ai-generated-listing-photo",
-    "query": "AI-generated crop stock photograph for AgriBridge demo",
-    "sourceProvider": "agribridge-imagegen",
-    "sourcePageUrl": "https://agribridge.invalid/generated/stock-peas",
-    "downloadUrl": "https://agribridge.invalid/stocks/peas.jpg",
-    "author": "AgriBridge demo asset pipeline",
-    "licenseCode": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attributionText": "AI-generated synthetic demo photograph for AgriBridge; not a real stock lot",
-    "allowedUses": [
-      "demo",
-      "listing-seed"
-    ],
-    "cropSlug": "peas",
-    "altText": {
-      "en": "AI-generated demo photograph of green peas stock",
-      "hi": "हरी मटर के स्टॉक की एआई-निर्मित डेमो तस्वीर"
-    },
-    "targetVariants": [
-      "card",
-      "detail",
-      "original"
-    ],
-    "status": "generated",
-    "checksumSha256": "2fd7692c37d542f90bc6a3d7f788a6104d798db45dbd47ae5a17d754b828cfc6"
-  },
-  {
-    "slug": "stock-potato",
-    "kind": "ai-generated-listing-photo",
-    "query": "AI-generated crop stock photograph for AgriBridge demo",
-    "sourceProvider": "agribridge-imagegen",
-    "sourcePageUrl": "https://agribridge.invalid/generated/stock-potato",
-    "downloadUrl": "https://agribridge.invalid/stocks/potatoes.jpg",
-    "author": "AgriBridge demo asset pipeline",
-    "licenseCode": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attributionText": "AI-generated synthetic demo photograph for AgriBridge; not a real stock lot",
-    "allowedUses": [
-      "demo",
-      "listing-seed"
-    ],
-    "cropSlug": "potato",
-    "altText": {
-      "en": "AI-generated demo photograph of potato stock",
-      "hi": "आलू के स्टॉक की एआई-निर्मित डेमो तस्वीर"
-    },
-    "targetVariants": [
-      "card",
-      "detail",
-      "original"
-    ],
-    "status": "generated",
-    "checksumSha256": "8c889b436165c5cb4d19a39b5302805c086be13621b81fb72befe75d151a5487"
-  },
-  {
-    "slug": "stock-tomato",
-    "kind": "ai-generated-listing-photo",
-    "query": "AI-generated crop stock photograph for AgriBridge demo",
-    "sourceProvider": "agribridge-imagegen",
-    "sourcePageUrl": "https://agribridge.invalid/generated/stock-tomato",
-    "downloadUrl": "https://agribridge.invalid/stocks/tomato.jpg",
-    "author": "AgriBridge demo asset pipeline",
-    "licenseCode": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "attributionText": "AI-generated synthetic demo photograph for AgriBridge; not a real stock lot",
-    "allowedUses": [
-      "demo",
-      "listing-seed"
-    ],
-    "cropSlug": "tomato",
-    "altText": {
-      "en": "AI-generated demo photograph of tomato stock",
-      "hi": "टमाटर के स्टॉक की एआई-निर्मित डेमो तस्वीर"
-    },
-    "targetVariants": [
-      "card",
-      "detail",
-      "original"
-    ],
-    "status": "generated",
-    "checksumSha256": "780bd7f49bba3db4bbcb3e04b3e5b378d377ed1b1f48f4b9ff5499d7a5efb0d4"
   },
   {
     "slug": "vehicles-medium-goods",
