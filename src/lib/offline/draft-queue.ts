@@ -1,6 +1,6 @@
 import { openDB } from "idb";
 
-type DraftKind="farmer"|"stock";
+type DraftKind="stock";
 type DraftRecord<T=unknown>={id:string;kind:DraftKind;payload:T;updatedAt:string;syncState:"local"|"syncing"|"failed"};
 export type QueuedUpload={id:string;draftId:string;blob:Blob;filename:string;mimeType:string;byteSize:number;attempts:number;progress:number;state:"queued"|"uploading"|"paused"|"failed"|"complete";error?:string;nextAttemptAt:string};
 const database=()=>openDB("agribridge-offline",1,{upgrade(db){if(!db.objectStoreNames.contains("drafts"))db.createObjectStore("drafts",{keyPath:"id"});if(!db.objectStoreNames.contains("uploads"))db.createObjectStore("uploads",{keyPath:"id"})}});

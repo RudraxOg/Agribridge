@@ -8,8 +8,8 @@ export const fpo = {
 };
 
 export const dashboardMetrics = [
-  { label: "Registered farmers", value: "1,248", note: "+34 this month", tone: "green" },
-  { label: "Harvests due", value: "86", note: "Next 14 days", tone: "gold" },
+  { label: "Collection centres", value: "6", note: "+1 this quarter", tone: "green" },
+  { label: "Lots expiring soon", value: "2", note: "Next 48 hours", tone: "gold" },
   { label: "Active stock", value: "418 t", note: "18 published lots", tone: "green" },
   { label: "Pending orders", value: "7", note: "₹31.6 lakh value", tone: "gold" },
   { label: "Trucks in transit", value: "3", note: "All on schedule", tone: "blue" },
@@ -29,14 +29,6 @@ export const lots: Lot[] = [
   { id: "lot-paddy-kanpur", name: "Basmati paddy", variety: "Pusa 1509", location: "Kanpur, UP", pricePaise: 3850, quantityKg: 75000, grade: "A", harvest: "28 Sep 2026", image: "PADDY", colour: "#C89A3D", certifications: ["AGMARK", "Lab verified"], moisture: 12.4, confidence: 96, fpo: "Ganga Plains FPC" },
   { id: "lot-peas-lucknow", name: "Green peas", variety: "Arkel", location: "Lucknow, UP", pricePaise: 4400, quantityKg: 12000, grade: "A", harvest: "02 Oct 2026", image: "PEAS", colour: "#5E9E54", certifications: ["Residue tested"], moisture: 74.7, confidence: 90, fpo: "Lucknow Hariyali FPO" },
   { id: "lot-mango-malihabad", name: "Malihabadi mango", variety: "Dasheri", location: "Malihabad, UP", pricePaise: 6200, quantityKg: 25000, grade: "A", harvest: "Season 2027", image: "MANGO", colour: "#E3AE35", certifications: ["GI region", "GlobalG.A.P. ready"], moisture: 81.8, confidence: 93, fpo: "Malihabad Aam Utpadak FPC" },
-];
-
-export const farmers = [
-  { id: "farmer-ram", name: "Ram Kishan Verma", village: "Mankapur", land: "3.2 acres", crops: "Potato, paddy", payout: "₹84,250", verified: true },
-  { id: "farmer-sunita", name: "Sunita Devi", village: "Colonelganj", land: "2.1 acres", crops: "Tomato, peas", payout: "₹61,800", verified: true },
-  { id: "farmer-irfan", name: "Mohd. Irfan", village: "Tarabganj", land: "4.6 acres", crops: "Basmati paddy", payout: "₹1,12,400", verified: true },
-  { id: "farmer-geeta", name: "Geeta Maurya", village: "Katra Bazar", land: "1.8 acres", crops: "Potato", payout: "₹47,900", verified: false },
-  { id: "farmer-rajendra", name: "Rajendra Prasad", village: "Rupaidih", land: "5.0 acres", crops: "Paddy, mustard", payout: "₹1,34,700", verified: true },
 ];
 
 export const logisticsQuotes = [

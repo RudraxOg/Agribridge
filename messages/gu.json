@@ -1,1 +1,43 @@
-{"brand":{"tagline":"વિશ્વાસ ઉગાડો. વધુ સારો વેપાર કરો."},"nav":{"home":"મુખ્ય પાનું","overview":"સારાંશ","farmers":"ખેડૂતો","stock":"સ્ટોક","orders":"ઓર્ડર","marketplace":"બજાર","logistics":"પરિવહન","forecast":"આગાહી","payments":"ચુકવણી","help":"મદદ","settings":"સેટિંગ્સ","notifications":"સૂચનાઓ"},"auth":{"signIn":"સાઇન ઇન","demo":"ડેમો જુઓ"},"actions":{"addFarmer":"ખેડૂત નોંધણી","addStock":"સ્ટોક લોટ બનાવો","save":"ડ્રાફ્ટ સાચવો","publish":"લોટ પ્રકાશિત કરો","filter":"ફિલ્ટર","compare":"સરખામણી","addToOrder":"ઓર્ડરમાં ઉમેરો","pay":"સુરક્ષિત ચુકવણી","confirm":"ડિલિવરીની ખાતરી"},"status":{"active":"સક્રિય","published":"પ્રકાશિત","secured":"રકમ સુરક્ષિત","transit":"માર્ગમાં","pending":"બાકી","verified":"ચકાસાયેલ"},"errors":{"generic":"કંઈક ખોટું થયું. તમારો ડ્રાફ્ટ સુરક્ષિત છે."}}
+{
+  "brand": {
+    "tagline": "વિશ્વાસ ઉગાડો. વધુ સારો વેપાર કરો."
+  },
+  "nav": {
+    "home": "મુખ્ય પાનું",
+    "overview": "સારાંશ",
+    "stock": "સ્ટોક",
+    "orders": "ઓર્ડર",
+    "marketplace": "બજાર",
+    "logistics": "પરિવહન",
+    "forecast": "આગાહી",
+    "payments": "ચુકવણી",
+    "help": "મદદ",
+    "settings": "સેટિંગ્સ",
+    "notifications": "સૂચનાઓ"
+  },
+  "auth": {
+    "signIn": "સાઇન ઇન",
+    "demo": "ડેમો જુઓ"
+  },
+  "actions": {
+    "addStock": "સ્ટોક લોટ બનાવો",
+    "save": "ડ્રાફ્ટ સાચવો",
+    "publish": "લોટ પ્રકાશિત કરો",
+    "filter": "ફિલ્ટર",
+    "compare": "સરખામણી",
+    "addToOrder": "ઓર્ડરમાં ઉમેરો",
+    "pay": "સુરક્ષિત ચુકવણી",
+    "confirm": "ડિલિવરીની ખાતરી"
+  },
+  "status": {
+    "active": "સક્રિય",
+    "published": "પ્રકાશિત",
+    "secured": "રકમ સુરક્ષિત",
+    "transit": "માર્ગમાં",
+    "pending": "બાકી",
+    "verified": "ચકાસાયેલ"
+  },
+  "errors": {
+    "generic": "કંઈક ખોટું થયું. તમારો ડ્રાફ્ટ સુરક્ષિત છે."
+  }
+}

@@ -1,6 +1,4 @@
 export const permissions = {
-  farmersRead: "farmers.read",
-  farmersWrite: "farmers.write",
   lotsRead: "lots.read",
   lotsWrite: "lots.write",
   lotsPublish: "lots.publish",
@@ -19,7 +17,6 @@ export const permissions = {
   organizationManage: "organization.manage",
   filesUpload: "files.upload",
   filesReadPrivate: "files.read_private",
-  farmerDocumentsRead: "farmer_documents.read",
   disputesManage: "disputes.manage",
   platformConfigure: "platform.configure",
   platformAuditCaseRead: "platform.audit_case.read",

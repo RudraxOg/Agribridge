@@ -16,7 +16,6 @@ test("creates and publishes stock", async ({ page }) => {
   await page.getByLabel("Available quantity (kg)").fill("42000");
   await page.getByLabel("Price per kg (₹)").fill("18.5");
   await activate(page, "Continue");
-  await activate(page, "Continue");
   await activate(page, "Add crop photos");
   await activate(page, "Run failed-upload retry demo");
   await expect(page.getByText("Simulated weak-network interruption. Retry is safe.")).toBeVisible();

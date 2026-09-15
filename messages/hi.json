@@ -1,14 +1,96 @@
 {
-  "brand": {"tagline": "भरोसा उगाएँ। बेहतर व्यापार करें।"},
-  "nav": {"home": "मुखपृष्ठ", "overview": "सारांश", "farmers": "किसान", "stock": "उपज स्टॉक", "orders": "ऑर्डर", "marketplace": "बाज़ार", "logistics": "परिवहन", "forecast": "पूर्वानुमान", "payments": "भुगतान", "help": "सहायता", "settings": "सेटिंग", "notifications": "सूचनाएँ"},
-  "auth": {"signIn": "साइन इन करें", "phone": "फ़ोन नंबर", "email": "ईमेल पता", "password": "पासवर्ड", "continue": "आगे बढ़ें", "demo": "मार्गदर्शित डेमो देखें"},
-  "actions": {"addFarmer": "किसान पंजीकृत करें", "addStock": "स्टॉक लॉट बनाएँ", "viewAll": "सभी देखें", "save": "ड्राफ़्ट सहेजें", "publish": "लॉट प्रकाशित करें", "filter": "फ़िल्टर", "compare": "तुलना करें", "addToOrder": "ऑर्डर में जोड़ें", "requestCall": "ग्रेडिंग कॉल माँगें", "pay": "सुरक्षित भुगतान", "confirm": "डिलीवरी की पुष्टि करें", "retry": "फिर कोशिश करें", "listen": "सुनें", "back": "पीछे", "next": "आगे बढ़ें"},
-  "status": {"active": "सक्रिय", "published": "प्रकाशित", "secured": "राशि सुरक्षित", "transit": "रास्ते में", "pending": "लंबित", "verified": "सत्यापित", "offline": "ऑफ़लाइन ड्राफ़्ट", "synced": "सिंक हुआ"},
-  "farmer": {"title": "किसान रजिस्टर", "assisted": "सहायता से पंजीकरण", "basic": "मूल जानकारी", "identity": "पहचान संदर्भ", "bank": "बैंक सत्यापन", "land": "भूमि और फसल", "consent": "सहमति", "success": "किसान पंजीकरण सहेजा गया"},
-  "stock": {"title": "स्टॉक प्रबंधन", "quality": "गुणवत्ता प्रमाण", "contributors": "किसान हिस्सेदारी", "certificate": "प्रमाणपत्र", "capture": "360° चित्र", "success": "स्टॉक लॉट प्रकाशित हुआ"},
-  "marketplace": {"title": "खरीदार बाज़ार", "search": "फसल या ज़िला खोजें", "map": "नक्शा", "list": "सूची", "grade": "ग्रेड", "harvest": "कटाई", "available": "उपलब्ध"},
-  "checkout": {"title": "ऑर्डर जाँचें और सुरक्षित करें", "buyerPays": "खरीदार क्या भुगतान करता है", "distribution": "ऑर्डर राशि का बँटवारा", "produce": "उपज मूल्य", "farmerPool": "किसान भुगतान", "firstRelease": "लोडिंग पर भुगतान", "secondRelease": "डिलीवरी पर भुगतान"},
-  "logistics": {"title": "परिवहन और ट्रैकिंग", "pickup": "उठान", "delivery": "डिलीवरी", "eta": "अनुमानित आगमन", "temperature": "तापमान", "lastUpdated": "जीपीएस अंतिम अपडेट"},
-  "errors": {"generic": "कुछ गड़बड़ हुई। आपका ड्राफ़्ट सुरक्षित है; फिर कोशिश करें।", "required": "यह जानकारी ज़रूरी है।", "unsupportedVoice": "इस ब्राउज़र में आवाज़ इनपुट उपलब्ध नहीं है।"},
-  "confirmations": {"saved": "इस डिवाइस पर सहेजा गया", "payment": "मॉक भुगतान पूरा हुआ", "delivery": "डिलीवरी की पुष्टि हुई"}
+  "brand": {
+    "tagline": "भरोसा उगाएँ। बेहतर व्यापार करें।"
+  },
+  "nav": {
+    "home": "मुखपृष्ठ",
+    "overview": "सारांश",
+    "stock": "उपज स्टॉक",
+    "orders": "ऑर्डर",
+    "marketplace": "बाज़ार",
+    "logistics": "परिवहन",
+    "forecast": "पूर्वानुमान",
+    "payments": "भुगतान",
+    "help": "सहायता",
+    "settings": "सेटिंग",
+    "notifications": "सूचनाएँ"
+  },
+  "auth": {
+    "signIn": "साइन इन करें",
+    "phone": "फ़ोन नंबर",
+    "email": "ईमेल पता",
+    "password": "पासवर्ड",
+    "continue": "आगे बढ़ें",
+    "demo": "मार्गदर्शित डेमो देखें"
+  },
+  "actions": {
+    "addStock": "स्टॉक लॉट बनाएँ",
+    "viewAll": "सभी देखें",
+    "save": "ड्राफ़्ट सहेजें",
+    "publish": "लॉट प्रकाशित करें",
+    "filter": "फ़िल्टर",
+    "compare": "तुलना करें",
+    "addToOrder": "ऑर्डर में जोड़ें",
+    "requestCall": "ग्रेडिंग कॉल माँगें",
+    "pay": "सुरक्षित भुगतान",
+    "confirm": "डिलीवरी की पुष्टि करें",
+    "retry": "फिर कोशिश करें",
+    "listen": "सुनें",
+    "back": "पीछे",
+    "next": "आगे बढ़ें"
+  },
+  "status": {
+    "active": "सक्रिय",
+    "published": "प्रकाशित",
+    "secured": "राशि सुरक्षित",
+    "transit": "रास्ते में",
+    "pending": "लंबित",
+    "verified": "सत्यापित",
+    "offline": "ऑफ़लाइन ड्राफ़्ट",
+    "synced": "सिंक हुआ"
+  },
+  "stock": {
+    "title": "स्टॉक प्रबंधन",
+    "quality": "गुणवत्ता प्रमाण",
+    "contributors": "किसान हिस्सेदारी",
+    "certificate": "प्रमाणपत्र",
+    "capture": "360° चित्र",
+    "success": "स्टॉक लॉट प्रकाशित हुआ"
+  },
+  "marketplace": {
+    "title": "खरीदार बाज़ार",
+    "search": "फसल या ज़िला खोजें",
+    "map": "नक्शा",
+    "list": "सूची",
+    "grade": "ग्रेड",
+    "harvest": "कटाई",
+    "available": "उपलब्ध"
+  },
+  "checkout": {
+    "title": "ऑर्डर जाँचें और सुरक्षित करें",
+    "buyerPays": "खरीदार क्या भुगतान करता है",
+    "distribution": "ऑर्डर राशि का बँटवारा",
+    "produce": "उपज मूल्य",
+    "firstRelease": "लोडिंग पर भुगतान",
+    "secondRelease": "डिलीवरी पर भुगतान",
+    "supplierSettlement": "एफपीओ शुद्ध निपटान"
+  },
+  "logistics": {
+    "title": "परिवहन और ट्रैकिंग",
+    "pickup": "उठान",
+    "delivery": "डिलीवरी",
+    "eta": "अनुमानित आगमन",
+    "temperature": "तापमान",
+    "lastUpdated": "जीपीएस अंतिम अपडेट"
+  },
+  "errors": {
+    "generic": "कुछ गड़बड़ हुई। आपका ड्राफ़्ट सुरक्षित है; फिर कोशिश करें।",
+    "required": "यह जानकारी ज़रूरी है।",
+    "unsupportedVoice": "इस ब्राउज़र में आवाज़ इनपुट उपलब्ध नहीं है।"
+  },
+  "confirmations": {
+    "saved": "इस डिवाइस पर सहेजा गया",
+    "payment": "मॉक भुगतान पूरा हुआ",
+    "delivery": "डिलीवरी की पुष्टि हुई"
+  }
 }

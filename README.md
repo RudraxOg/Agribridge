@@ -1,21 +1,21 @@
 # AgriBridge
 
-AgriBridge is a high-fidelity, installable Next.js PWA prototype for trusted bulk trade between Farmer Producer Organizations (FPOs) and verified buyers. It joins assisted farmer registration, crop planning, stock evidence, marketplace discovery, orders, logistics, mock provider payments, milestone releases and explainable demand signals in one codebase.
+AgriBridge is a high-fidelity, installable Next.js PWA prototype for trusted bulk trade between Farmer Producer Organizations (FPOs) and verified buyers. It joins FPO inventory, stock evidence, marketplace discovery, orders, logistics, mock provider payments, milestone releases and explainable demand signals in one codebase.
 
-The prototype starts in `INTEGRATION_MODE=mock`. Mock biometrics, grading, payments, video, GPS and forecasts are visibly labelled and must not be presented as production services.
+The prototype starts in `INTEGRATION_MODE=mock`. Mock grading, payments, video, GPS and forecasts are visibly labelled and must not be presented as production services.
 
 ## What works
 
 - Responsive FPO and buyer workspaces with desktop sidebar and mobile bottom navigation
 - English and Hindi product experiences, ten locale routes and English fallback
 - Supabase SSR Auth screens, verified callbacks, permission-based RBAC, organization switcher, one-time hashed invitations and TOTP readiness
-- Offline farmer/stock drafts, resumable media queue, service worker fallback, sync visibility and installable manifest
+- Offline stock drafts, resumable media queue, service worker fallback, sync visibility and installable manifest
 - Exact integer-paise fee distribution and audited order/settlement state machines
-- Searchable farmer registry, assisted registration, crop calendar and stock publishing
+- Collection-centre stock creation, quality evidence and marketplace publishing
 - Buyer filtering, comparison, quality-source separation, checkout and mock payment outcomes
 - Six logistics quote types, MapLibre shipment map and deterministic mock GPS movement
-- Data.gov.in, LiveKit, Razorpay, BHASHINI, identity, grading and logistics provider seams
-- 54-table Supabase/PostGIS schema, seven current storage buckets, normalized media provenance, immutable price snapshots, durable security jobs, seed data, granular RLS and SQL policy tests
+- Data.gov.in, LiveKit, Razorpay, BHASHINI, grading and logistics provider seams
+- 44-table Supabase/PostGIS schema, six current storage buckets, normalized media provenance, immutable price snapshots, durable security jobs, seed data, granular RLS and SQL policy tests
 
 ## Requirements
 
@@ -113,9 +113,9 @@ pnpm verify
 
 - `/{locale}` and `/{locale}/credits` — public landing page and asset provenance
 - `/{locale}/sign-in`, `/sign-up`, `/verify-email`, `/forgot-password`, `/reset-password`, `/onboarding`, `/invite/accept` — Auth and onboarding
-- `/{locale}/demo-role` — controlled FPO, buyer, assisted, logistics, driver and platform demos
+- `/{locale}/demo-role` — controlled FPO, buyer, logistics, driver and platform demos
 - `/{locale}/organizations`, `/settings/security`, `/access-denied` — membership selection and security states
-- `/{locale}/fpo/overview`, `/farmers`, `/crop-calendar`, `/stock`, `/orders`, `/logistics`, `/forecast`, `/payments`
+- `/{locale}/fpo/overview`, `/stock`, `/orders`, `/logistics`, `/forecast`, `/payments`
 - `/{locale}/buyer/marketplace`, `/products/{lotId}`, `/compare`, `/checkout/{orderId}`, `/orders`, `/payments`
 - `/{locale}/calls/{callId}`, `/shipments/{shipmentId}`, `/settlements/{orderId}`, `/notifications`, `/settings`, `/help`
 

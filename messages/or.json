@@ -1,1 +1,43 @@
-{"brand":{"tagline":"ଭରସା ବଢ଼ାନ୍ତୁ। ଭଲ ବାଣିଜ୍ୟ କରନ୍ତୁ।"},"nav":{"home":"ମୁଖ୍ୟ ପୃଷ୍ଠା","overview":"ସାରାଂଶ","farmers":"ଚାଷୀ","stock":"ଷ୍ଟକ୍","orders":"ଅର୍ଡର","marketplace":"ବଜାର","logistics":"ପରିବହନ","forecast":"ପୂର୍ବାନୁମାନ","payments":"ଦେୟ","help":"ସହାୟତା","settings":"ସେଟିଂସ୍","notifications":"ବିଜ୍ଞପ୍ତି"},"auth":{"signIn":"ସାଇନ୍ ଇନ୍","demo":"ଡେମୋ ଦେଖନ୍ତୁ"},"actions":{"addFarmer":"ଚାଷୀ ପଞ୍ଜୀକରଣ","addStock":"ଷ୍ଟକ୍ ଲଟ୍ ତିଆରି","save":"ଡ୍ରାଫ୍ଟ ସଞ୍ଚୟ","publish":"ଲଟ୍ ପ୍ରକାଶନ","filter":"ଫିଲ୍ଟର","compare":"ତୁଳନା","addToOrder":"ଅର୍ଡରରେ ଯୋଡ଼ନ୍ତୁ","pay":"ସୁରକ୍ଷିତ ଦେୟ","confirm":"ବିତରଣ ନିଶ୍ଚିତ"},"status":{"active":"ସକ୍ରିୟ","published":"ପ୍ରକାଶିତ","secured":"ଅର୍ଥ ସୁରକ୍ଷିତ","transit":"ପରିବହନରେ","pending":"ବିଚାରାଧୀନ","verified":"ଯାଞ୍ଚ ହୋଇଛି"},"errors":{"generic":"କିଛି ତ୍ରୁଟି ହେଲା। ଆପଣଙ୍କ ଡ୍ରାଫ୍ଟ ସୁରକ୍ଷିତ।"}}
+{
+  "brand": {
+    "tagline": "ଭରସା ବଢ଼ାନ୍ତୁ। ଭଲ ବାଣିଜ୍ୟ କରନ୍ତୁ।"
+  },
+  "nav": {
+    "home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+    "overview": "ସାରାଂଶ",
+    "stock": "ଷ୍ଟକ୍",
+    "orders": "ଅର୍ଡର",
+    "marketplace": "ବଜାର",
+    "logistics": "ପରିବହନ",
+    "forecast": "ପୂର୍ବାନୁମାନ",
+    "payments": "ଦେୟ",
+    "help": "ସହାୟତା",
+    "settings": "ସେଟିଂସ୍",
+    "notifications": "ବିଜ୍ଞପ୍ତି"
+  },
+  "auth": {
+    "signIn": "ସାଇନ୍ ଇନ୍",
+    "demo": "ଡେମୋ ଦେଖନ୍ତୁ"
+  },
+  "actions": {
+    "addStock": "ଷ୍ଟକ୍ ଲଟ୍ ତିଆରି",
+    "save": "ଡ୍ରାଫ୍ଟ ସଞ୍ଚୟ",
+    "publish": "ଲଟ୍ ପ୍ରକାଶନ",
+    "filter": "ଫିଲ୍ଟର",
+    "compare": "ତୁଳନା",
+    "addToOrder": "ଅର୍ଡରରେ ଯୋଡ଼ନ୍ତୁ",
+    "pay": "ସୁରକ୍ଷିତ ଦେୟ",
+    "confirm": "ବିତରଣ ନିଶ୍ଚିତ"
+  },
+  "status": {
+    "active": "ସକ୍ରିୟ",
+    "published": "ପ୍ରକାଶିତ",
+    "secured": "ଅର୍ଥ ସୁରକ୍ଷିତ",
+    "transit": "ପରିବହନରେ",
+    "pending": "ବିଚାରାଧୀନ",
+    "verified": "ଯାଞ୍ଚ ହୋଇଛି"
+  },
+  "errors": {
+    "generic": "କିଛି ତ୍ରୁଟି ହେଲା। ଆପଣଙ୍କ ଡ୍ରାଫ୍ଟ ସୁରକ୍ଷିତ।"
+  }
+}

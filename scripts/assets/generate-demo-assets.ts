@@ -9,7 +9,7 @@ await Promise.all([ensureDirectory(output), ensureDirectory(publicOutput), ensur
 
 const escapeXml = (value: string) => value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 const svg = (body: string, label: string, width = 1200, height = 800) => `<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeXml(label)}" viewBox="0 0 ${width} ${height}"><defs><pattern id="p" width="44" height="44" patternUnits="userSpaceOnUse" patternTransform="rotate(18)"><path d="M0 22h44" stroke="#fff" stroke-opacity=".08" stroke-width="3"/></pattern><filter id="s"><feDropShadow dx="0" dy="16" stdDeviation="14" flood-opacity=".2"/></filter></defs>${body}</svg>`;
-const entries = (await readManifest()).filter((entry) => entry.status !== "generated");
+const entries = (await readManifest()).filter((entry) => entry.status !== "generated" || entry.sourceProvider === "agribridge-imagegen");
 
 async function emit(relativePath: string, content: string | Uint8Array, kind: string, altEn: string, altHi: string, cropSlug?: string) {
   const destination = path.join(output, relativePath);
@@ -56,9 +56,6 @@ for (const [crop, colour, dark, label] of crops) {
 const vehicles = [["mini-cargo", "Mini cargo truck", 520], ["pickup", "Pickup truck", 650], ["medium-goods", "Medium goods vehicle", 790], ["refrigerated", "Refrigerated truck", 900]] as const;
 for (const [name, label, length] of vehicles) await emit(`vehicles/${name}.svg`, svg(`<rect width="1200" height="800" fill="#EAF5EC"/><path d="M130 535h${length}V310H420l-95 225Z" fill="#FAFCF8" stroke="#176B3A" stroke-width="18"/><path d="M420 310h${length - 410}v225H325Z" fill="#2E8B57" stroke="#176B3A" stroke-width="18"/><circle cx="315" cy="560" r="70" fill="#1D2820"/><circle cx="315" cy="560" r="27" fill="#F5EBDD"/><circle cx="${Math.min(length - 30, 830)}" cy="560" r="70" fill="#1D2820"/><circle cx="${Math.min(length - 30, 830)}" cy="560" r="27" fill="#F5EBDD"/><text x="600" y="690" text-anchor="middle" fill="#0D3520" font-family="ui-sans-serif,system-ui" font-size="46" font-weight="800">${label}</text><text x="600" y="745" text-anchor="middle" fill="#52665A" font-family="ui-sans-serif,system-ui" font-size="25">GENERIC DEMO VEHICLE · NO MANUFACTURER</text>`, `Generic ${label.toLowerCase()} illustration`), "vehicle", `Generic ${label.toLowerCase()} illustration`, `सामान्य ${label} चित्रण`);
 
-const avatarInitials=["RV","SD","MI","GM","AT","VP","RS","IA","MJ","SP","FS","DM"];
-for(const[avatarIndex,initials]of avatarInitials.entries()){const palette=[["#176B3A","#EAF5EC"],["#795548","#F5EBDD"],["#27688C","#FAFCF8"]][avatarIndex%3];await emit(`avatars/farmer-${String(avatarIndex+1).padStart(2,"0")}.svg`,svg(`<rect width="512" height="512" rx="256" fill="${palette[0]}"/><circle cx="256" cy="256" r="210" fill="none" stroke="${palette[1]}" stroke-opacity=".28" stroke-width="18"/><path d="M132 410c20-91 68-137 124-137s104 46 124 137" fill="${palette[1]}" opacity=".22"/><circle cx="256" cy="190" r="74" fill="${palette[1]}" opacity=".22"/><text x="256" y="295" text-anchor="middle" fill="${palette[1]}" font-family="ui-sans-serif,system-ui" font-size="112" font-weight="800">${initials}</text>`,`Synthetic initials avatar ${initials}`,512,512),"avatar",`Illustrated synthetic avatar with initials ${initials}`,`${initials} अक्षरों वाला सिंथेटिक चित्रित अवतार`)}
-
 for (const crop of ["potato", "tomato"] as const) {
   for (let frame = 1; frame <= 12; frame++) {
     const angle = (frame - 1) * 30;
@@ -81,7 +78,6 @@ function simplePdf(title: string, rows: string[]) {
 }
 
 const documents = [
-  ["khatauni", "SYNTHETIC KHATAUNI EXTRACT", ["Test district: Demo Nagar", "Holder: SAMPLE FARMER A", "Masked reference: KH-TEST-0000", "Land: 0.00 demo acre"]],
   ["grading-certificate", "SYNTHETIC GRADING CERTIFICATE", ["Lot: DEMO-LOT-000", "Grade: A (SIMULATED)", "Moisture: 0.0% demo value", "Issuer: AgriBridge Test Lab"]],
   ["weighbridge-slip", "SYNTHETIC WEIGHBRIDGE SLIP", ["Vehicle: TEST 00 XX 0000", "Gross: 00000 kg", "Tare: 00000 kg", "Net: 00000 kg"]],
   ["delivery-proof", "SYNTHETIC ELECTRONIC PROOF OF DELIVERY", ["Order: DEMO-ORDER-000", "Recipient: SAMPLE BUYER", "Delivered: NOT APPLICABLE", "Signature: DEMO ONLY"]],

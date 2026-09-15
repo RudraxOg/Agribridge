@@ -4,7 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { checkLocalRateLimit, privacyKey } from "@/lib/security/rate-limit";
 
 const schema = z.object({
-  bucket: z.enum(["private-stock-originals", "farmer-documents", "grading-certificates", "delivery-proofs", "dispute-evidence"]),
+  bucket: z.enum(["private-stock-originals", "grading-certificates", "delivery-proofs", "dispute-evidence"]),
   objectPath: z.string().min(10).max(400).regex(/^[a-f0-9-]+\/[a-zA-Z0-9._/-]+$/).refine((value) => !/(aadhaar|phone|bank|cvv|token|secret)/i.test(value), "Path contains a sensitive term"),
   mimeType: z.enum(["image/jpeg", "image/png", "image/webp", "image/heic", "image/heif", "video/mp4", "video/webm", "application/pdf"]),
   byteSize: z.number().int().positive().max(80 * 1024 * 1024),
@@ -25,8 +25,7 @@ export async function POST(request: Request) {
     allowed=Boolean(shipment?.id);
   }else{
     const organizationId=segments[0];
-    const requiredPermission=parsed.data.bucket==="farmer-documents"?"farmer_documents.read":"files.upload";
-    const result=await client.rpc("has_organization_permission",{target_organization_id:organizationId,required_permission:requiredPermission});
+    const result=await client.rpc("has_organization_permission",{target_organization_id:organizationId,required_permission:"files.upload"});
     allowed=!result.error&&result.data===true;
   }
   if(!allowed)return NextResponse.json({error:"Upload is outside your organization permission"},{status:403});

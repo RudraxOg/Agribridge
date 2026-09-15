@@ -1,1 +1,0 @@
-import { z } from "zod";export const farmerSchema=z.object({fullName:z.string().min(2).max(120),phone:z.string().max(20).optional(),preferredLocale:z.string().min(2).max(5),village:z.string().min(2),maskedIdentityReference:z.string().max(64).optional(),consentRecordId:z.uuid()});

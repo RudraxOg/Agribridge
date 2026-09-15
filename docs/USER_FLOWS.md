@@ -2,7 +2,7 @@
 
 ## FPO operator
 
-Choose the FPO demo role → review urgent actions → register a farmer in assisted mode → record masked identity/bank references, land, crop and consent → save or resume the local draft → create a stock lot → allocate contributors → attach quality evidence → publish → review incoming order → select logistics → validate loading proof → review releases and farmer payouts.
+Choose the FPO demo role → review urgent actions → create or resume a stock lot for a collection centre → attach quality evidence → publish → review an incoming order → select logistics → validate loading proof → review milestone releases and the FPO settlement balance.
 
 ## Bulk buyer
 

@@ -1,6 +1,6 @@
 # Threat model
 
-The protected assets are farmer identity and land metadata, private evidence, organization membership, order price snapshots, payment events, settlement milestones, provider credentials, and audit history.
+The protected assets are private stock and delivery evidence, organization membership, order price snapshots, payment events, settlement milestones, provider credentials, and audit history.
 
 Primary threats include cross-tenant reads, insecure direct object references, poisoned uploads, metadata/GPS leakage, public original-media exposure, replayed provider webhooks, client-forged state transitions, signed-URL leakage, offline-device loss, and accidental sensitive logging.
 
