@@ -1,0 +1,4 @@
+import {createHmac} from "node:crypto";
+import {describe,expect,it} from "vitest";
+import {verifyWebhookSignature,webhookPayloadHash,WebhookIdempotency} from "@/integrations/payments/webhook-security";
+describe("webhook security",()=>{it("hashes the exact payload deterministically",()=>{expect(webhookPayloadHash('{"id":"evt_1"}')).toMatch(/^[a-f0-9]{64}$/);expect(webhookPayloadHash("a")).not.toBe(webhookPayloadHash("b"))});it("uses constant-time-compatible signature verification",()=>{const body="demo-body";const secret="test-secret";const signature=createHmac("sha256",secret).update(body).digest("hex");expect(verifyWebhookSignature(body,signature,secret)).toBe(true);expect(verifyWebhookSignature(body,"bad",secret)).toBe(false)});it("rejects a duplicate in the explicitly in-memory mock adapter",()=>{const store=new WebhookIdempotency();expect(store.claim("evt-1")).toBe(true);expect(store.claim("evt-1")).toBe(false)})});

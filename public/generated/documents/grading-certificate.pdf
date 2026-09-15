@@ -1,0 +1,58 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> /ExtGState << /gs << /ca 0.18 /CA 0.18 >> >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 389 >>
+stream
+q
+0.95 0.92 0.84 rg
+0 0 595 842 re f
+Q
+BT
+/F1 28 Tf
+0.09 0.29 0.18 rg
+55 760 Td (SYNTHETIC GRADING CERTIFICATE) Tj
+/F1 12 Tf
+0 -38 Td
+(Lot: DEMO-LOT-000) Tj
+0 -38 Td
+(Grade: A \(SIMULATED\)) Tj
+0 -38 Td
+(Moisture: 0.0% demo value) Tj
+0 -38 Td
+(Issuer: AgriBridge Test Lab) Tj
+ET
+q
+0.75 0.12 0.10 rg
+0.18 gs
+BT
+/F1 58 Tf
+0.707 0.707 -0.707 0.707 85 250 Tm
+(DEMO - NOT A REAL RECORD) Tj
+ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000286 00000 n 
+0000000726 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+801
+%%EOF

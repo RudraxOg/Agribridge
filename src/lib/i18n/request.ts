@@ -12,5 +12,25 @@ export async function getMessages(locale: Locale) {
   const english = await loaders.en();
   if (locale === "en") return english;
   const localized = await loaders[locale]();
-  return { ...english, ...localized, nav: { ...english.nav, ...localized.nav }, actions: { ...english.actions, ...localized.actions }, status: { ...english.status, ...localized.status }, errors: { ...english.errors, ...localized.errors } };
+  return deepMerge(english, localized);
+}
+
+/** Keep complete English copy available whenever a locale only translates a subset. */
+type DeepPartial<T> = { [K in keyof T]?: T[K] extends Record<string, unknown> ? DeepPartial<T[K]> : T[K] };
+
+function deepMerge<T extends Record<string, unknown>>(base: T, override: DeepPartial<T>): T {
+  const result: Record<string, unknown> = { ...base };
+  for (const [key, value] of Object.entries(override)) {
+    const baseValue = result[key];
+    if (isRecord(baseValue) && isRecord(value)) {
+      result[key] = deepMerge(baseValue, value);
+    } else if (value !== undefined) {
+      result[key] = value;
+    }
+  }
+  return result as T;
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
 }

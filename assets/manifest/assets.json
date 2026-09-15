@@ -1,0 +1,1974 @@
+[
+  {
+    "slug": "360-potato-frame-01",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-01",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-01.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 1 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 1"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "e072e23552393de32fabda17213a1144d9044a4cda25a955210538f048983bf7"
+  },
+  {
+    "slug": "360-potato-frame-02",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-02",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-02.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 2 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 2"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "e25e31928b3c1529fe1c78f541bba6f2f8c056bfc7cd39014ad49921773cc5ea"
+  },
+  {
+    "slug": "360-potato-frame-03",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-03",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-03.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 3 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 3"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "5661d91df5c514ed96aec5038b7cdba33f0b47e2d178453ed97701e2e8975026"
+  },
+  {
+    "slug": "360-potato-frame-04",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-04",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-04.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 4 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 4"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "4181cf5299917637fed5aab5230b32a81a05170e0dad5af896a0a2e6556d4868"
+  },
+  {
+    "slug": "360-potato-frame-05",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-05",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-05.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 5 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 5"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "0071d2b7358d76c0e064a4d315776068605ec26605bafc8dec480ca28c1737af"
+  },
+  {
+    "slug": "360-potato-frame-06",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-06",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-06.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 6 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 6"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "930841ad3a932a007a33dd5267d14f3ef1f262152bc6a01cfb26b0d4aa8c80cd"
+  },
+  {
+    "slug": "360-potato-frame-07",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-07",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-07.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 7 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 7"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "95c77aa210b50d02ea6faab7008a1c76c46f9f9e440ae40175d96caa3c8c7eef"
+  },
+  {
+    "slug": "360-potato-frame-08",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-08",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-08.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 8 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 8"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "1a5ffccb590513c7d1d416bbac2aa0308afd47b940ae32ac44c7436b7cb04b4e"
+  },
+  {
+    "slug": "360-potato-frame-09",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-09",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-09.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 9 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 9"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "438190ed3bd1b4179b40d1ff5eb739284979f31b948002dca36ecd315e42efa8"
+  },
+  {
+    "slug": "360-potato-frame-10",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-10",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-10.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 10 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 10"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "d13b674ae21443a596bce90790bec0897dc300057b29151d242497a8c16aa71c"
+  },
+  {
+    "slug": "360-potato-frame-11",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-11",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-11.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 11 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 11"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "3940b033aa4935e925d7653fd7c1e4cc64c07410146644053225457470e5df8c"
+  },
+  {
+    "slug": "360-potato-frame-12",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-potato-frame-12",
+    "downloadUrl": "https://agribridge.invalid/generated/360/potato/frame-12.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "potato crate multi-angle demo frame 12 of 12",
+      "hi": "potato क्रेट बहु-कोण डेमो फ्रेम 12"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "a615518e9fffb59d44d493d6c6723b544f185bc10b74ac0a0e754e0169388344"
+  },
+  {
+    "slug": "360-tomato-frame-01",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-01",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-01.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 1 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 1"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "18915ad02bc92ce7f68c35d5ac7075ce706237d6f0af4cc85324522ed2e4c4ab"
+  },
+  {
+    "slug": "360-tomato-frame-02",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-02",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-02.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 2 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 2"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "aba77fe412ec5d5114bb91987768366e572c686f1ef4155a2926bb5bdeb4a9d3"
+  },
+  {
+    "slug": "360-tomato-frame-03",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-03",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-03.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 3 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 3"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "bf6fa9e257ec278b47476fb38a482b61575c9263e592cc761b149953ff54e823"
+  },
+  {
+    "slug": "360-tomato-frame-04",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-04",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-04.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 4 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 4"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "c420c393c047abea614779c27e4689fee34bc642cd902597530b0eda347efad8"
+  },
+  {
+    "slug": "360-tomato-frame-05",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-05",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-05.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 5 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 5"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "193f3103afbb9411073312d72f1dff8c6e5280f171c31bc7323138b3f1ce2e91"
+  },
+  {
+    "slug": "360-tomato-frame-06",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-06",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-06.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 6 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 6"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "cf2ff61b499a4b9699b638cf1773ce1999a668fbd94c7669c5c332f54efd3119"
+  },
+  {
+    "slug": "360-tomato-frame-07",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-07",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-07.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 7 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 7"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "313c4fb79f6bdf62b603b42bbbc4b72720fcd994f4ffb954d4859ecf2ffa2a74"
+  },
+  {
+    "slug": "360-tomato-frame-08",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-08",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-08.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 8 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 8"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "9ad9ac287ffa5c71488f44d39e459f886044a07fc80a56edf17c2d1011f49fbd"
+  },
+  {
+    "slug": "360-tomato-frame-09",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-09",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-09.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 9 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 9"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "b96fd346aa5bb2bb9412a0f969543e46e285028c61c0459ca28f19f33250b635"
+  },
+  {
+    "slug": "360-tomato-frame-10",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-10",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-10.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 10 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 10"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "28c3180d73358f49b48692110939a3373576a4644440acaaeed034af65ff52d9"
+  },
+  {
+    "slug": "360-tomato-frame-11",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-11",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-11.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 11 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 11"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "9934b6a66d4e599add110a55a07acecea1f53817764095b7004397d0faac977d"
+  },
+  {
+    "slug": "360-tomato-frame-12",
+    "kind": "360-frame",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/360-tomato-frame-12",
+    "downloadUrl": "https://agribridge.invalid/generated/360/tomato/frame-12.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "tomato crate multi-angle demo frame 12 of 12",
+      "hi": "tomato क्रेट बहु-कोण डेमो फ्रेम 12"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "bc4306d24e04685ac9c4c8b9bb2043d2942d85bd6484ab81491419f319a044d2"
+  },
+  {
+    "slug": "avatars-farmer-01",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-01",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-01.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials RV",
+      "hi": "RV अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "14b8ba32c1a2ece9a44dcde4790cbb6eccff281fd760a531ca1f5d4b3f84c0ad"
+  },
+  {
+    "slug": "avatars-farmer-02",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-02",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-02.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials SD",
+      "hi": "SD अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "52e3209df6e164634bc5e891a607b52208e4ac8f8422ae0ddf8583afc847179b"
+  },
+  {
+    "slug": "avatars-farmer-03",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-03",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-03.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials MI",
+      "hi": "MI अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "a6818b55ded50549a6d67ee96e3ee12a108839bf7ff113cf23c4d6322bdc87a2"
+  },
+  {
+    "slug": "avatars-farmer-04",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-04",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-04.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials GM",
+      "hi": "GM अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "d974d77ac14824ef729c47e5de72dee92cb00c0864c8630068501d63e899b3e6"
+  },
+  {
+    "slug": "avatars-farmer-05",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-05",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-05.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials AT",
+      "hi": "AT अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "1cb64e3788115e6e1e878916a1503b2586128eb330e7d80d0078462236093206"
+  },
+  {
+    "slug": "avatars-farmer-06",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-06",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-06.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials VP",
+      "hi": "VP अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "6dd29ea5521afdd7f04aaf9baed82f1bc235fe98565306742622c5b1b58bba31"
+  },
+  {
+    "slug": "avatars-farmer-07",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-07",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-07.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials RS",
+      "hi": "RS अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "0656f8d2b0803638eb58c2de620a584f407631632ac01b89cfdeb0cebff5294a"
+  },
+  {
+    "slug": "avatars-farmer-08",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-08",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-08.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials IA",
+      "hi": "IA अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "84c9fc72a60f5130c8c33c1d16de399d1a782c0cfdaf27efe26c9595214d8dc4"
+  },
+  {
+    "slug": "avatars-farmer-09",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-09",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-09.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials MJ",
+      "hi": "MJ अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "89cb9a6bb8640bc695082dd9666286a2766dd83198e4aaeeb58bd2dbe6bc3b6f"
+  },
+  {
+    "slug": "avatars-farmer-10",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-10",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-10.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials SP",
+      "hi": "SP अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "2b2eab0680a2ea5100f9c8ba3512f0035c2ef0ad6c03eafb1f57fa8ba1d238ac"
+  },
+  {
+    "slug": "avatars-farmer-11",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-11",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-11.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials FS",
+      "hi": "FS अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "e73fa778f86c770747dca121465fc07fbae45d961816c55cafdf169b3881e658"
+  },
+  {
+    "slug": "avatars-farmer-12",
+    "kind": "avatar",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/avatars-farmer-12",
+    "downloadUrl": "https://agribridge.invalid/generated/avatars/farmer-12.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Illustrated synthetic avatar with initials DM",
+      "hi": "DM अक्षरों वाला सिंथेटिक चित्रित अवतार"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "3db4478bec5a43d7bef0f33ef1ca03211fea1db60d952dfb1c9006148e368acf"
+  },
+  {
+    "slug": "brand-mark",
+    "kind": "brand",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/brand-mark",
+    "downloadUrl": "https://agribridge.invalid/generated/brand/mark.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "AgriBridge sprout mark",
+      "hi": "एग्रीब्रिज अंकुर चिह्न"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "8a0fd26945ba646959aa1e23c95b41a5dd37a67b01942188963b6ade71088178"
+  },
+  {
+    "slug": "brand-wordmark",
+    "kind": "brand",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/brand-wordmark",
+    "downloadUrl": "https://agribridge.invalid/generated/brand/wordmark.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "AgriBridge wordmark with sprout symbol",
+      "hi": "अंकुर चिह्न के साथ एग्रीब्रिज शब्द चिह्न"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "c3728aac39cf17af1886c28898a509b904a1f369bebd0ae66b2b57422d08c0c5"
+  },
+  {
+    "slug": "crops-mango-close-up",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-mango-close-up",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/mango-close-up.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "mango",
+    "altText": {
+      "en": "Synthetic demo mango close-up view",
+      "hi": "Mango का सिंथेटिक डेमो close-up दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "f9bcb1cfb378eeda0150839c4c46382e189d40fac49b87c14f94421c6c42cdc2"
+  },
+  {
+    "slug": "crops-mango-cover",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-mango-cover",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/mango-cover.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "mango",
+    "altText": {
+      "en": "Synthetic demo mango cover view",
+      "hi": "Mango का सिंथेटिक डेमो cover दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "13d400c0dfdc7f3dba7ef8a8408cdf0f222695c3d8844f284bfebad6583f9681"
+  },
+  {
+    "slug": "crops-mango-packaging",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-mango-packaging",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/mango-packaging.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "mango",
+    "altText": {
+      "en": "Synthetic demo mango packaging view",
+      "hi": "Mango का सिंथेटिक डेमो packaging दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "7e1cb267278b45bfb8104c2d56cc3c88211be93a6aac99905f5ecaabbbd44ac8"
+  },
+  {
+    "slug": "crops-mango-quality-defect",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-mango-quality-defect",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/mango-quality-defect.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "mango",
+    "altText": {
+      "en": "Synthetic demo mango quality-defect view",
+      "hi": "Mango का सिंथेटिक डेमो quality-defect दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "75165839e15fd4e68e7427f9814e910b48cd590d4168a1b6d0054180954fded4"
+  },
+  {
+    "slug": "crops-onion-close-up",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-onion-close-up",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/onion-close-up.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "onion",
+    "altText": {
+      "en": "Synthetic demo red onion close-up view",
+      "hi": "Red onion का सिंथेटिक डेमो close-up दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "cc1d46188927c3a36c07b396c2a2113a6d5416216f4a7f2ad4b0a4258e844bfa"
+  },
+  {
+    "slug": "crops-onion-cover",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-onion-cover",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/onion-cover.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "onion",
+    "altText": {
+      "en": "Synthetic demo red onion cover view",
+      "hi": "Red onion का सिंथेटिक डेमो cover दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "3a99b330260a96293412bcc818e292aad89a83be4c5df2c889eec9c467c48335"
+  },
+  {
+    "slug": "crops-onion-packaging",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-onion-packaging",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/onion-packaging.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "onion",
+    "altText": {
+      "en": "Synthetic demo red onion packaging view",
+      "hi": "Red onion का सिंथेटिक डेमो packaging दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "c5933df38b922334398d25558b99aeb540af1d2d4c100eeb85a3090653bb2b00"
+  },
+  {
+    "slug": "crops-onion-quality-defect",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-onion-quality-defect",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/onion-quality-defect.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "onion",
+    "altText": {
+      "en": "Synthetic demo red onion quality-defect view",
+      "hi": "Red onion का सिंथेटिक डेमो quality-defect दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "955b0d18fa6b9cb623aacdc86b72c1d8ac04e39ff025cf2c90e5ffffdce993c6"
+  },
+  {
+    "slug": "crops-paddy-close-up",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-paddy-close-up",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/paddy-close-up.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "paddy",
+    "altText": {
+      "en": "Synthetic demo rice paddy close-up view",
+      "hi": "Rice paddy का सिंथेटिक डेमो close-up दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "55134c4731e08d012f111f8de7dfdf95747766c0431f4376ab52423915a2fdf5"
+  },
+  {
+    "slug": "crops-paddy-cover",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-paddy-cover",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/paddy-cover.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "paddy",
+    "altText": {
+      "en": "Synthetic demo rice paddy cover view",
+      "hi": "Rice paddy का सिंथेटिक डेमो cover दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "833f696bae37ea9c3d634917049d8fbbeda327e040b44490cc16654e8d4a1cef"
+  },
+  {
+    "slug": "crops-paddy-packaging",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-paddy-packaging",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/paddy-packaging.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "paddy",
+    "altText": {
+      "en": "Synthetic demo rice paddy packaging view",
+      "hi": "Rice paddy का सिंथेटिक डेमो packaging दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "9c8536ed87099c499068e9f6bdc76d5ed47214bc311c70e041f2bbe3031f1ee3"
+  },
+  {
+    "slug": "crops-paddy-quality-defect",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-paddy-quality-defect",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/paddy-quality-defect.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "paddy",
+    "altText": {
+      "en": "Synthetic demo rice paddy quality-defect view",
+      "hi": "Rice paddy का सिंथेटिक डेमो quality-defect दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "f6787f30b41624d4eda82e58f88d13f0a19afeb785dae079b7cdebdf041e5ade"
+  },
+  {
+    "slug": "crops-peas-close-up",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-peas-close-up",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/peas-close-up.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "peas",
+    "altText": {
+      "en": "Synthetic demo green peas close-up view",
+      "hi": "Green peas का सिंथेटिक डेमो close-up दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "9d725256d0d8ab1cbb8b6084a1f8e045647331990b5b97b1cd7b8bca5328490c"
+  },
+  {
+    "slug": "crops-peas-cover",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-peas-cover",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/peas-cover.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "peas",
+    "altText": {
+      "en": "Synthetic demo green peas cover view",
+      "hi": "Green peas का सिंथेटिक डेमो cover दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "484d6431abf981ef1370f76b7566cbe91510ca3bbcc09921487f6c6c4160f768"
+  },
+  {
+    "slug": "crops-peas-packaging",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-peas-packaging",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/peas-packaging.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "peas",
+    "altText": {
+      "en": "Synthetic demo green peas packaging view",
+      "hi": "Green peas का सिंथेटिक डेमो packaging दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "627b0e5c24c7a5c139fbd08dd94a16d72e6b21a19187c81869cd0204cf973169"
+  },
+  {
+    "slug": "crops-peas-quality-defect",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-peas-quality-defect",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/peas-quality-defect.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "peas",
+    "altText": {
+      "en": "Synthetic demo green peas quality-defect view",
+      "hi": "Green peas का सिंथेटिक डेमो quality-defect दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "70b84731b861eee29c9de340e3f366d6db8fc534b1764de9934f65437be1e6c3"
+  },
+  {
+    "slug": "crops-potato-close-up",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-potato-close-up",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/potato-close-up.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "Synthetic demo potato close-up view",
+      "hi": "Potato का सिंथेटिक डेमो close-up दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "79a15cc4d4c165c16b5dd8f4f00bafe0c0475138345859f9e3d2cde81fea247c"
+  },
+  {
+    "slug": "crops-potato-cover",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-potato-cover",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/potato-cover.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "Synthetic demo potato cover view",
+      "hi": "Potato का सिंथेटिक डेमो cover दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "4eae69430e044a8e04130bab36f61a4df9f1ea58da597903534b7dd7db70a339"
+  },
+  {
+    "slug": "crops-potato-packaging",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-potato-packaging",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/potato-packaging.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "Synthetic demo potato packaging view",
+      "hi": "Potato का सिंथेटिक डेमो packaging दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "8579718424203eb1ca9bffb935d8d6409ef0e51fc78185a08c31db9f4636b44d"
+  },
+  {
+    "slug": "crops-potato-quality-defect",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-potato-quality-defect",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/potato-quality-defect.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "potato",
+    "altText": {
+      "en": "Synthetic demo potato quality-defect view",
+      "hi": "Potato का सिंथेटिक डेमो quality-defect दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "be7528b4d38e4ca56c6039abf86947eef1dae64b13e8e546e9b33b82b491682a"
+  },
+  {
+    "slug": "crops-tomato-close-up",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-tomato-close-up",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/tomato-close-up.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "Synthetic demo tomato close-up view",
+      "hi": "Tomato का सिंथेटिक डेमो close-up दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "0f1e94a58353aacb36cde04c3f492b5bc71e5e19fb61fbdd7d38d1fab37e307a"
+  },
+  {
+    "slug": "crops-tomato-cover",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-tomato-cover",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/tomato-cover.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "Synthetic demo tomato cover view",
+      "hi": "Tomato का सिंथेटिक डेमो cover दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "2d3fda304c537ba57ee47120b96f68d8b84795a3c6343ed727158e3440208fdd"
+  },
+  {
+    "slug": "crops-tomato-packaging",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-tomato-packaging",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/tomato-packaging.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "Synthetic demo tomato packaging view",
+      "hi": "Tomato का सिंथेटिक डेमो packaging दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "b2520b78cf3b88e8a712bc1aac4e8e05bcfbbc022008d64c49d6b54bb7831ce5"
+  },
+  {
+    "slug": "crops-tomato-quality-defect",
+    "kind": "crop-illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/crops-tomato-quality-defect",
+    "downloadUrl": "https://agribridge.invalid/generated/crops/tomato-quality-defect.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "cropSlug": "tomato",
+    "altText": {
+      "en": "Synthetic demo tomato quality-defect view",
+      "hi": "Tomato का सिंथेटिक डेमो quality-defect दृश्य"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "0a17c9e71bb69cd9e6e6ce38ce2b77a7f4bc90d7d015a527f83f0a485105cc3d"
+  },
+  {
+    "slug": "documents-delivery-proof",
+    "kind": "demo-document",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/documents-delivery-proof",
+    "downloadUrl": "https://agribridge.invalid/generated/documents/delivery-proof.pdf",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "synthetic electronic proof of delivery, visibly watermarked as demo",
+      "hi": "SYNTHETIC ELECTRONIC PROOF OF DELIVERY का डेमो दस्तावेज़"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "73f41da1cff5c2136c7a34184f512290b556d065fd45130136a891cb1f7edc19"
+  },
+  {
+    "slug": "documents-grading-certificate",
+    "kind": "demo-document",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/documents-grading-certificate",
+    "downloadUrl": "https://agribridge.invalid/generated/documents/grading-certificate.pdf",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "synthetic grading certificate, visibly watermarked as demo",
+      "hi": "SYNTHETIC GRADING CERTIFICATE का डेमो दस्तावेज़"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "7c1589009bbfc029c9f934753be0b62d90aea0e8b351c42197814ab29949ba4e"
+  },
+  {
+    "slug": "documents-khatauni",
+    "kind": "demo-document",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/documents-khatauni",
+    "downloadUrl": "https://agribridge.invalid/generated/documents/khatauni.pdf",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "synthetic khatauni extract, visibly watermarked as demo",
+      "hi": "SYNTHETIC KHATAUNI EXTRACT का डेमो दस्तावेज़"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "04b0ed218bda483390113c0deb0b83d1b269bc291c2d2ba1dcceff136a203bd3"
+  },
+  {
+    "slug": "documents-weighbridge-slip",
+    "kind": "demo-document",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/documents-weighbridge-slip",
+    "downloadUrl": "https://agribridge.invalid/generated/documents/weighbridge-slip.pdf",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "synthetic weighbridge slip, visibly watermarked as demo",
+      "hi": "SYNTHETIC WEIGHBRIDGE SLIP का डेमो दस्तावेज़"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "484f99c90da50d4bbf01f0d5217c3ca9fa8a197213cf8646ef679226f65fc182"
+  },
+  {
+    "slug": "illustrations-empty",
+    "kind": "illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/illustrations-empty",
+    "downloadUrl": "https://agribridge.invalid/generated/illustrations/empty.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "A clear crate ready for the next lot",
+      "hi": "अगली लॉट के लिए तैयार खाली क्रेट"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "77f6be888a4725f54c0cdedfd5a59d85bf53864d0501eebc3972eae58cbdc4e6"
+  },
+  {
+    "slug": "illustrations-offline",
+    "kind": "illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/illustrations-offline",
+    "downloadUrl": "https://agribridge.invalid/generated/illustrations/offline.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Drafts stay safe while the network rests",
+      "hi": "नेटवर्क बंद होने पर ड्राफ्ट सुरक्षित रहते हैं"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "a189763c55ce7a940a6e5ad76dee977b55ed5374197d067180dd2a9b42b033db"
+  },
+  {
+    "slug": "illustrations-onboarding",
+    "kind": "illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/illustrations-onboarding",
+    "downloadUrl": "https://agribridge.invalid/generated/illustrations/onboarding.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "From field to buyer",
+      "hi": "खेत से खरीदार तक"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "879b2a945ae9626978a68529caa72b2bae298c2644ed82116aea8fe9d20d5e67"
+  },
+  {
+    "slug": "illustrations-success",
+    "kind": "illustration",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/illustrations-success",
+    "downloadUrl": "https://agribridge.invalid/generated/illustrations/success.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Trade milestone confirmed",
+      "hi": "व्यापार चरण की पुष्टि हुई"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "8abb1274854256855c7dee84af1080b6f001e720cb5b33ffa45ba4aebecc4a7f"
+  },
+  {
+    "slug": "vehicles-medium-goods",
+    "kind": "vehicle",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/vehicles-medium-goods",
+    "downloadUrl": "https://agribridge.invalid/generated/vehicles/medium-goods.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Generic medium goods vehicle illustration",
+      "hi": "सामान्य Medium goods vehicle चित्रण"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "2f2b16fbfb2ee647bed0a6fd2555c52023f58637a6815c30373ea123b2bf451a"
+  },
+  {
+    "slug": "vehicles-mini-cargo",
+    "kind": "vehicle",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/vehicles-mini-cargo",
+    "downloadUrl": "https://agribridge.invalid/generated/vehicles/mini-cargo.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Generic mini cargo truck illustration",
+      "hi": "सामान्य Mini cargo truck चित्रण"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "d346f975afc118db1f690c461a6e3c879815a0bd43b3fa9ac0b47d1830030887"
+  },
+  {
+    "slug": "vehicles-pickup",
+    "kind": "vehicle",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/vehicles-pickup",
+    "downloadUrl": "https://agribridge.invalid/generated/vehicles/pickup.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Generic pickup truck illustration",
+      "hi": "सामान्य Pickup truck चित्रण"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "64943c717c42b1b09f0cf3f6ce8e4e85b7f6a530480d130d9092ad77ab564a48"
+  },
+  {
+    "slug": "vehicles-refrigerated",
+    "kind": "vehicle",
+    "query": "locally generated with agribridge-demo-v1",
+    "sourceProvider": "agribridge-generator",
+    "sourcePageUrl": "https://agribridge.invalid/generated/vehicles-refrigerated",
+    "downloadUrl": "https://agribridge.invalid/generated/vehicles/refrigerated.svg",
+    "author": "AgriBridge design system",
+    "licenseCode": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attributionText": "Original synthetic demo artwork generated locally for AgriBridge",
+    "allowedUses": [
+      "demo",
+      "listing-seed"
+    ],
+    "altText": {
+      "en": "Generic refrigerated truck illustration",
+      "hi": "सामान्य Refrigerated truck चित्रण"
+    },
+    "targetVariants": [
+      "card",
+      "detail"
+    ],
+    "status": "generated",
+    "checksumSha256": "11085ab835ea01d1ceb0bc36a839acd011ccc6e07f24d3005c5892ba100291c8"
+  }
+]

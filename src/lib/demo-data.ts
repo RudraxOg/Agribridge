@@ -40,10 +40,10 @@ export const farmers = [
 ];
 
 export const logisticsQuotes = [
-  { id: "ace", vehicle: "Tata Ace", capacity: "750 kg", freightPaise: 420000, pickup: "Today, 4–6 PM", delivery: "Tomorrow, 9 AM", refrigerated: false, insurance: true, rating: 4.7, available: 3 },
-  { id: "bolero", vehicle: "Mahindra Bolero PikUp", capacity: "1.7 t", freightPaise: 680000, pickup: "Today, 6–8 PM", delivery: "Tomorrow, 11 AM", refrigerated: false, insurance: true, rating: 4.8, available: 2 },
-  { id: "eicher", vehicle: "Eicher medium truck", capacity: "7.5 t", freightPaise: 1820000, pickup: "Tomorrow, 6 AM", delivery: "Tomorrow, 8 PM", refrigerated: false, insurance: true, rating: 4.6, available: 4 },
-  { id: "14ft", vehicle: "14-foot truck", capacity: "4.5 t", freightPaise: 1240000, pickup: "Today, 9 PM", delivery: "Tomorrow, 3 PM", refrigerated: false, insurance: true, rating: 4.5, available: 2 },
+  { id: "mini", vehicle: "Mini cargo truck", capacity: "750 kg", freightPaise: 420000, pickup: "Today, 4–6 PM", delivery: "Tomorrow, 9 AM", refrigerated: false, insurance: true, rating: 4.7, available: 3 },
+  { id: "pickup", vehicle: "Pickup truck", capacity: "1.7 t", freightPaise: 680000, pickup: "Today, 6–8 PM", delivery: "Tomorrow, 11 AM", refrigerated: false, insurance: true, rating: 4.8, available: 2 },
+  { id: "medium", vehicle: "Medium goods vehicle", capacity: "7.5 t", freightPaise: 1820000, pickup: "Tomorrow, 6 AM", delivery: "Tomorrow, 8 PM", refrigerated: false, insurance: true, rating: 4.6, available: 4 },
+  { id: "large", vehicle: "Large goods vehicle", capacity: "4.5 t", freightPaise: 1240000, pickup: "Today, 9 PM", delivery: "Tomorrow, 3 PM", refrigerated: false, insurance: true, rating: 4.5, available: 2 },
   { id: "reefer", vehicle: "Refrigerated truck", capacity: "6 t", freightPaise: 2480000, pickup: "Tomorrow, 5 AM", delivery: "Tomorrow, 7 PM", refrigerated: true, insurance: true, rating: 4.9, available: 1 },
   { id: "cold", vehicle: "Cold-storage vehicle", capacity: "3.5 t", freightPaise: 1960000, pickup: "Tomorrow, 7 AM", delivery: "Tomorrow, 5 PM", refrigerated: true, insurance: true, rating: 4.7, available: 2 },
 ];

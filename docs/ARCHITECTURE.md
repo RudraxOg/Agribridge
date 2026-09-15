@@ -12,11 +12,11 @@ AgriBridge is a modular monolith built with Next.js App Router. Server Component
 6. `src/lib/supabase` owns browser, server and service-role clients.
 7. `supabase` owns schema, policies, storage and deterministic seed data.
 
-The browser never receives provider API secrets or the Supabase service-role key. Provider webhooks verify their raw body signature and claim an idempotency key before processing. Production persistence must replace the prototype in-memory webhook claim after database reset verification.
+The browser never receives provider API secrets or the Supabase service-role key. Live provider webhooks verify their raw body signature and persist the provider event ID plus exact payload SHA-256 before processing. The in-memory claim exists only in the visibly mocked provider.
 
 ## Authorization
 
-The demo role endpoint writes an HTTP-only cookie. It demonstrates that role selection is not granted by a URL parameter. Production authorization comes from Supabase Auth plus `organization_members`; RLS remains the final data boundary. Proxy is limited to locale routing/session refresh and is not treated as authorization.
+The demo role endpoint writes an HTTP-only cookie. It demonstrates that role selection is not granted by a URL parameter. Production authorization comes from Supabase Auth, reusable role-permission mappings, revocable organization memberships and separate platform assignments; RLS remains the final data boundary. Proxy is limited to locale routing/session refresh and is not treated as authorization. See [authentication and authorization](auth-and-authorization.md).
 
 ## Offline boundary
 

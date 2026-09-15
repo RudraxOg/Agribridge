@@ -20,6 +20,10 @@
 # production
 /build
 
+# licensed remote source cache (manifest/checksums remain committed)
+/assets/originals/*
+!/assets/originals/.gitkeep
+
 # misc
 .DS_Store
 *.pem

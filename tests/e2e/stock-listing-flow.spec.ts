@@ -18,6 +18,10 @@ test("creates and publishes stock", async ({ page }) => {
   await activate(page, "Continue");
   await activate(page, "Continue");
   await activate(page, "Add crop photos");
+  await activate(page, "Run failed-upload retry demo");
+  await expect(page.getByText("Simulated weak-network interruption. Retry is safe.")).toBeVisible();
+  await activate(page, "Upload or retry retry-demo-crop.png");
+  await expect(page.getByText("complete · 100%")).toBeVisible();
   await activate(page, "Continue");
   await activate(page, "Publish lot");
   await expect(page.getByText("Stock lot published to the buyer marketplace")).toBeVisible();

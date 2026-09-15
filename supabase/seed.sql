@@ -1,8 +1,10 @@
 insert into public.organizations(id,type,name,slug,verification_status,state,district,address) values
 ('10000000-0000-0000-0000-000000000001','fpo','Awadh Pragati Farmer Producer Company','awadh-pragati-fpc','verified','Uttar Pradesh','Gonda','Mankapur Road, Gonda'),
+('10000000-0000-0000-0000-000000000002','fpo','Sahyadri Growers Collective','sahyadri-growers','verified','Maharashtra','Nashik','Pimpalgaon Road, Nashik'),
 ('20000000-0000-0000-0000-000000000001','buyer','Lucknow Fresh Mart','lucknow-fresh-mart','verified','Uttar Pradesh','Lucknow','Gomti Nagar, Lucknow'),
 ('20000000-0000-0000-0000-000000000002','buyer','NorthStar Exports','northstar-exports','verified','Maharashtra','Nashik','Satpur, Nashik'),
-('20000000-0000-0000-0000-000000000003','buyer','Bharat Institutional Foods','bharat-institutional-foods','verified','Uttar Pradesh','Kanpur','Panki, Kanpur');
+('20000000-0000-0000-0000-000000000003','buyer','Bharat Institutional Foods','bharat-institutional-foods','verified','Uttar Pradesh','Kanpur','Panki, Kanpur'),
+('80000000-0000-0000-0000-000000000001','logistics','Gati Demo Logistics','gati-demo-logistics','verified','Uttar Pradesh','Lucknow','Synthetic demo fleet office');
 
 insert into public.consent_records(id,organization_id,purpose,notice_version,consented,alternative_offered) values
 ('30000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','Assisted farmer registration and payout','2026-08',true,true);
@@ -15,10 +17,28 @@ insert into public.farmers(id,organization_id,farmer_code,full_name,phone_masked
 ('40000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','AP-0001','Ram Kishan Verma','••••••4821','hi','Mankapur','Gonda','Uttar Pradesh','31000000-0000-0000-0000-000000000001','32000000-0000-0000-0000-000000000001'),
 ('40000000-0000-0000-0000-000000000002','10000000-0000-0000-0000-000000000001','AP-0002','Sunita Devi','••••••6614','hi','Colonelganj','Gonda','Uttar Pradesh',null,null),
 ('40000000-0000-0000-0000-000000000003','10000000-0000-0000-0000-000000000001','AP-0003','Mohd. Irfan','••••••7728','hi','Tarabganj','Gonda','Uttar Pradesh',null,null),
-('40000000-0000-0000-0000-000000000004','10000000-0000-0000-0000-000000000001','AP-0004','Geeta Maurya','••••••1033','hi','Katra Bazar','Gonda','Uttar Pradesh',null,null);
+('40000000-0000-0000-0000-000000000004','10000000-0000-0000-0000-000000000001','AP-0004','Geeta Maurya','••••••1033','hi','Katra Bazar','Gonda','Uttar Pradesh',null,null),
+('40000000-0000-0000-0000-000000000005','10000000-0000-0000-0000-000000000001','AP-0005','Asha Tiwari','••••••2044','hi','Rupaidih','Gonda','Uttar Pradesh',null,null),
+('40000000-0000-0000-0000-000000000006','10000000-0000-0000-0000-000000000001','AP-0006','Vijay Pal','••••••3055','hi','Wazirganj','Gonda','Uttar Pradesh',null,null),
+('40000000-0000-0000-0000-000000000007','10000000-0000-0000-0000-000000000001','AP-0007','Rekha Singh','••••••4066','hi','Paraspur','Gonda','Uttar Pradesh',null,null),
+('40000000-0000-0000-0000-000000000008','10000000-0000-0000-0000-000000000001','AP-0008','Imran Ali','••••••5077','hi','Jhanjhari','Gonda','Uttar Pradesh',null,null),
+('40000000-0000-0000-0000-000000000009','10000000-0000-0000-0000-000000000002','SG-0001','Meera Jadhav','••••••6088','mr','Niphad','Nashik','Maharashtra',null,null),
+('40000000-0000-0000-0000-000000000010','10000000-0000-0000-0000-000000000002','SG-0002','Santosh Patil','••••••7099','mr','Dindori','Nashik','Maharashtra',null,null),
+('40000000-0000-0000-0000-000000000011','10000000-0000-0000-0000-000000000002','SG-0003','Farida Shaikh','••••••8011','mr','Yeola','Nashik','Maharashtra',null,null),
+('40000000-0000-0000-0000-000000000012','10000000-0000-0000-0000-000000000002','SG-0004','Deepak More','••••••9022','mr','Sinnar','Nashik','Maharashtra',null,null);
 insert into public.land_parcels(id,organization_id,farmer_id,name,area,area_unit,khatauni_reference_masked,latitude,longitude) values
 ('41000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000001','North field',3.2,'acre','KH-••••-1902',27.1381,82.0365),
 ('41000000-0000-0000-0000-000000000002','10000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000002','Canal field',2.1,'acre','KH-••••-6622',27.1350,81.6950);
+insert into public.collection_centres(id,organization_id,name,district,state,location,cold_storage_available) values
+('43000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','Gonda collection centre','Gonda','Uttar Pradesh',extensions.st_setsrid(extensions.st_makepoint(81.9660,27.1340),4326)::extensions.geography,true),
+('43000000-0000-0000-0000-000000000002','10000000-0000-0000-0000-000000000002','Niphad aggregation centre','Nashik','Maharashtra',extensions.st_setsrid(extensions.st_makepoint(73.7930,20.0770),4326)::extensions.geography,false);
+insert into public.crop_catalog(id,slug,name,quality_parameters) values
+('44000000-0000-0000-0000-000000000001','tomato','{"en":"Tomato","hi":"टमाटर"}','["size","colour","defect_percentage"]'),
+('44000000-0000-0000-0000-000000000002','onion','{"en":"Onion","hi":"प्याज"}','["size","moisture","damage"]'),
+('44000000-0000-0000-0000-000000000003','potato','{"en":"Potato","hi":"आलू"}','["size","damage","foreign_matter"]'),
+('44000000-0000-0000-0000-000000000004','paddy','{"en":"Rice paddy","hi":"धान"}','["moisture","foreign_matter","damage"]'),
+('44000000-0000-0000-0000-000000000005','green-peas','{"en":"Green peas","hi":"हरी मटर"}','["size","colour","defect_percentage"]'),
+('44000000-0000-0000-0000-000000000006','mango','{"en":"Mango","hi":"आम"}','["size","colour","damage"]');
 insert into public.crop_cycles(id,organization_id,farmer_id,land_parcel_id,commodity,variety,sowing_date,expected_harvest_start,expected_harvest_end,expected_quantity,quantity_unit,status) values
 ('42000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000001','41000000-0000-0000-0000-000000000001','Potato','Kufri Bahar','2026-06-10','2026-09-20','2026-09-26',8500,'kg','harvest_ready'),
 ('42000000-0000-0000-0000-000000000002','10000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000002','41000000-0000-0000-0000-000000000002','Tomato','Abhinav','2026-06-20','2026-09-16','2026-09-24',4100,'kg','growing');
@@ -29,7 +49,9 @@ insert into public.stock_lots(id,organization_id,lot_code,commodity,variety,quan
 ('50000000-0000-0000-0000-000000000003','10000000-0000-0000-0000-000000000001','LOT-TOM-VNS-022','Tomato','Abhinav',18000,'kg',18000,2200,'published','2026-09-14','2026-09-14T06:00:00Z'),
 ('50000000-0000-0000-0000-000000000004','10000000-0000-0000-0000-000000000001','LOT-PAD-KAN-007','Basmati paddy','Pusa 1509',75000,'kg',75000,3850,'published','2026-09-28','2026-09-14T06:00:00Z'),
 ('50000000-0000-0000-0000-000000000005','10000000-0000-0000-0000-000000000001','LOT-PEA-LKO-004','Green peas','Arkel',12000,'kg',12000,4400,'published','2026-10-02','2026-09-14T06:00:00Z'),
-('50000000-0000-0000-0000-000000000006','10000000-0000-0000-0000-000000000001','LOT-MAN-MAL-002','Malihabadi mango','Dasheri',25000,'kg',25000,6200,'published','2027-06-10','2026-09-14T06:00:00Z');
+('50000000-0000-0000-0000-000000000006','10000000-0000-0000-0000-000000000001','LOT-MAN-MAL-002','Malihabadi mango','Dasheri',25000,'kg',25000,6200,'published','2027-06-10','2026-09-14T06:00:00Z'),
+('50000000-0000-0000-0000-000000000007','10000000-0000-0000-0000-000000000002','LOT-ONI-NAS-012','Red onion','Nashik Red',32000,'kg',24000,2550,'published','2026-09-11','2026-09-12T06:00:00Z'),
+('50000000-0000-0000-0000-000000000008','10000000-0000-0000-0000-000000000002','LOT-TOM-NAS-003','Tomato','Abhinav',14000,'kg',14000,2150,'published','2026-09-15','2026-09-15T06:00:00Z');
 insert into public.lot_contributors(id,organization_id,stock_lot_id,farmer_id,quantity,quantity_unit) values
 ('51000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','50000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000001',8500,'kg'),
 ('51000000-0000-0000-0000-000000000002','10000000-0000-0000-0000-000000000001','50000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000002',6200,'kg');
@@ -44,13 +66,19 @@ insert into public.certificates(organization_id,stock_lot_id,certificate_type,is
 ('10000000-0000-0000-0000-000000000001','50000000-0000-0000-0000-000000000001','Quality assay','Gonda Agri Lab','AB-LAB-882','10000000-0000-0000-0000-000000000001/certificates/AB-LAB-882.pdf','2026-09-13','verified');
 
 insert into public.orders(id,order_number,organization_id,buyer_organization_id,status,produce_value_paise,buyer_payable_paise,net_farmer_payout_paise,placed_at) values
-('60000000-0000-0000-0000-000000000001','AB-260914-1072','10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000001','IN_TRANSIT',20000000,21842000,18850000,'2026-09-14T05:30:00Z');
+('60000000-0000-0000-0000-000000000001','AB-260914-1072','10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000001','IN_TRANSIT',20000000,21842000,18850000,'2026-09-14T05:30:00Z'),
+('60000000-0000-0000-0000-000000000002','AB-260831-0974','10000000-0000-0000-0000-000000000002','20000000-0000-0000-0000-000000000002','COMPLETED',20400000,21640000,19278000,'2026-08-31T05:30:00Z');
 insert into public.order_items(order_id,stock_lot_id,quantity,quantity_unit,unit_price_paise,line_total_paise) values
-('60000000-0000-0000-0000-000000000001','50000000-0000-0000-0000-000000000001',1000,'kg',20000,20000000);
+('60000000-0000-0000-0000-000000000001','50000000-0000-0000-0000-000000000001',1000,'kg',20000,20000000),
+('60000000-0000-0000-0000-000000000002','50000000-0000-0000-0000-000000000007',8000,'kg',2550,20400000);
 insert into public.logistics_quotes(id,order_id,provider,provider_reference,vehicle_type,capacity,capacity_unit,freight_paise,estimated_pickup,estimated_delivery,refrigerated,insurance_included,rating,available_count) values
-('61000000-0000-0000-0000-000000000001','60000000-0000-0000-0000-000000000001','mock-logistics','MOCK-EICHER-82','Eicher medium truck',7.5,'tonne',1820000,'2026-09-14T06:00:00Z','2026-09-14T14:30:00Z',false,true,4.6,4);
+('61000000-0000-0000-0000-000000000001','60000000-0000-0000-0000-000000000001','mock-logistics','MOCK-MGV-82','Medium goods vehicle',7.5,'tonne',1820000,'2026-09-14T06:00:00Z','2026-09-14T14:30:00Z',false,true,4.6,4),
+('61000000-0000-0000-0000-000000000002','60000000-0000-0000-0000-000000000001','mock-logistics','MOCK-PICKUP-17','Pickup truck',1.7,'tonne',680000,'2026-09-14T07:00:00Z','2026-09-15T11:00:00Z',false,true,4.8,2),
+('61000000-0000-0000-0000-000000000003','60000000-0000-0000-0000-000000000001','mock-logistics','MOCK-MINI-07','Mini cargo truck',750,'kg',420000,'2026-09-14T08:00:00Z','2026-09-15T09:00:00Z',false,true,4.7,3),
+('61000000-0000-0000-0000-000000000004','60000000-0000-0000-0000-000000000001','mock-logistics','MOCK-REEFER-60','Refrigerated truck',6,'tonne',2480000,'2026-09-15T05:00:00Z','2026-09-15T19:00:00Z',true,true,4.9,1);
 insert into public.shipments(id,organization_id,buyer_organization_id,order_id,logistics_quote_id,provider,tracking_reference,status,driver_name,driver_phone_masked,vehicle_number,current_latitude,current_longitude,gps_updated_at,estimated_delivery) values
 ('62000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','20000000-0000-0000-0000-000000000001','60000000-0000-0000-0000-000000000001','61000000-0000-0000-0000-000000000001','mock-logistics','MOCK-GPS-2186','in_transit','Ravi Kumar','••••••2186','UP 43 AT 2186',26.94,81.02,'2026-09-14T08:30:00Z','2026-09-14T10:55:00Z');
+update public.shipments set logistics_organization_id='80000000-0000-0000-0000-000000000001' where id='62000000-0000-0000-0000-000000000001';
 insert into public.tracking_events(shipment_id,event_type,label,latitude,longitude,provider_recorded_at) values
 ('62000000-0000-0000-0000-000000000001','departed','Truck departed Gonda',27.134,81.966,'2026-09-14T06:28:00Z'),
 ('62000000-0000-0000-0000-000000000001','checkpoint','Crossed Barabanki toll',26.94,81.02,'2026-09-14T08:30:00Z');
@@ -63,8 +91,10 @@ insert into public.order_charges(order_id,fee_rule_id,code,label,bearer,amount_p
 ('60000000-0000-0000-0000-000000000001','70000000-0000-0000-0000-000000000001','fpo_share','FPO operational share','distribution',800000),
 ('60000000-0000-0000-0000-000000000001','70000000-0000-0000-0000-000000000002','agribridge_share','AgriBridge share','distribution',200000),
 ('60000000-0000-0000-0000-000000000001','70000000-0000-0000-0000-000000000003','assaying','Assaying','seller',150000),
-('60000000-0000-0000-0000-000000000001',null,'freight','Eicher medium truck freight','buyer',1820000),
+('60000000-0000-0000-0000-000000000001',null,'freight','Medium goods vehicle freight','buyer',1820000),
 ('60000000-0000-0000-0000-000000000001',null,'insurance','Transit insurance','buyer',22000);
+insert into public.order_price_snapshots(id,order_id,produce_subtotal_paise,fpo_share_paise,agribridge_share_paise,logistics_paise,insurance_paise,statutory_charges_paise,adjustments_paise,buyer_payable_paise,farmer_pool_paise,first_release_paise,second_release_paise,calculator_version,calculation_inputs) values
+('70500000-0000-0000-0000-000000000001','60000000-0000-0000-0000-000000000001',20000000,800000,200000,1820000,22000,0,0,21842000,18850000,9425000,9425000,'money-v1','{"fpoBasisPoints":400,"agribridgeBasisPoints":100,"releaseRule":"50-balance"}');
 insert into public.payment_transactions(order_id,provider,provider_event_id,provider_payment_reference,event_type,status,amount_paise,payload_hash,occurred_at) values
 ('60000000-0000-0000-0000-000000000001','mock','mock_evt_1072_secured','mock_pay_1072','payment.succeeded','succeeded',21842000,'demo-sha256','2026-09-14T05:32:00Z');
 insert into public.settlements(id,order_id,state,secured_paise,first_release_paise,second_release_paise,provider_reference) values

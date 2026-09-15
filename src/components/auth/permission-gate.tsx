@@ -1,0 +1,2 @@
+import type { Permission } from "@/lib/authorization/permissions";
+export function PermissionGate({granted,requires,children,fallback=null}:{granted:readonly string[]|ReadonlySet<string>;requires:Permission;children:React.ReactNode;fallback?:React.ReactNode}){const allowed=Array.isArray(granted)?granted.includes(requires):(granted as ReadonlySet<string>).has(requires);return allowed?children:fallback;}

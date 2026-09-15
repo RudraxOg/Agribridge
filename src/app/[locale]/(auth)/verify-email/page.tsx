@@ -1,0 +1,5 @@
+import { MailCheck } from "lucide-react";
+import { AuthShell } from "@/components/auth/auth-shell";
+import { ResendVerificationForm } from "@/components/auth/auth-forms";
+import { requireLocale } from "@/lib/i18n/locale";
+export default async function VerifyEmailPage({params,searchParams}:{params:Promise<{locale:string}>;searchParams:Promise<{email?:string}>}){const locale=requireLocale((await params).locale);const {email}=await searchParams;return <AuthShell locale={locale} eyebrow="Verify your email" title="Check your inbox" description="Verification is required before joining an organization, publishing stock, or performing privileged actions."><div className="mb-6 flex gap-4 rounded-2xl bg-[var(--surface-muted)] p-5"><MailCheck className="shrink-0 text-[var(--forest)]" aria-hidden/><p className="text-sm">Open the latest AgriBridge email. If the link expired, request another below. The resend control is rate limited.</p></div><ResendVerificationForm locale={locale} email={email}/></AuthShell>}

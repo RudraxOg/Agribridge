@@ -1,34 +1,118 @@
-# Implementation update
+# AgriBridge implementation update
 
-## Implemented
+Updated: 15 September 2026
 
-- Next.js 16.3.5 App Router PWA with TypeScript strict mode and Tailwind 4
-- 49 application route files covering public, FPO, buyer, shared and API experiences
-- Agricultural design system, responsive shells, keyboard focus, 44px+ controls, reduced motion, speech and large-text controls
-- English/Hindi primary content plus locale routing and native-script navigation/action bundles for Marathi, Punjabi, Bengali, Gujarati, Telugu, Tamil, Kannada and Odia
-- Controlled mock role sessions; Supabase Auth clients and production membership/RLS model
-- Assisted farmer registration and stock listing with local offline drafts
-- Deterministic data, grading, logistics, GPS and explainable forecast simulations
-- Integer-paise distribution, order machine, settlement machine and unit tests
-- Eight Supabase migrations, seed data, five private buckets and SQL RLS tests
-- Mock/live adapter seams for Data.gov.in, Razorpay, LiveKit, BHASHINI, identity, grading and logistics
+## Repository map
 
-## Remaining production integrations
+```text
+agribridge/
+├── assets/{manifest,originals,generated,processed,attribution}
+├── docs/{ARCHITECTURE,DATABASE,DESIGN_SYSTEM,INTEGRATIONS,PRIVACY_AND_COMPLIANCE,USER_FLOWS}.md
+├── docs/{auth-and-authorization,demo-accounts,incident-response,storage-and-media,threat-model}.md
+├── messages/{en,hi,mr,pa,bn,gu,te,ta,kn,or}.json
+├── public/{generated,icons,offline.html,sw.js}
+├── scripts/{create-demo-users,check-local}.ts|mjs
+├── scripts/assets/{common,magic,search-wikimedia,validate-licenses,fetch-assets,generate-demo-assets,process-assets,upload-assets,seed-media}.ts
+├── src/app/[locale]/{(auth),(public),(protected),(fpo),(buyer),(shared)}
+├── src/app/api/{uploads,files,payments,logistics,market-data,video,cron,demo-session}
+├── src/components/{accessibility,auth,features,shared,shell,ui}
+├── src/{domain,features,integrations,lib,modules,types}
+├── supabase/{migrations,functions,seed.sql,tests}
+├── tests/{unit,integration,e2e}
+├── .env.example
+├── .nvmrc
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+└── README.md
+```
 
-- Expand end-to-end translated page copy for Marathi, Punjabi, Bengali, Gujarati, Telugu, Tamil, Kannada and Odia; their locale routes, native-script navigation/actions and English fallback are implemented, while English and Hindi are the complete primary interfaces.
-- Replace controlled demo sessions with configured Supabase email/password and phone OTP delivery.
-- Persist webhook idempotency claims and provider payload hashes in `payment_transactions` before enabling Razorpay.
-- Contract and configure an RBI-authorized payment aggregator; obtain legal approval before using “escrow” language.
-- Configure Data.gov.in credentials and a durable market-price cache/sync schedule.
-- Deploy LiveKit and issue production tokens after call authorization.
-- Complete BHASHINI commercial/technical onboarding and browser speech-recognition support matrix.
-- Select approved logistics, identity, biometric-presence and grading providers; complete DPIA, retention and incident procedures.
-- Replace seeded forecast factors with validated regional datasets and documented evaluation.
+## Implemented application
 
-## Verification notes
+- Next.js 16.3.5 App Router PWA with React 19.2.8, strict TypeScript, Tailwind CSS 4, next-intl, responsive shells, offline fallback, install manifest and hydration-stable reduced-motion page transitions.
+- Navigable FPO, assisted-farmer, buyer, logistics dispatcher, assigned-driver and restricted platform-admin demo workspaces.
+- Farmer registry/crop calendar, stock wizard with recoverable upload queue, marketplace filters and quality inspection, 12-frame viewers, orders, quotes, GPS simulation, settlement timeline and deterministic forecasts.
+- Integer-paise order calculator and validated order/settlement machines with exact 4% FPO share, 1% AgriBridge share and balance-preserving 50/50 releases.
+- English/Hindi key entry flows plus localized navigation and native language switching for Marathi, Punjabi, Bengali, Gujarati, Telugu, Tamil, Kannada and Odia. English deep fallback remains for untranslated workflow copy.
+- Security headers include CSP, frame denial, MIME sniff prevention, referrer policy and constrained camera/microphone/geolocation permissions.
 
-- `pnpm verify`: passed on 15 Sep 2026 — ESLint clean, strict TypeScript clean, 11/11 unit and integration tests passed, Next.js 16.3.5 production build passed, and 222 locale/page variants were generated.
-- `pnpm test:e2e`: passed — 10/10 Playwright runs covering five journeys on desktop Chromium and a Pixel-sized mobile viewport.
-- Production smoke: passed — built `/en` route returned HTTP 200 and the market-data route returned the deterministic Gonda potato record in seeded mock mode.
-- Supabase Docker execution: not run. Docker is installed, but the daemon socket is unavailable (`permission denied`), so `pnpm db:start`, `pnpm db:reset`, generated local database types and executable pgTAP RLS checks remain to be run on a machine with a working container runtime. The migrations, seed and SQL policy assertions are included.
-- Live provider verification requires credentials and is intentionally not attempted in mock mode.
+## Authentication and authorization added
+
+- Supabase SSR browser/server clients, cookie refresh Proxy and server-verified user lookup. Protected data never relies on `getSession()`, React visibility or a URL role.
+- Email/password sign-in/sign-up, visibility toggle, generic errors, verification/resend, callback exchange with same-origin redirect validation, recovery/reset, onboarding, access-denied and security pages.
+- Reusable organization/platform roles, dot-separated permissions and role-permission mappings. Organization memberships are revocable and platform assignments remain separate.
+- Typed `getAccessContext()`, `requireUser`, `requireOrganizationMember`, `requirePermission`, platform permission/MFA guards, `PermissionGate`, `RoleHomeRedirect`, `OrganizationSwitcher`, `InviteMemberDialog`, `MembershipTable`, `AccessDeniedState` and `SensitiveActionConfirm`.
+- Organization creation plus owner membership is transactional and requires verified email. Invitations use a one-way SHA-256 token hash, exact confirmed email, expiry and one-time acceptance. Ordinary member management cannot transfer ownership or grant platform roles.
+- TOTP enrollment readiness with AAL2 enforcement for high-risk live actions; mock mode clearly states that no factor is created.
+- Four Edge Function entry points for organization creation, invite acceptance, member management and upload-token issuance.
+- `pnpm demo:users` refuses non-local Supabase URLs, rotates random temporary credentials and prints them only to the local terminal.
+
+## Database and RLS
+
+Thirteen ordered migrations now define 54 tables. New migrations are:
+
+- `0011_permission_rbac_and_auth.sql` — roles, permissions, role mappings, revocable memberships, platform assignments, hashed invitations, auth/security events, safe signup trigger, permission helpers, onboarding/invite/member RPCs and MFA/email checks.
+- `0012_security_operations.sql` — quarantine fields, shipment driver assignments and PostGIS positions, processing jobs, durable webhook claims, rate-limit counters, sensitive-access events, retention policy, field-protection columns and service-only job/retention functions.
+- `0013_granular_rls_and_marketplace.sql` — replaces principal legacy enum policies with target-organization permission checks, adds a security-invoker sanitized marketplace view and tightens Storage policies.
+
+RLS intent now covers suspended/revoked membership, finance separation, assigned-driver writes, support-role denial, owner/platform escalation prevention and private-file auditing. `supabase/tests/rbac_authorization.sql` verifies the role matrix and required security objects; `rls_policies.sql` asserts the explicit policy names.
+
+## Storage, processing and assets
+
+- Current buckets: `public-brand-assets`; policy-gated `public-listing-media`; private `private-stock-originals`, `farmer-documents`, `grading-certificates`, `delivery-proofs`, and `dispute-evidence`. Legacy `stock-media` remains for migration compatibility only.
+- Direct upload token checks use verified identity and granular permission RPCs. Delivery proof paths resolve the order and shipment. Upload completion verifies Storage existence before inserting metadata.
+- TUS resume remains for files at or above 6 MiB; small files use one-use signed upload tokens. Both paths finalize into durable validation jobs.
+- The worker recalculates SHA-256, checks magic-byte MIME, calls a scanner adapter and quarantines rejects. Live mode fails closed without a configured scanner. Sensitive downloads use two-minute, non-cacheable signed URLs plus allowed/denied audit events.
+- Retention automation deletes only expired Storage objects without legal hold, preserves disposition metadata, expires rate counters and minimizes old auth network/device hints.
+- The field-protection boundary provides synthetic-only demo protection, AES-256-GCM for controlled local development and a fail-closed KMS placeholder. An approved production KMS is not invented.
+- Deterministic inventory: wordmark/mark, four state illustrations, 24 crop views, four vehicles, twelve initials-only avatars, two 12-frame sequences and four visibly watermarked synthetic PDFs.
+- `sharp` now produces 144 metadata-free AVIF/WebP/JPEG derivatives. Media seeding creates 74 stable source/file rows and 32 deterministic lot/sequence bindings when Supabase credentials are configured.
+- No third-party photos are in use, so no current manual license review is outstanding. Future Wikimedia candidates remain blocked until approved with complete attribution.
+
+## Commands actually run
+
+- `pnpm assets:generate` — passed; 74 deterministic assets.
+- `pnpm assets:process` — passed; 144 AVIF/WebP/JPEG derivatives. The first sandboxed attempt hit a local `tsx` IPC restriction; the approved rerun passed.
+- `pnpm assets:seed` — passed; 74 stable rows and credits prepared. Database upsert was correctly skipped because credentials are blank.
+- `pnpm lint` — passed with zero warnings.
+- `pnpm typecheck` — passed.
+- `pnpm test` — passed; 10 files, 24 tests.
+- `pnpm build` — passed; 346 route variants and all new auth/security endpoints compiled.
+- `pnpm test:e2e` — passed; 18/18 Chromium desktop/mobile flows, including auth UI, driver-only routing, platform view, language persistence and hydration monitoring.
+- `pnpm db:reset` — attempted twice. The elevated attempt reached the Docker check but failed because this host denies access to `/var/run/docker.sock`. No migration result is claimed.
+
+## Demo access
+
+Credential-free mock mode: open `/en/demo-role` and choose FPO Operator, Bulk Buyer, Assisted Farmer, Dispatcher, Driver or Platform Admin. The HTTP-only same-site cookie is a navigation demo, not production authorization.
+
+Local Auth fixture emails are created only by `pnpm demo:users`: `fpo.owner@demo.invalid`, `fpo.operator@demo.invalid`, `fpo.finance@demo.invalid`, `buyer.owner@demo.invalid`, `buyer.procurement@demo.invalid`, `logistics.dispatch@demo.invalid`, `logistics.driver@demo.invalid`, and `platform.admin@demo.invalid`. Passwords are random, rotated per run and never committed.
+
+## Integration status
+
+| Capability | Status |
+| --- | --- |
+| Local images/documents and derivatives | Real deterministic local pipeline |
+| Wikimedia discovery | Real candidate-only API script; no candidate auto-approved |
+| Supabase Auth/schema/Storage/Realtime | Code and migrations implemented; runtime verification blocked by Docker/blank credentials |
+| Email delivery | Supabase adapter path; requires production SMTP/configuration |
+| TOTP MFA | Supabase implementation path; requires live Auth configuration |
+| Upload queue/finalization/jobs | Implemented; UI transfer remains simulated without credentials |
+| Malware scan | Deterministic demo adapter; live adapter requires approved endpoint/token |
+| Field encryption | Local AES-GCM implemented; production KMS selection/credentials pending |
+| Payments/protected funds | Mock only; regulated provider and legal review required |
+| Webhook idempotency | Durable database claim in live mode; in-memory mock adapter only in mock mode |
+| Logistics/GPS | Deterministic simulation; constrained Realtime-ready position table |
+| Forecast/market data | Deterministic estimate; Data.gov.in adapter needs credentials |
+| Video | Simulated provider; LiveKit needs deployment/credentials |
+| Voice | Browser provider with failure states; BHASHINI needs onboarding |
+| Identity/biometric presence | Provider-reference simulation only; no raw biometric material |
+
+## Remaining external or environment work
+
+- Run `supabase db reset`, pgTAP tests and `pnpm db:types` on a host with Docker access; then exercise real Auth memberships, invite email delivery, Storage policies and signed downloads.
+- Connect and validate an approved malware scanner and production KMS/HSM, including key rotation and recovery drills. Runtime public derivative creation still needs a deployed image worker; local/seed derivatives are complete.
+- Complete professional translation and screen-reader review for deep workflow copy beyond English/Hindi, plus real-device speech and map-alternative testing.
+- Configure production SMTP, CAPTCHA/provider Auth limits, monitoring, backup/restore exercises and scheduled worker authentication.
+- Complete legal/provider review for DPDP notices, retention/erasure, grievance and incident duties, regulated payments, protected-funds terminology and identity workflows. No legal compliance certification is claimed.
+
+The frontend design work retained the established organic/utilitarian direction while making permission context, simulated status, touch targets, focus, reduced motion and driver/platform separation explicit.

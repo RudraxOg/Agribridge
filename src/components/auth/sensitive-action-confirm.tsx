@@ -1,0 +1,5 @@
+"use client";
+import { useRef } from "react";
+import { ShieldAlert } from "lucide-react";
+import { Button } from "@/components/ui/button";
+export function SensitiveActionConfirm({label,title,description,onConfirm}:{label:string;title:string;description:string;onConfirm:()=>void}){const ref=useRef<HTMLDialogElement>(null);return <><Button variant="danger" onClick={()=>ref.current?.showModal()}>{label}</Button><dialog ref={ref} className="m-auto w-[calc(100%-2rem)] max-w-md rounded-2xl border border-[var(--border)] bg-white p-0 shadow-[var(--shadow-md)] backdrop:bg-black/40"><div className="p-6"><ShieldAlert className="text-[var(--danger)]" aria-hidden/><h2 className="mt-4 text-2xl font-black">{title}</h2><p className="mt-2 text-sm text-[var(--text-muted)]">{description}</p><div className="mt-6 flex justify-end gap-3"><Button variant="secondary" onClick={()=>ref.current?.close()}>Cancel</Button><Button variant="danger" onClick={()=>{ref.current?.close();onConfirm();}}>Confirm action</Button></div></div></dialog></>}

@@ -21,6 +21,9 @@ test("filters a lot, requests grading and completes mock UPI", async ({ page }) 
   await expect(lot).toBeVisible();
   await lot.focus();
   await page.keyboard.press("Enter");
+  await expect(page.getByAltText("potato crate multi-angle demo, frame 1 of 12")).toBeVisible();
+  await activate(page, "Next viewing angle");
+  await expect(page.getByAltText("potato crate multi-angle demo, frame 2 of 12")).toBeVisible();
   await expect(page.getByText("Three independent grade sources")).toBeVisible();
   await activate(page, "Request call");
   await expect(page.getByText(/Mock grading call requested/)).toBeVisible();

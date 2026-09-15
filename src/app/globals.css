@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --forest: #174a2e;
+  --forest: #176b3a;
   --forest-deep: #0d3520;
-  --field: #2f7d4a;
+  --action: #2e8b57;
+  --field: #247247;
   --leaf: #67a95c;
-  --earth: #965d2d;
+  --earth: #795548;
   --harvest: #e1b84b;
-  --canvas: #f8f7f1;
+  --canvas: #fafcf8;
   --surface: #ffffff;
-  --surface-muted: #eef5ec;
-  --text: #183126;
+  --surface-muted: #eaf5ec;
+  --text: #1d2820;
   --text-muted: #52665a;
   --border: #d9e4d8;
   --danger: #b93a32;
@@ -27,7 +28,7 @@
   --color-foreground: var(--text);
   --color-primary: var(--forest);
   --color-accent: var(--harvest);
-  --font-sans: "Inter", "Noto Sans Devanagari", "Noto Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Avenir Next", "Trebuchet MS", "Noto Sans Devanagari", "Noto Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -40,7 +41,7 @@ body {
     linear-gradient(90deg, transparent 0 48%, rgb(47 125 74 / 3%) 48% 52%, transparent 52%) 0 0 / 44px 44px,
     var(--canvas);
   color: var(--text);
-  font-family: "Inter", "Noto Sans Devanagari", "Noto Sans", ui-sans-serif, system-ui, sans-serif;
+  font-family: "Avenir Next", "Trebuchet MS", "Noto Sans Devanagari", "Noto Sans", ui-sans-serif, system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.55;
 }

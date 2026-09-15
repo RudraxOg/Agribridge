@@ -1,0 +1,1442 @@
+[
+  {
+    "source": "assets/generated/crops/mango-close-up.svg",
+    "path": "assets/processed/mango-close-up-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17156,
+    "checksumSha256": "2fda5c0ca98a287f4a621da029251939e968c531e6f6d874b73053bd0788df4e"
+  },
+  {
+    "source": "assets/generated/crops/mango-close-up.svg",
+    "path": "assets/processed/mango-close-up-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11380,
+    "checksumSha256": "1802da43a2f3190be4767f296e68d4ce9160a73efd4835ebf65003028fb00271"
+  },
+  {
+    "source": "assets/generated/crops/mango-close-up.svg",
+    "path": "assets/processed/mango-close-up-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27923,
+    "checksumSha256": "307ef58b83f13b6aa93441c1550fb07496f97cb06b63e7280ea8f99f5f564e89"
+  },
+  {
+    "source": "assets/generated/crops/mango-close-up.svg",
+    "path": "assets/processed/mango-close-up-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33956,
+    "checksumSha256": "ffdba52fdfef1097c45c106cd6fe35bbef44b04e6f103a0dd0ece94994de8e48"
+  },
+  {
+    "source": "assets/generated/crops/mango-close-up.svg",
+    "path": "assets/processed/mango-close-up-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19397,
+    "checksumSha256": "50ca74e7fe024fa3364798ae5135bbd58c1c83d886d7b3885ed7de6304a8049e"
+  },
+  {
+    "source": "assets/generated/crops/mango-close-up.svg",
+    "path": "assets/processed/mango-close-up-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 63152,
+    "checksumSha256": "6654274467ddf57e2518bf9825781930bc5bc51d60a33c4caf62587d9a75a2f8"
+  },
+  {
+    "source": "assets/generated/crops/mango-cover.svg",
+    "path": "assets/processed/mango-cover-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17060,
+    "checksumSha256": "75f7b68e7db690792504596384c49fcc060d2d67cab1b1cbc62580268bdfce43"
+  },
+  {
+    "source": "assets/generated/crops/mango-cover.svg",
+    "path": "assets/processed/mango-cover-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11311,
+    "checksumSha256": "c8626e9e94fc01a0bf71b0b8202bbcdf7455d26bf392292c1c23074b2566d27f"
+  },
+  {
+    "source": "assets/generated/crops/mango-cover.svg",
+    "path": "assets/processed/mango-cover-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27885,
+    "checksumSha256": "1b25903cbdae9c0f05a538b89d3c8e5f4d7b48614b1dbb69f7ffb717f70ab226"
+  },
+  {
+    "source": "assets/generated/crops/mango-cover.svg",
+    "path": "assets/processed/mango-cover-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33812,
+    "checksumSha256": "73c62b6383e4f25b47aca0bf6767dadd167841d4e87bb5f5bb4d036f2140d5a0"
+  },
+  {
+    "source": "assets/generated/crops/mango-cover.svg",
+    "path": "assets/processed/mango-cover-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19559,
+    "checksumSha256": "00c16bff3ac5f529b1a8a3d062bcf91a72fcc1b7aacbf42f5c42421189e63f6d"
+  },
+  {
+    "source": "assets/generated/crops/mango-cover.svg",
+    "path": "assets/processed/mango-cover-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 62610,
+    "checksumSha256": "90af3ceaec5270569df8532feedf193c520391bc44c18c87bce1327d6b84f728"
+  },
+  {
+    "source": "assets/generated/crops/mango-packaging.svg",
+    "path": "assets/processed/mango-packaging-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17652,
+    "checksumSha256": "1d123d0894dfe5fc0c0f5c07e633da01447d51e973c842eab1a65db8bf43bb8e"
+  },
+  {
+    "source": "assets/generated/crops/mango-packaging.svg",
+    "path": "assets/processed/mango-packaging-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11490,
+    "checksumSha256": "6e8044cb0671508d459e48891de489492579fd49aec420de78a10c93739df177"
+  },
+  {
+    "source": "assets/generated/crops/mango-packaging.svg",
+    "path": "assets/processed/mango-packaging-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 28476,
+    "checksumSha256": "6925f9b5b07cd74b8dd57b151aab0467e28b6161d169aaec3b7fa2e1f426432d"
+  },
+  {
+    "source": "assets/generated/crops/mango-packaging.svg",
+    "path": "assets/processed/mango-packaging-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 35176,
+    "checksumSha256": "cf76c650c33263b2f7ee4f695b4e70b87ef78ece1b8839b1001c300dce6197b8"
+  },
+  {
+    "source": "assets/generated/crops/mango-packaging.svg",
+    "path": "assets/processed/mango-packaging-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20233,
+    "checksumSha256": "c3271883f6aec243f8421809dbd759e8b12af62d0ed0e17bba6560251e0e6fec"
+  },
+  {
+    "source": "assets/generated/crops/mango-packaging.svg",
+    "path": "assets/processed/mango-packaging-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 64698,
+    "checksumSha256": "f40a107cb3fa6cd8d806cb3ce60b2384b4c793ba2a3715c54f923958fcb668de"
+  },
+  {
+    "source": "assets/generated/crops/mango-quality-defect.svg",
+    "path": "assets/processed/mango-quality-defect-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17822,
+    "checksumSha256": "e033e96f2ec38733c003e3a4d7e2895d3fdbda7bf8b7896587693252ed0542ea"
+  },
+  {
+    "source": "assets/generated/crops/mango-quality-defect.svg",
+    "path": "assets/processed/mango-quality-defect-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11626,
+    "checksumSha256": "91fd9d3acfd65c13aff1addc4c0eef0c2c960932acd87fd32229fd1dd2ff5758"
+  },
+  {
+    "source": "assets/generated/crops/mango-quality-defect.svg",
+    "path": "assets/processed/mango-quality-defect-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 29144,
+    "checksumSha256": "883a055219e852a35a54c90d5fbc1908c60cf2bd885afe18fa1c96e17ac90102"
+  },
+  {
+    "source": "assets/generated/crops/mango-quality-defect.svg",
+    "path": "assets/processed/mango-quality-defect-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 35084,
+    "checksumSha256": "0470994da08c132a1a622e9c1b2624de573abb40d22c58490f3cbd98cda17407"
+  },
+  {
+    "source": "assets/generated/crops/mango-quality-defect.svg",
+    "path": "assets/processed/mango-quality-defect-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20118,
+    "checksumSha256": "1b5d839485a36ee0271620bd69a0fb83e7a912a3a126342ac344637c89fd30fb"
+  },
+  {
+    "source": "assets/generated/crops/mango-quality-defect.svg",
+    "path": "assets/processed/mango-quality-defect-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 65175,
+    "checksumSha256": "d30fd060491ce4723cc68f9ed0c87ab140d951b819df1c68b72eb36fd8c93ca4"
+  },
+  {
+    "source": "assets/generated/crops/onion-close-up.svg",
+    "path": "assets/processed/onion-close-up-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16354,
+    "checksumSha256": "93be8eb0e482a82f7e508f51066f9e8499586db59c6755b942b8efaa6c64676f"
+  },
+  {
+    "source": "assets/generated/crops/onion-close-up.svg",
+    "path": "assets/processed/onion-close-up-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11240,
+    "checksumSha256": "50618aabffd112d1f7999e4a1e398850ac75d7a8ec4ccdcbc887e0085eaa4b5b"
+  },
+  {
+    "source": "assets/generated/crops/onion-close-up.svg",
+    "path": "assets/processed/onion-close-up-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 26765,
+    "checksumSha256": "f93eadf3afe61d14ee0b2eab32e4313cfb4a1bf5f6bd7a03d9d4ec9d2793f4cb"
+  },
+  {
+    "source": "assets/generated/crops/onion-close-up.svg",
+    "path": "assets/processed/onion-close-up-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 31974,
+    "checksumSha256": "90d27b09f3c815ee7968e57da9fa76f50e4e2badcf50ee2a7b0d5fe3acb17a2a"
+  },
+  {
+    "source": "assets/generated/crops/onion-close-up.svg",
+    "path": "assets/processed/onion-close-up-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19550,
+    "checksumSha256": "5666d69437fd970326fabe95100f6d0857db9a5c4f268677df53531e5ffadb9e"
+  },
+  {
+    "source": "assets/generated/crops/onion-close-up.svg",
+    "path": "assets/processed/onion-close-up-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 60804,
+    "checksumSha256": "120134bfe84619356d44a9fe1cc20d8731bb1134b7e03b2f757b3fa6a34819ac"
+  },
+  {
+    "source": "assets/generated/crops/onion-cover.svg",
+    "path": "assets/processed/onion-cover-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16034,
+    "checksumSha256": "f92699710a94e51a3ed8e78dddb67fab49360e32c85594baa930e2981982cd16"
+  },
+  {
+    "source": "assets/generated/crops/onion-cover.svg",
+    "path": "assets/processed/onion-cover-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11142,
+    "checksumSha256": "809cd31fa72a985e0b9bddf50c7708db55edc5cecfaa8bf52af8f9ea54a33bd2"
+  },
+  {
+    "source": "assets/generated/crops/onion-cover.svg",
+    "path": "assets/processed/onion-cover-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 26563,
+    "checksumSha256": "5c97fd7a8e3852dd7a79ac18a8657f67a882d7ea0a33beafb2e9474ca788e28c"
+  },
+  {
+    "source": "assets/generated/crops/onion-cover.svg",
+    "path": "assets/processed/onion-cover-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 31684,
+    "checksumSha256": "87ec6f5401d5685356f1173a798fc24dfd759deafd21bc804d1759642c3a2ffa"
+  },
+  {
+    "source": "assets/generated/crops/onion-cover.svg",
+    "path": "assets/processed/onion-cover-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19665,
+    "checksumSha256": "34f7de5efd472391302893d46d30bede21bc70a7e44f400069ae74a99b14f44c"
+  },
+  {
+    "source": "assets/generated/crops/onion-cover.svg",
+    "path": "assets/processed/onion-cover-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 60004,
+    "checksumSha256": "404a5a80e2a6043e684ce181fca727adfc47574a46b967395f3144a841ec049a"
+  },
+  {
+    "source": "assets/generated/crops/onion-packaging.svg",
+    "path": "assets/processed/onion-packaging-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16688,
+    "checksumSha256": "33c33f28b0fd6d4f141db3b6b4942ba5caea34724ff5b366040e406765aeba0b"
+  },
+  {
+    "source": "assets/generated/crops/onion-packaging.svg",
+    "path": "assets/processed/onion-packaging-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11371,
+    "checksumSha256": "d4ce673c61eb355f7dd99c67ccf833ffbe5b664fa99fc918d0aee01c09e8a636"
+  },
+  {
+    "source": "assets/generated/crops/onion-packaging.svg",
+    "path": "assets/processed/onion-packaging-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27356,
+    "checksumSha256": "86c3db539f1ac8a426a71b1540f1d41d8d6eee21187cfe61c839acb8052caaf1"
+  },
+  {
+    "source": "assets/generated/crops/onion-packaging.svg",
+    "path": "assets/processed/onion-packaging-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33336,
+    "checksumSha256": "dd507bdecf21f17490c6ab3c4b072169f508121296013c8e70af326c1ce83c60"
+  },
+  {
+    "source": "assets/generated/crops/onion-packaging.svg",
+    "path": "assets/processed/onion-packaging-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20255,
+    "checksumSha256": "476d20a90272bbb6e8cbe028db0204fb89d7ae452b8f9fd9c21138c99bcd1f4b"
+  },
+  {
+    "source": "assets/generated/crops/onion-packaging.svg",
+    "path": "assets/processed/onion-packaging-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 62155,
+    "checksumSha256": "2c529faf9a4abc14d5b32a089ee9ba9c5bfff9453cb130ffd0a3ea91af734ee5"
+  },
+  {
+    "source": "assets/generated/crops/onion-quality-defect.svg",
+    "path": "assets/processed/onion-quality-defect-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16824,
+    "checksumSha256": "1beb0c01a4054874a0707fd623345c7dac1b75893b35423ba098b5c86f48961f"
+  },
+  {
+    "source": "assets/generated/crops/onion-quality-defect.svg",
+    "path": "assets/processed/onion-quality-defect-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11392,
+    "checksumSha256": "40f420c24a0919fe6cf9357730d8560f4a1e8d220b5b9de066652bdd3b42b762"
+  },
+  {
+    "source": "assets/generated/crops/onion-quality-defect.svg",
+    "path": "assets/processed/onion-quality-defect-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27798,
+    "checksumSha256": "033879842e8c3e0bc756e014c4773ecad495e2538d373dd07d528addbfb2025f"
+  },
+  {
+    "source": "assets/generated/crops/onion-quality-defect.svg",
+    "path": "assets/processed/onion-quality-defect-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33006,
+    "checksumSha256": "04cd5951bb46dae4a0c767c13c3a9693f2285c34d8440b1d2240df9866a0bebe"
+  },
+  {
+    "source": "assets/generated/crops/onion-quality-defect.svg",
+    "path": "assets/processed/onion-quality-defect-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20105,
+    "checksumSha256": "34587015505d24cdaebc2e2c05ead57a100b004f1d583463f5270761b05bd581"
+  },
+  {
+    "source": "assets/generated/crops/onion-quality-defect.svg",
+    "path": "assets/processed/onion-quality-defect-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 62552,
+    "checksumSha256": "5505c68d0414060b1e808c0fcee65ad1876603cd5da9492dba7edd74c6707298"
+  },
+  {
+    "source": "assets/generated/crops/paddy-close-up.svg",
+    "path": "assets/processed/paddy-close-up-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17282,
+    "checksumSha256": "16ebdbdec0c5014d3925aba35254e8a9ce1d3ee2a91e0bd130f808915ca3d5a3"
+  },
+  {
+    "source": "assets/generated/crops/paddy-close-up.svg",
+    "path": "assets/processed/paddy-close-up-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11280,
+    "checksumSha256": "88e05e0618554d9590df612a6803ee1778e936f8cbc39acc466a397793060905"
+  },
+  {
+    "source": "assets/generated/crops/paddy-close-up.svg",
+    "path": "assets/processed/paddy-close-up-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27987,
+    "checksumSha256": "0879dea05584b70b6d699ab0eeab151f9314e9b0f1cc81b61b28a7481a65fdfc"
+  },
+  {
+    "source": "assets/generated/crops/paddy-close-up.svg",
+    "path": "assets/processed/paddy-close-up-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33450,
+    "checksumSha256": "309a2fae7c0729cce49fe1aae296a3b1350da3ccaeec6081c2c274a76c4ad23c"
+  },
+  {
+    "source": "assets/generated/crops/paddy-close-up.svg",
+    "path": "assets/processed/paddy-close-up-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19848,
+    "checksumSha256": "a2ee86ed3c8e86f782607f44c44fbf76eabecb17854011dcf3ebc4e7ea323fa9"
+  },
+  {
+    "source": "assets/generated/crops/paddy-close-up.svg",
+    "path": "assets/processed/paddy-close-up-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 63833,
+    "checksumSha256": "6f32ae84a46e48276af55dc491233d2909971b858ccd0642af9bca31d297147a"
+  },
+  {
+    "source": "assets/generated/crops/paddy-cover.svg",
+    "path": "assets/processed/paddy-cover-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17062,
+    "checksumSha256": "4407916b5b847a47a307913ae1d54a4577a5744e2ae7ba1cc1c162f55da161e0"
+  },
+  {
+    "source": "assets/generated/crops/paddy-cover.svg",
+    "path": "assets/processed/paddy-cover-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11287,
+    "checksumSha256": "5cb3597564c4da433db0dc10f068efcd27ef23cdede75f36ee77c0ee81205568"
+  },
+  {
+    "source": "assets/generated/crops/paddy-cover.svg",
+    "path": "assets/processed/paddy-cover-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27972,
+    "checksumSha256": "e8871d086f44537e26f1f248183ce1c6cb6f201eda9c11cc0c1a696c42fca9b7"
+  },
+  {
+    "source": "assets/generated/crops/paddy-cover.svg",
+    "path": "assets/processed/paddy-cover-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33346,
+    "checksumSha256": "3ed1c869c2bfed3a8185cd7412c3535092689f7bd77f1e4bc99389796d4ea0cd"
+  },
+  {
+    "source": "assets/generated/crops/paddy-cover.svg",
+    "path": "assets/processed/paddy-cover-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19967,
+    "checksumSha256": "a1e92f2a6aa43f233007162f023677ff5abc415f1edd8bf5ee738009d9537f2e"
+  },
+  {
+    "source": "assets/generated/crops/paddy-cover.svg",
+    "path": "assets/processed/paddy-cover-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 63079,
+    "checksumSha256": "ac2d9a2b5c68b5307dce24fb7e6dd768278da2ddf6740ae421556e34ce23da88"
+  },
+  {
+    "source": "assets/generated/crops/paddy-packaging.svg",
+    "path": "assets/processed/paddy-packaging-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17792,
+    "checksumSha256": "9457b73253dbbaf75124328164eded3e36bcf81a9b3f154a9b5f9daa1bb128b1"
+  },
+  {
+    "source": "assets/generated/crops/paddy-packaging.svg",
+    "path": "assets/processed/paddy-packaging-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11559,
+    "checksumSha256": "e3ba83214c2a5815139d5193ee0c8d43541292053306800bd30033d1ca66deef"
+  },
+  {
+    "source": "assets/generated/crops/paddy-packaging.svg",
+    "path": "assets/processed/paddy-packaging-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 28620,
+    "checksumSha256": "d2150d3eda77d0f0ce2389054859e2ec6a84265d6d25a3d4aacd327d371263c9"
+  },
+  {
+    "source": "assets/generated/crops/paddy-packaging.svg",
+    "path": "assets/processed/paddy-packaging-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 35012,
+    "checksumSha256": "9c45f6ca3667679cc2bd364d1a835c308087f4b3caec4b8dcfaff8b66f3d9d27"
+  },
+  {
+    "source": "assets/generated/crops/paddy-packaging.svg",
+    "path": "assets/processed/paddy-packaging-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20603,
+    "checksumSha256": "78aa0298c1a967464c1e3c206fcea3a181d9883c30844619f8fab9723706fac6"
+  },
+  {
+    "source": "assets/generated/crops/paddy-packaging.svg",
+    "path": "assets/processed/paddy-packaging-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 65216,
+    "checksumSha256": "9af884e02be4a84f9b4e95ce59486882bd2e61a2d9b2a965fa3156a1051e4204"
+  },
+  {
+    "source": "assets/generated/crops/paddy-quality-defect.svg",
+    "path": "assets/processed/paddy-quality-defect-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17820,
+    "checksumSha256": "cf35b5231f97ddc3b29f181cf84f08e105b50770b0cffeafc522bbdd5ce1bf2f"
+  },
+  {
+    "source": "assets/generated/crops/paddy-quality-defect.svg",
+    "path": "assets/processed/paddy-quality-defect-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11508,
+    "checksumSha256": "dc7275cf724f9580f34ac17f68dd22c3a0d44760b0cc70888b1179d2e9c7f4df"
+  },
+  {
+    "source": "assets/generated/crops/paddy-quality-defect.svg",
+    "path": "assets/processed/paddy-quality-defect-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 29136,
+    "checksumSha256": "6c2ec69f0488bc8254e89374b02623984d755d4c6594646420d7e318497fdd86"
+  },
+  {
+    "source": "assets/generated/crops/paddy-quality-defect.svg",
+    "path": "assets/processed/paddy-quality-defect-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 34646,
+    "checksumSha256": "4a52e7d795e871e80ef6bd15d00cb08944f43f92cdeb9469dd49849bca3e31d3"
+  },
+  {
+    "source": "assets/generated/crops/paddy-quality-defect.svg",
+    "path": "assets/processed/paddy-quality-defect-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20501,
+    "checksumSha256": "d0ac68d419032f78ab450bdb77dd62fc4253a79a50b5eaa483ba2e99af22adbb"
+  },
+  {
+    "source": "assets/generated/crops/paddy-quality-defect.svg",
+    "path": "assets/processed/paddy-quality-defect-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 65372,
+    "checksumSha256": "0d996637e7783a9ed910d605cffc3bb19823db7c42a62aa1aacf34c9f60ff94d"
+  },
+  {
+    "source": "assets/generated/crops/peas-close-up.svg",
+    "path": "assets/processed/peas-close-up-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16640,
+    "checksumSha256": "3aff100f59d2ab907f6e28d97e40ceeb2c4de567d259207be294a1dd5e27fd74"
+  },
+  {
+    "source": "assets/generated/crops/peas-close-up.svg",
+    "path": "assets/processed/peas-close-up-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 10952,
+    "checksumSha256": "b7a8855c59fd3eca8fce6744aa769ad1f11ea5a8fb6d0b68785357d4843c405c"
+  },
+  {
+    "source": "assets/generated/crops/peas-close-up.svg",
+    "path": "assets/processed/peas-close-up-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27526,
+    "checksumSha256": "b8d7ad7b49979148bcace820f259e0fe67bc52b50288cf290ecc67487f01d01a"
+  },
+  {
+    "source": "assets/generated/crops/peas-close-up.svg",
+    "path": "assets/processed/peas-close-up-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 32370,
+    "checksumSha256": "a32a454cab980e829916e3ae0f4b9feade941fb0c42ccaaf9982c47c187b7610"
+  },
+  {
+    "source": "assets/generated/crops/peas-close-up.svg",
+    "path": "assets/processed/peas-close-up-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19250,
+    "checksumSha256": "410abe4113b803779de3b1f9ae545509de852e38e5a94d37e49ee841d660ce6c"
+  },
+  {
+    "source": "assets/generated/crops/peas-close-up.svg",
+    "path": "assets/processed/peas-close-up-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 62040,
+    "checksumSha256": "c0564501d3aff48dbe98701eff030a772204bdca296cb63c98c36915e24cdf90"
+  },
+  {
+    "source": "assets/generated/crops/peas-cover.svg",
+    "path": "assets/processed/peas-cover-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16490,
+    "checksumSha256": "15dfb998f1d6ad113e45ce140a93845e3e1711d7dde03a14d8dd1aff0c22cbb9"
+  },
+  {
+    "source": "assets/generated/crops/peas-cover.svg",
+    "path": "assets/processed/peas-cover-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 10939,
+    "checksumSha256": "8f566549390a97ee3aa978065347a9de9c2ef26ca1b7418d72c4109f6f276574"
+  },
+  {
+    "source": "assets/generated/crops/peas-cover.svg",
+    "path": "assets/processed/peas-cover-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27429,
+    "checksumSha256": "47a6ccf3c752209cc5e7bc87ade45e94c939e96bfdbabc8245b9f35ec23b7445"
+  },
+  {
+    "source": "assets/generated/crops/peas-cover.svg",
+    "path": "assets/processed/peas-cover-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 32254,
+    "checksumSha256": "16a4a8df8039f608184c72d5caa80c60c52e7f7b4ac8801e2a956bf4b0942de8"
+  },
+  {
+    "source": "assets/generated/crops/peas-cover.svg",
+    "path": "assets/processed/peas-cover-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19320,
+    "checksumSha256": "71e41f9f21ddb3d13d1b1f35713a8e421d769be168b71a01671649dda3680ccf"
+  },
+  {
+    "source": "assets/generated/crops/peas-cover.svg",
+    "path": "assets/processed/peas-cover-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 61145,
+    "checksumSha256": "1d2f917faf54c98baaac6e09e511b8c89e0201bffcb0344829ec81f756db7fbf"
+  },
+  {
+    "source": "assets/generated/crops/peas-packaging.svg",
+    "path": "assets/processed/peas-packaging-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17066,
+    "checksumSha256": "9920aa1c47dcf0d4a06f616f97bb136bdab4ab057d087c1fa0a26f97887f8b53"
+  },
+  {
+    "source": "assets/generated/crops/peas-packaging.svg",
+    "path": "assets/processed/peas-packaging-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11179,
+    "checksumSha256": "fed2c17a05201f829f838ea6eb0ff1bb346f961712966bebbd0b0de542c8457c"
+  },
+  {
+    "source": "assets/generated/crops/peas-packaging.svg",
+    "path": "assets/processed/peas-packaging-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 28129,
+    "checksumSha256": "7c353e873aa78f17b8eaa62066addac270b2a3ae2ebf762c4411f2cad3c92642"
+  },
+  {
+    "source": "assets/generated/crops/peas-packaging.svg",
+    "path": "assets/processed/peas-packaging-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33344,
+    "checksumSha256": "ba4af71ab79496b50b89fecc84288cb2d860e0ec36b99aae83d50ad6486dc4ea"
+  },
+  {
+    "source": "assets/generated/crops/peas-packaging.svg",
+    "path": "assets/processed/peas-packaging-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19959,
+    "checksumSha256": "eabb649baa78e7bcca50f436cc7091adeb2bc647c460310ad02029b96855030c"
+  },
+  {
+    "source": "assets/generated/crops/peas-packaging.svg",
+    "path": "assets/processed/peas-packaging-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 63439,
+    "checksumSha256": "3b72601419bfea977075706d5ce65c47f83b4bdac9a134453ac69813f7656a61"
+  },
+  {
+    "source": "assets/generated/crops/peas-quality-defect.svg",
+    "path": "assets/processed/peas-quality-defect-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17198,
+    "checksumSha256": "59c281292c329f5dbd1ed52c9f9acc4749d987c80f57dfd46da7e9b23e6c9568"
+  },
+  {
+    "source": "assets/generated/crops/peas-quality-defect.svg",
+    "path": "assets/processed/peas-quality-defect-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11176,
+    "checksumSha256": "50ba84813c23265fab231f65a88f6ed4ffe27507c3cc4c207045a9aabeeefc4a"
+  },
+  {
+    "source": "assets/generated/crops/peas-quality-defect.svg",
+    "path": "assets/processed/peas-quality-defect-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 28609,
+    "checksumSha256": "064f74a008d160ff3e8106881303191f061674f017efa3ead050de8b77c4b5e9"
+  },
+  {
+    "source": "assets/generated/crops/peas-quality-defect.svg",
+    "path": "assets/processed/peas-quality-defect-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33286,
+    "checksumSha256": "4f65a5256f12626c7fc7d3f9f35d0498cd424447b15cf59f69bf3e4bd2347ac0"
+  },
+  {
+    "source": "assets/generated/crops/peas-quality-defect.svg",
+    "path": "assets/processed/peas-quality-defect-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20017,
+    "checksumSha256": "4fb84356cc7613f228ed1c5bb547b41ba6a2f9d8a3622c92e1fdf2608876e034"
+  },
+  {
+    "source": "assets/generated/crops/peas-quality-defect.svg",
+    "path": "assets/processed/peas-quality-defect-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 63773,
+    "checksumSha256": "dc6c626a7aa0cd14357f7236671d034b2bf22a58a2055edab4378cd28373859b"
+  },
+  {
+    "source": "assets/generated/crops/potato-close-up.svg",
+    "path": "assets/processed/potato-close-up-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16554,
+    "checksumSha256": "13fe0fad6610ae96e0f322baab5e678850c8979e9f4a5cbe7e65ced3a23e6e75"
+  },
+  {
+    "source": "assets/generated/crops/potato-close-up.svg",
+    "path": "assets/processed/potato-close-up-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 10944,
+    "checksumSha256": "14dae570a9bedf548841a4473d160c207c3a51115abcee0bcebf4aa129fa46e3"
+  },
+  {
+    "source": "assets/generated/crops/potato-close-up.svg",
+    "path": "assets/processed/potato-close-up-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27119,
+    "checksumSha256": "d4e4df8f2aeaca6898330fe2d57ca2c5bcb3e253912a009f41b67dd33f26e8aa"
+  },
+  {
+    "source": "assets/generated/crops/potato-close-up.svg",
+    "path": "assets/processed/potato-close-up-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 32648,
+    "checksumSha256": "e57987e96df021abf780830d14a510aabeecc7a03593b5cbaa0b5672804ed9da"
+  },
+  {
+    "source": "assets/generated/crops/potato-close-up.svg",
+    "path": "assets/processed/potato-close-up-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 18801,
+    "checksumSha256": "9f1ae98cdb24472c9d5d86be01ce3ad1e15a5be783cb8c233cd1d9cfa095a0b3"
+  },
+  {
+    "source": "assets/generated/crops/potato-close-up.svg",
+    "path": "assets/processed/potato-close-up-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 61432,
+    "checksumSha256": "5d884f544345633a3cf2187df1627744bf5eb3e363e7ed8def3a31a9c3a9fa51"
+  },
+  {
+    "source": "assets/generated/crops/potato-cover.svg",
+    "path": "assets/processed/potato-cover-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16522,
+    "checksumSha256": "b16c8ad56da8c479c190b81420c71f267724b29f397d07e90b9879c09191490d"
+  },
+  {
+    "source": "assets/generated/crops/potato-cover.svg",
+    "path": "assets/processed/potato-cover-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 10633,
+    "checksumSha256": "5c6da23a35891db6a98a01871ff16d4e845a886c702b551ccd946d2b455b4462"
+  },
+  {
+    "source": "assets/generated/crops/potato-cover.svg",
+    "path": "assets/processed/potato-cover-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27036,
+    "checksumSha256": "4eedbd43443b02b2a35107ec0e47c94aabec18ba654060695332a9f1c4ae6ce1"
+  },
+  {
+    "source": "assets/generated/crops/potato-cover.svg",
+    "path": "assets/processed/potato-cover-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 32580,
+    "checksumSha256": "0c1bce9ec15bcd000d8fdf0cdf99eec0e99d634e0c9e3a7309f7080cfe47a5b7"
+  },
+  {
+    "source": "assets/generated/crops/potato-cover.svg",
+    "path": "assets/processed/potato-cover-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 18992,
+    "checksumSha256": "eca53f9aec5690f6117966eddb9ef094ab42e578808625b06a332e9f36c0c3b3"
+  },
+  {
+    "source": "assets/generated/crops/potato-cover.svg",
+    "path": "assets/processed/potato-cover-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 60781,
+    "checksumSha256": "ea5865c26e88bdc03fd7d8e47c27ef36d58fdc8977d797645db84ecb3c1caaf3"
+  },
+  {
+    "source": "assets/generated/crops/potato-packaging.svg",
+    "path": "assets/processed/potato-packaging-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17048,
+    "checksumSha256": "ff389d070d10a343f6f4f464f386847e53c8d63ba7a58baf18db971ff75014cf"
+  },
+  {
+    "source": "assets/generated/crops/potato-packaging.svg",
+    "path": "assets/processed/potato-packaging-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 10927,
+    "checksumSha256": "46d87da0dc02739da5ca2725dece9b8282f0e6fd0d9509b995049bda50659378"
+  },
+  {
+    "source": "assets/generated/crops/potato-packaging.svg",
+    "path": "assets/processed/potato-packaging-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27720,
+    "checksumSha256": "3d0c0a06b690ba45acb721d10b9808635c7d622332b767fc929e4d1be1ebd16c"
+  },
+  {
+    "source": "assets/generated/crops/potato-packaging.svg",
+    "path": "assets/processed/potato-packaging-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33480,
+    "checksumSha256": "3da1fd1e0aec7ef0527e5fefe330189e10385e6c87ed8e32027d39620a83085c"
+  },
+  {
+    "source": "assets/generated/crops/potato-packaging.svg",
+    "path": "assets/processed/potato-packaging-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19914,
+    "checksumSha256": "e7e4a4a8a8c0d77ca79252f1def7b1a54a59907ed9d4e4868b662a29cc54c4bb"
+  },
+  {
+    "source": "assets/generated/crops/potato-packaging.svg",
+    "path": "assets/processed/potato-packaging-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 62905,
+    "checksumSha256": "ebb264bbb0cb4dd926981860d42b548eaa8529ba0db1a901bb5f4b42856abfc4"
+  },
+  {
+    "source": "assets/generated/crops/potato-quality-defect.svg",
+    "path": "assets/processed/potato-quality-defect-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17194,
+    "checksumSha256": "106b17a4ab8a3c90bec9a51342f789a1ed16998d8010faa162828ecfd2995dd1"
+  },
+  {
+    "source": "assets/generated/crops/potato-quality-defect.svg",
+    "path": "assets/processed/potato-quality-defect-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11119,
+    "checksumSha256": "02af35be681d63a78140e01eaf3e34596ac1ef2e32155d25f22de90e9a3a4f6b"
+  },
+  {
+    "source": "assets/generated/crops/potato-quality-defect.svg",
+    "path": "assets/processed/potato-quality-defect-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 28334,
+    "checksumSha256": "38f38e6147865130f8894250c2a8a0ade1c3b73279bd1626efe1508538922cac"
+  },
+  {
+    "source": "assets/generated/crops/potato-quality-defect.svg",
+    "path": "assets/processed/potato-quality-defect-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 33290,
+    "checksumSha256": "f67f9d4c46d6b73922a19d7ba76697eb31efccd60b69a7b5eafd116895675ab3"
+  },
+  {
+    "source": "assets/generated/crops/potato-quality-defect.svg",
+    "path": "assets/processed/potato-quality-defect-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19538,
+    "checksumSha256": "08d2c55a268f07f96a1c591f9d4efe312ae989fe1a0babb2cf116f89a6069a8a"
+  },
+  {
+    "source": "assets/generated/crops/potato-quality-defect.svg",
+    "path": "assets/processed/potato-quality-defect-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 63267,
+    "checksumSha256": "35a421fbb0efae1b187f0b1e766c2d95fe15342a44f118065e520e86e62f5a95"
+  },
+  {
+    "source": "assets/generated/crops/tomato-close-up.svg",
+    "path": "assets/processed/tomato-close-up-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17032,
+    "checksumSha256": "1cdbca4152aa8bdb0aab5c91ee1cf29801f62ea3d514538fc205162a30b9b59e"
+  },
+  {
+    "source": "assets/generated/crops/tomato-close-up.svg",
+    "path": "assets/processed/tomato-close-up-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11508,
+    "checksumSha256": "4e4c46c7806fec0480949e185e061da30ede419cbb4fc203b3cc7689d65b5e47"
+  },
+  {
+    "source": "assets/generated/crops/tomato-close-up.svg",
+    "path": "assets/processed/tomato-close-up-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27886,
+    "checksumSha256": "6c2b77fafbedc94d7c9303d2a5027a6c928271a287616d60ce76cc5a99f9dc17"
+  },
+  {
+    "source": "assets/generated/crops/tomato-close-up.svg",
+    "path": "assets/processed/tomato-close-up-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 32940,
+    "checksumSha256": "456b010a9325e02a77f36de0b1c5bbcfaa3d94a6e16d8e94fcd6ead5b1c70509"
+  },
+  {
+    "source": "assets/generated/crops/tomato-close-up.svg",
+    "path": "assets/processed/tomato-close-up-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 19869,
+    "checksumSha256": "1e21cba1384c0d55ac0730f642c9fa18cd90edc31de9b82d1ae0df5fddd1f676"
+  },
+  {
+    "source": "assets/generated/crops/tomato-close-up.svg",
+    "path": "assets/processed/tomato-close-up-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 63024,
+    "checksumSha256": "749cdbb3d99934b0efabc1ba21305d3e8b25d81d6096c07f823da11923bbe94d"
+  },
+  {
+    "source": "assets/generated/crops/tomato-cover.svg",
+    "path": "assets/processed/tomato-cover-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 16784,
+    "checksumSha256": "5ee99d8b86e2c1f4f4524463466fb74c6bde30af7e8b2c3bffbc1df460fc1d58"
+  },
+  {
+    "source": "assets/generated/crops/tomato-cover.svg",
+    "path": "assets/processed/tomato-cover-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11451,
+    "checksumSha256": "2fc59cf5c518c0097cbb05bdcacc5e43697587407f4203855b909673c92a4361"
+  },
+  {
+    "source": "assets/generated/crops/tomato-cover.svg",
+    "path": "assets/processed/tomato-cover-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 27835,
+    "checksumSha256": "826ec0add8c588779261dc5e938ece3639232e01e9abe90fd54cbbc6724b19a3"
+  },
+  {
+    "source": "assets/generated/crops/tomato-cover.svg",
+    "path": "assets/processed/tomato-cover-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 32828,
+    "checksumSha256": "13fab9c764badf270e5eda90aa4784d942894dd073ec43c17a7c5a47f0ddf3f7"
+  },
+  {
+    "source": "assets/generated/crops/tomato-cover.svg",
+    "path": "assets/processed/tomato-cover-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20050,
+    "checksumSha256": "032cf9998193b19cf81cd2ede469fef7036ed551df9a268838d26f7e8b83555a"
+  },
+  {
+    "source": "assets/generated/crops/tomato-cover.svg",
+    "path": "assets/processed/tomato-cover-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 62215,
+    "checksumSha256": "09abd38ca87be5c7c11d99baf5bcc772478bfbcb69080b51bbda935d37f2cdd4"
+  },
+  {
+    "source": "assets/generated/crops/tomato-packaging.svg",
+    "path": "assets/processed/tomato-packaging-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17420,
+    "checksumSha256": "ef034235e851593b42ffd9608ce47083af67ca1ec10d0ff2b1eeb4b4af29af5d"
+  },
+  {
+    "source": "assets/generated/crops/tomato-packaging.svg",
+    "path": "assets/processed/tomato-packaging-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11777,
+    "checksumSha256": "9d2d0d8bcbb353c1dd5d95bbabcf0658b3209b93cae6d5146eb8e7cf0edbc6f4"
+  },
+  {
+    "source": "assets/generated/crops/tomato-packaging.svg",
+    "path": "assets/processed/tomato-packaging-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 28531,
+    "checksumSha256": "f9a0035c5c856e546621f291ca9e0fac5012c355022bee5469022a1cd9f4a01b"
+  },
+  {
+    "source": "assets/generated/crops/tomato-packaging.svg",
+    "path": "assets/processed/tomato-packaging-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 34526,
+    "checksumSha256": "cfec948c94bb4a3082052aaabab98276312447f297dbf4d79a2afe85cc37b80f"
+  },
+  {
+    "source": "assets/generated/crops/tomato-packaging.svg",
+    "path": "assets/processed/tomato-packaging-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20848,
+    "checksumSha256": "78aeba19c3357ad89f006fa6fcc02c97226dcb7c67a7fec76cb2b9fd7080349f"
+  },
+  {
+    "source": "assets/generated/crops/tomato-packaging.svg",
+    "path": "assets/processed/tomato-packaging-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 64371,
+    "checksumSha256": "4fcb47d2e985e4c80f4f0038092cfef38d1116954a1c53bee7bbfd7ae71c46a8"
+  },
+  {
+    "source": "assets/generated/crops/tomato-quality-defect.svg",
+    "path": "assets/processed/tomato-quality-defect-card-640.webp",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/webp",
+    "byteSize": 17626,
+    "checksumSha256": "aa76915f027f0f383de2b652c6dca1c152141d3beddd0d8f6c56d9c627009f15"
+  },
+  {
+    "source": "assets/generated/crops/tomato-quality-defect.svg",
+    "path": "assets/processed/tomato-quality-defect-card-640.avif",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/avif",
+    "byteSize": 11791,
+    "checksumSha256": "5d3d3522315803dbf42fc240bc3ad0ca78bdfb4d52a242da8d20db4a7b3dc146"
+  },
+  {
+    "source": "assets/generated/crops/tomato-quality-defect.svg",
+    "path": "assets/processed/tomato-quality-defect-card-640.jpg",
+    "variant": "card",
+    "width": 640,
+    "height": 427,
+    "mimeType": "image/jpeg",
+    "byteSize": 29021,
+    "checksumSha256": "cd8da6b559a80105ab2371463b03e6400ce77d659ef7fa7cd2c48af12d8c0667"
+  },
+  {
+    "source": "assets/generated/crops/tomato-quality-defect.svg",
+    "path": "assets/processed/tomato-quality-defect-detail-1280.webp",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/webp",
+    "byteSize": 34524,
+    "checksumSha256": "c74bf3e456625f68444348c66d6660ef776bf1692672a789c37f07c0409de88b"
+  },
+  {
+    "source": "assets/generated/crops/tomato-quality-defect.svg",
+    "path": "assets/processed/tomato-quality-defect-detail-1280.avif",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/avif",
+    "byteSize": 20686,
+    "checksumSha256": "fecabb2ee7114d45c012a950c2f120c3b624d9cb09ece7cfe603282b1c45497d"
+  },
+  {
+    "source": "assets/generated/crops/tomato-quality-defect.svg",
+    "path": "assets/processed/tomato-quality-defect-detail-1280.jpg",
+    "variant": "detail",
+    "width": 1200,
+    "height": 800,
+    "mimeType": "image/jpeg",
+    "byteSize": 64823,
+    "checksumSha256": "b6a6cc847b31f49938cdfc10b3dfd5f4f142599b5b9a6052f3bfd39221cec0b0"
+  }
+]
