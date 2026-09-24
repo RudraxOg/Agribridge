@@ -36,6 +36,14 @@ export type OrganizationRole =
 export type PlatformRole = "platform_admin" | "compliance_auditor" | "support_agent";
 export type RoleKey = OrganizationRole | PlatformRole;
 
+export function demoRoleForMembership(role: RoleKey) {
+  if (role.startsWith("fpo_")) return "fpo";
+  if (role.startsWith("buyer_")) return "buyer";
+  if (role === "logistics_driver") return "driver";
+  if (role.startsWith("logistics_")) return "logistics";
+  return "platform";
+}
+
 export function hasPermission(granted: ReadonlySet<string> | readonly string[], required: Permission) {
   return Array.isArray(granted) ? granted.includes(required) : (granted as ReadonlySet<string>).has(required);
 }

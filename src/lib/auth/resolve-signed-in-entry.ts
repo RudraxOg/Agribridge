@@ -1,9 +1,11 @@
 import "server-only";
+import { cookies } from "next/headers";
 
 import { getAccessContext } from "@/lib/authorization/access";
 import { createClient } from "@/lib/supabase/server";
 import { createAuthClient } from "@/lib/supabase/server";
-import { roleHome, type RoleKey } from "@/lib/authorization/permissions";
+import { demoRoleForMembership, roleHome, type RoleKey } from "@/lib/authorization/permissions";
+import { usesLiveWorkspace } from "./auth-mode";
 import { decideSignedInEntry, type SignedInEntryDecision } from "./signed-in-entry-decision";
 
 /** Resolves only server-derived account, membership and persisted onboarding state. */
@@ -59,7 +61,18 @@ export async function resolveAuthOnboardingEntry(locale: string): Promise<string
     supabase.from("organization_members").select("role:roles!role_id(key),organization:organizations!organization_id(slug)").eq("user_id", user.id).eq("status", "active").is("revoked_at", null),
   ]);
   const membership = (memberships ?? [])[0] as unknown as { role?: { key?: RoleKey } | null; organization?: { slug?: string } | null } | undefined;
-  if (membership?.role?.key && membership.organization?.slug) return roleHome(locale, membership.role.key, membership.organization.slug);
+  if (membership?.role?.key && membership.organization?.slug) {
+    if (!usesLiveWorkspace()) {
+      (await cookies()).set("agribridge_demo_role", demoRoleForMembership(membership.role.key), {
+        httpOnly: true,
+        sameSite: "lax",
+        secure: process.env.NODE_ENV === "production",
+        path: "/",
+        maxAge: 60 * 60 * 8,
+      });
+    }
+    return roleHome(locale, membership.role.key, membership.organization.slug);
+  }
   const intent = (profile as { signup_intent?: string | null } | null)?.signup_intent;
   if (intent === "fpo" || intent === "buyer" || intent === "logistics") return `/${locale}/onboarding/${intent}`;
   return `/${locale}/onboarding/organization`;

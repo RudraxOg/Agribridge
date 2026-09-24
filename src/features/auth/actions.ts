@@ -34,7 +34,7 @@ export async function signInAction(_: AuthActionState, formData: FormData): Prom
   const parsed = z.object({ email: z.string().trim().max(254).min(1), password: z.string().min(1).max(128), locale: localeSchema, next: z.string().optional() }).safeParse(Object.fromEntries(formData));
   if (!parsed.success) return { status: "error", message: "Check the email and password, then try again." };
   const identifier = parsed.data.email.toLowerCase();
-  if (identifier !== demoAuthCredentials.username && !emailSchema.safeParse(identifier).success) return { status: "error", message: "Enter a valid email address or the demo username." };
+  if ((isSupabaseAuthEnabled() || identifier !== demoAuthCredentials.username) && !emailSchema.safeParse(identifier).success) return { status: "error", message: isSupabaseAuthEnabled() ? "Enter your account email address." : "Enter a valid email address or the demo username." };
   if (!isSupabaseAuthEnabled()) {
     if (identifier !== demoAuthCredentials.username || parsed.data.password !== demoAuthCredentials.password) return { status: "error", message: "We could not sign you in with those details." };
     // The fixed local-only demo identity is not an account credential. Keeping
@@ -51,7 +51,7 @@ export async function signInAction(_: AuthActionState, formData: FormData): Prom
   if (!(await limited("sign-in", identifier)).allowed) return { status: "error", message: "Too many attempts. Wait a few minutes before trying again." };
   const supabase = await createAuthClient();
   const { error } = await supabase.auth.signInWithPassword({ email: identifier, password: parsed.data.password });
-  if (error) return { status: "error", message: "We could not sign you in with those details." };
+  if (error) return { status: "error", message: "Email or password did not match. Check your account details and try again." };
   if (!usesLiveWorkspace()) redirect((await resolveAuthOnboardingEntry(parsed.data.locale)) ?? `/${parsed.data.locale}/sign-in`);
   const decision=await resolveSignedInEntry(parsed.data.locale);
   redirect(decision?.href ?? `/${parsed.data.locale}/onboarding/welcome`);

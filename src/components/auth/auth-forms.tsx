@@ -11,7 +11,39 @@ import { PasswordInput } from "./password-input";
 
 function Result({ state }: { state: typeof initialAuthState }) { if (state.status === "idle") return null; const Icon=state.status==="success"?CircleCheck:CircleAlert; return <div role={state.status==="error"?"alert":"status"} className={`flex gap-3 rounded-xl border p-3 text-sm ${state.status==="success"?"border-green-200 bg-green-50 text-green-900":"border-red-200 bg-red-50 text-red-900"}`}><Icon className="mt-0.5 shrink-0" aria-hidden size={18}/><p>{state.message}</p></div>; }
 
-export function SignInForm({ locale, next }: { locale: string; next?: string }) { const [state,action,pending]=useActionState(signInAction,initialAuthState);const t=useTranslations("auth"); return <form action={action} className="grid gap-5"><input type="hidden" name="locale" value={locale}/><input type="hidden" name="next" value={next ?? ""}/><Field label={t("email")} hint="Mock mode also accepts the demo username test.username"><div className="relative"><Mail className="absolute top-3.5 left-3 text-[var(--text-muted)]" aria-hidden size={19}/><Input className="pl-10" name="email" type="text" autoComplete="username" placeholder="Email address or test.username" required/></div></Field><Field label={t("password")} hint="Demo password: test.password"><PasswordInput name="password" autoComplete="current-password"/></Field><div className="-mt-2 text-right"><Link href={`/${locale}/forgot-password`} className="inline-flex min-h-11 items-center font-bold text-[var(--forest)]">Forgot password?</Link></div><Result state={state}/><Button disabled={pending}>{pending?"Signing in…":t("signIn")}<ArrowRight aria-hidden size={18}/></Button><p className="text-center text-sm text-[var(--text-muted)]">New to AgriBridge? <Link className="font-bold text-[var(--forest)]" href={`/${locale}/sign-up`}>Create an account</Link></p><Link href={`/${locale}/demo-role`} className="flex min-h-12 items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 font-bold text-[var(--forest)]">{t("demo")}</Link></form>; }
+export function SignInForm({ locale, next, demoMode }: { locale: string; next?: string; demoMode: boolean }) {
+  const [state, action, pending] = useActionState(signInAction, initialAuthState);
+  const t = useTranslations("auth");
+  return (
+    <form action={action} className="grid gap-5">
+      <input type="hidden" name="locale" value={locale} />
+      <input type="hidden" name="next" value={next ?? ""} />
+      <Field label={t("email")} hint={demoMode ? "Local demo username: test.username" : undefined}>
+        <div className="relative">
+          <Mail className="absolute top-3.5 left-3 text-[var(--text-muted)]" aria-hidden size={19} />
+          <Input
+            className="pl-10"
+            name="email"
+            type={demoMode ? "text" : "email"}
+            autoComplete="username"
+            placeholder={demoMode ? "Email address or test.username" : "Email address"}
+            required
+          />
+        </div>
+      </Field>
+      <Field label={t("password")} hint={demoMode ? "Local demo password: test.password" : undefined}>
+        <PasswordInput name="password" autoComplete="current-password" />
+      </Field>
+      <div className="-mt-2 text-right">
+        <Link href={`/${locale}/forgot-password`} className="inline-flex min-h-11 items-center font-bold text-[var(--forest)]">Forgot password?</Link>
+      </div>
+      <Result state={state} />
+      <Button disabled={pending}>{pending ? "Signing in…" : t("signIn")}<ArrowRight aria-hidden size={18} /></Button>
+      <p className="text-center text-sm text-[var(--text-muted)]">New to AgriBridge? <Link className="font-bold text-[var(--forest)]" href={`/${locale}/sign-up`}>Create an account</Link></p>
+      <Link href={`/${locale}/demo-role`} className="flex min-h-12 items-center justify-center rounded-xl border border-[var(--border)] bg-[var(--surface-muted)] px-4 font-bold text-[var(--forest)]">{t("demo")}</Link>
+    </form>
+  );
+}
 
 const accountTypes = [
   { value: "fpo", title: "FPO", detail: "Manage farmers, aggregate stock, publish verified lots and track settlements.", Icon: Leaf },
