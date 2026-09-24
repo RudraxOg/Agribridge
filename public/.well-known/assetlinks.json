@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.agribridge.app",
+      "sha256_cert_fingerprints": [
+        "AB:75:23:40:F2:2C:A4:CC:E3:46:E9:66:B9:78:BB:A3:1D:C9:D4:CF:79:C8:12:48:66:EB:CA:AA:8A:71:67:B9"
+      ]
+    }
+  }
+]

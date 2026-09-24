@@ -1,0 +1,58 @@
+name: Android release APK
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.17.1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: gradle
+      - run: pnpm install --frozen-lockfile
+      - name: Restore signing key
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+        run: |
+          test -n "$ANDROID_KEYSTORE_BASE64"
+          printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/agribridge-release.jks"
+          chmod 600 "$RUNNER_TEMP/agribridge-release.jks"
+      - name: Sync production web origin
+        env:
+          CAPACITOR_SERVER_URL: https://agribridge-phi.vercel.app
+          AGRIBRIDGE_APP_LINK_HOST: agribridge-phi.vercel.app
+        run: pnpm cap:sync
+      - name: Build signed APK
+        working-directory: android
+        env:
+          AGRIBRIDGE_APP_LINK_HOST: agribridge-phi.vercel.app
+          ANDROID_KEYSTORE_FILE: ${{ runner.temp }}/agribridge-release.jks
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: ./gradlew assembleRelease --no-daemon
+      - name: Verify APK
+        run: |
+          apk=android/app/build/outputs/apk/release/app-release.apk
+          "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose "$apk"
+          sha256sum "$apk"
+          stat -c 'APK bytes: %s' "$apk"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: agribridge-android-release
+          path: android/app/build/outputs/apk/release/app-release.apk
+          if-no-files-found: error

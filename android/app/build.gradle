@@ -1,5 +1,11 @@
 apply plugin: 'com.android.application'
 
+def releaseKeystore = System.getenv("ANDROID_KEYSTORE_FILE")
+def releaseStorePassword = System.getenv("ANDROID_KEYSTORE_PASSWORD")
+def releaseKeyAlias = System.getenv("ANDROID_KEY_ALIAS")
+def releaseKeyPassword = System.getenv("ANDROID_KEY_PASSWORD")
+def hasReleaseSigning = [releaseKeystore, releaseStorePassword, releaseKeyAlias, releaseKeyPassword].every { it }
+
 android {
     namespace = "com.agribridge.app"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -17,6 +23,16 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        release {
+            if (hasReleaseSigning) {
+                storeFile file(releaseKeystore)
+                storePassword releaseStorePassword
+                keyAlias releaseKeyAlias
+                keyPassword releaseKeyPassword
+            }
+        }
+    }
     buildTypes {
         debug {
             manifestPlaceholders = [appLinkHost: System.getenv("AGRIBRIDGE_APP_LINK_HOST") ?: "localhost"]
@@ -26,6 +42,10 @@ android {
             if (!System.getenv("AGRIBRIDGE_APP_LINK_HOST")) {
                 throw new GradleException("AGRIBRIDGE_APP_LINK_HOST is required for a release build")
             }
+            if (!hasReleaseSigning || !file(releaseKeystore).isFile()) {
+                throw new GradleException("A complete Android release signing configuration is required")
+            }
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
