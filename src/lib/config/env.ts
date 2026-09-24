@@ -2,6 +2,7 @@ import { z } from "zod";
 
 const serverSchema = z.object({
   INTEGRATION_MODE: z.enum(["mock", "live"]).default("mock"),
+  AUTH_MODE: z.enum(["mock", "supabase"]).default("mock"),
   PAYMENT_PROVIDER: z.enum(["mock", "razorpay"]).default("mock"),
   DATA_GOV_IN_API_KEY: z.string().optional(),
   DATA_GOV_IN_RESOURCE_ID: z.string().default("9ef84268-d588-465a-a308-a864a43d0070"),

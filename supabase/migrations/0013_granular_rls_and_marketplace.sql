@@ -41,7 +41,7 @@ drop policy if exists "public or tenant files are readable" on public.file_asset
 drop policy if exists "fpo operators register files" on public.file_assets;
 drop policy if exists "fpo operators update processing metadata" on public.file_assets;
 create policy "published derivative or permitted file read" on public.file_assets for select to anon,authenticated using(
-  (visibility='public' and processing_status='ready' and quarantine_status='clean' and exists(select 1 from public.stock_lot_assets a join public.stock_lots l on l.id=a.stock_lot_id where a.file_asset_id=id and l.status='published'))
+  (visibility='public' and processing_status='ready' and quarantine_status='clean' and exists(select 1 from public.stock_lot_assets a join public.stock_lots l on l.id=a.stock_lot_id where a.file_asset_id=public.file_assets.id and l.status='published'))
   or (auth.role()='authenticated' and owner_organization_id is not null and (select public.has_organization_permission(owner_organization_id,'files.read_private')))
 );
 create policy "permission registers file metadata" on public.file_assets for insert to authenticated with check(owner_organization_id is not null and (select public.has_organization_permission(owner_organization_id,'files.upload')) and quarantine_status='pending' and processing_status in ('queued','processing'));

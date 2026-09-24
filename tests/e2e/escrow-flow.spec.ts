@@ -8,6 +8,7 @@ test("tracks shipment and opens final milestone breakdown", async ({ page }) => 
   await page.keyboard.press("Enter");
   await page.goto("/en/buyer/orders/AB-260914-1072");
   await page.getByRole("link", { name: "Track shipment" }).click();
+  await page.waitForURL(/\/en\/shipments\/AB-260914-1072/);
   await expect(page.getByRole("heading", { name: "Gonda → Lucknow" })).toBeVisible();
   await expect(page.getByText("Tracking timeline")).toBeVisible();
   await page.goto("/en/settlements/AB-260914-1072");

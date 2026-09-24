@@ -6,6 +6,22 @@ insert into public.organizations(id,type,name,slug,verification_status,state,dis
 ('20000000-0000-0000-0000-000000000003','buyer','Bharat Institutional Foods','bharat-institutional-foods','verified','Uttar Pradesh','Kanpur','Panki, Kanpur'),
 ('80000000-0000-0000-0000-000000000001','logistics','Gati Demo Logistics','gati-demo-logistics','verified','Uttar Pradesh','Lucknow','Synthetic demo fleet office');
 
+-- Complete, synthetic onboarding records for the three primary local accounts.
+-- Auth users themselves are created by `pnpm demo:users` after a local reset.
+insert into public.fpo_profiles(organization_id,farmer_count_estimate,primary_crops,settlement_preferences) values
+('10000000-0000-0000-0000-000000000001',248,'["Potato","Onion","Tomato"]','{"release_schedule":"50-50","payout_method":"verified_bank_reference"}')
+on conflict (organization_id) do update set farmer_count_estimate=excluded.farmer_count_estimate,primary_crops=excluded.primary_crops,settlement_preferences=excluded.settlement_preferences;
+insert into public.buyer_profiles(organization_id,buyer_type,expected_monthly_quantity_kg,sourcing_regions,procurement_preferences) values
+('20000000-0000-0000-0000-000000000001','supermarket',85000,'["Gonda","Barabanki","Nashik"]','{"commodities":["Potato","Onion","Tomato"],"quality_grade":"A","delivery_window":"morning"}')
+on conflict (organization_id) do update set buyer_type=excluded.buyer_type,expected_monthly_quantity_kg=excluded.expected_monthly_quantity_kg,sourcing_regions=excluded.sourcing_regions,procurement_preferences=excluded.procurement_preferences;
+insert into public.logistics_profiles(organization_id,fleet_size,cold_storage_available,operating_hours) values
+('80000000-0000-0000-0000-000000000001',18,true,'06:00–22:00')
+on conflict (organization_id) do update set fleet_size=excluded.fleet_size,cold_storage_available=excluded.cold_storage_available,operating_hours=excluded.operating_hours;
+insert into public.logistics_service_areas(organization_id,state,district,latitude,longitude) values
+('80000000-0000-0000-0000-000000000001','Uttar Pradesh','Lucknow',26.846700,80.946200),
+('80000000-0000-0000-0000-000000000001','Uttar Pradesh','Gonda',27.133900,81.961900)
+on conflict (organization_id,state,district) do update set latitude=excluded.latitude,longitude=excluded.longitude;
+
 insert into public.consent_records(id,organization_id,purpose,notice_version,consented,alternative_offered) values
 ('30000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','Assisted farmer registration and payout','2026-08',true,true);
 insert into public.identity_verifications(id,organization_id,provider,verification_reference,masked_identifier,last_four,status,verified_at,consent_record_id) values

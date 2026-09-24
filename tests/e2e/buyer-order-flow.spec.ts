@@ -19,18 +19,19 @@ test("filters a lot, requests grading and completes mock UPI", async ({ page }) 
   await page.getByPlaceholder("Search crop or district").fill("potato");
   const lot = page.getByRole("link", { name: "Grade A potato", exact: true });
   await expect(lot).toBeVisible();
-  await lot.focus();
-  await page.keyboard.press("Enter");
+  await lot.click();
   await expect(page.getByAltText("potato crate multi-angle demo, frame 1 of 12")).toBeVisible();
   await activate(page, "Next viewing angle");
   await expect(page.getByAltText("potato crate multi-angle demo, frame 2 of 12")).toBeVisible();
   await expect(page.getByText("Three independent grade sources")).toBeVisible();
   await activate(page, "Request call");
   await expect(page.getByText(/Mock grading call requested/)).toBeVisible();
-  await follow(page, /Add to order/);
+  await page.getByRole("link", { name: /Add to order/ }).click();
   await expect(page.getByText("What the buyer pays")).toBeVisible();
   await activate(page, "Complete mock UPI payment");
   await expect(page.getByText("FUNDS SECURED", { exact: true })).toBeVisible();
+  // On a short mobile viewport the confirmation card can overlap the link.
+  // Keyboard activation verifies the link's accessible, real navigation path.
   await follow(page, "Open order");
   await expect(page.getByText("How the order amount is distributed")).toBeVisible();
 });

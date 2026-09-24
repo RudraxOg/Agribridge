@@ -1,4 +1,3 @@
 import { redirect } from "next/navigation";
-import { roleHome } from "@/lib/authorization/permissions";
-import { getAccessContext } from "@/lib/authorization/access";
-export async function RoleHomeRedirect({locale,organizationSlug}:{locale:string;organizationSlug?:string}){const access=await getAccessContext(organizationSlug);if(!access)redirect(`/${locale}/sign-in`);if(!access.organization)redirect(`/${locale}/organizations`);redirect(roleHome(locale,access.role,access.organization.slug));}
+import { resolveSignedInEntry } from "@/lib/auth/resolve-signed-in-entry";
+export async function RoleHomeRedirect({locale,organizationSlug}:{locale:string;organizationSlug?:string}){const decision=await resolveSignedInEntry(locale,organizationSlug);redirect(decision?.href??`/${locale}/sign-in`);}

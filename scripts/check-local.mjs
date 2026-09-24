@@ -28,4 +28,35 @@ if (missingDefaults.length) {
   process.exit(1);
 }
 
+const values = Object.fromEntries(
+  env
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("#") && line.includes("="))
+    .map((line) => {
+      const separator = line.indexOf("=");
+      return [line.slice(0, separator), line.slice(separator + 1)];
+    }),
+);
+
+const supabaseUrl = values.NEXT_PUBLIC_SUPABASE_URL;
+const publicSupabaseKey = values.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || values.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+if (!supabaseUrl || !publicSupabaseKey) {
+  console.error("Supabase public configuration is incomplete. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY (or the legacy ANON_KEY).");
+  process.exit(1);
+}
+
+try {
+  const parsedSupabaseUrl = new URL(supabaseUrl);
+  if (!["http:", "https:"].includes(parsedSupabaseUrl.protocol)) throw new Error("unsupported protocol");
+  if (parsedSupabaseUrl.hostname.endsWith(".vercel.app")) {
+    throw new Error("Vercel deployment URLs are application origins, not Supabase API endpoints");
+  }
+} catch (error) {
+  const reason = error instanceof Error ? error.message : "invalid URL";
+  console.error(`NEXT_PUBLIC_SUPABASE_URL is invalid: ${reason}. Use your Supabase Project URL (for example, https://<project-ref>.supabase.co).`);
+  process.exit(1);
+}
+
 console.log(`Local setup looks ready (Node ${process.versions.node}, mock integrations enabled).`);

@@ -34,6 +34,19 @@ pnpm dev
 
 Open <http://localhost:3000>. Choose a demo role. No external credentials are needed in mock mode.
 
+## Supabase authentication with mock workflows
+
+To use real Supabase accounts for sign-in, sign-up, verification, and password recovery while keeping every product workflow simulated, configure the authentication environment as follows:
+
+```bash
+INTEGRATION_MODE=mock
+AUTH_MODE=supabase
+NEXT_PUBLIC_SUPABASE_URL=https://<project-ref>.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=<publishable-key>
+```
+
+In this mode, successful authentication returns the user to the controlled demo-role selector. No demo action reads or writes workspace tables, storage, payments, or other live integrations. Set `INTEGRATION_MODE=live` only for a separately prepared production workspace with its database migrations, RLS policies, and operational providers enabled.
+
 Check the local setup before running tests:
 
 ```bash

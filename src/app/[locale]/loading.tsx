@@ -1,1 +1,5 @@
-export default function Loading(){return <main id="main-content" className="mx-auto max-w-6xl animate-pulse p-6" aria-busy="true" aria-label="Loading page"><div className="h-10 w-64 rounded-xl bg-[var(--border)]"/><div className="mt-6 grid gap-4 md:grid-cols-3">{[1,2,3,4,5,6].map(i=><div key={i} className="h-36 rounded-2xl bg-[var(--border)]"/>)}</div></main>}
+import { RouteLoading } from "@/components/shell/route-loading";
+
+export default function Loading() {
+  return <RouteLoading />;
+}

@@ -1,2 +1,7 @@
-import Link from "next/link";import { PageHeader } from "@/components/shell/page-header";import { Card } from "@/components/ui/card";import { StatusChip } from "@/components/shared/status-chip";import { requireLocale } from "@/lib/i18n/locale";
-export default async function BuyerOrders({params}:{params:Promise<{locale:string}>}){const locale=requireLocale((await params).locale);return <><PageHeader eyebrow="Purchase desk" title="Your orders" description="Track quality, logistics, provider payments and settlement milestones."/><div className="grid gap-4">{[["AB-260914-1072","Grade A potato · 10 t","Awadh Pragati FPC","₹2,18,420","IN_TRANSIT"],["AB-260831-0974","Red onion · 8 t","Sahyadri Growers Collective","₹2,31,200","COMPLETED"]].map(row=><Link key={row[0]} href={`/${locale}/buyer/orders/${row[0]}`}><Card className="grid gap-3 p-5 transition hover:border-[var(--field)] md:grid-cols-[1fr_1.3fr_1.2fr_.8fr_auto] md:items-center"><strong className="text-[var(--forest)]">{row[0]}</strong><span>{row[1]}</span><span className="text-sm text-[var(--text-muted)]">{row[2]}</span><strong className="tabular">{row[3]}</strong><StatusChip status={row[4]}/></Card></Link>)}</div></>}
+import { BuyerOrdersContent } from "@/features/navigation/buyer-page-content";
+import { requireLocale } from "@/lib/i18n/locale";
+
+export default async function BuyerOrders({ params }: { params: Promise<{ locale: string }> }) {
+  const locale = requireLocale((await params).locale);
+  return <BuyerOrdersContent locale={locale} />;
+}

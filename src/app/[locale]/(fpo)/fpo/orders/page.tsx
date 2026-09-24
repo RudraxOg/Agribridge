@@ -1,2 +1,7 @@
-import Link from "next/link";import { PageHeader } from "@/components/shell/page-header";import { Card } from "@/components/ui/card";import { StatusChip } from "@/components/shared/status-chip";import { requireLocale } from "@/lib/i18n/locale";
-export default async function OrdersPage({params}:{params:Promise<{locale:string}>}){const locale=requireLocale((await params).locale);const orders=[["AB-260914-1072","Lucknow Fresh Mart","Potato · 10 t","₹2,00,000","IN_TRANSIT"],["AB-260913-1068","NorthStar Exports","Basmati paddy · 25 t","₹9,62,500","FUNDS_SECURED"],["AB-260912-1059","Bharat Institutional Foods","Green peas · 6 t","₹2,64,000","LOADING"]];return <><PageHeader eyebrow="7 pending orders" title="FPO orders" description="Audited order states from placement through delivery."/><Card className="overflow-hidden"><div className="overflow-x-auto"><table className="w-full min-w-[760px] text-left"><thead className="bg-[var(--surface-muted)] text-xs"><tr>{["Order","Buyer","Produce","Value","Status"].map(x=><th className="p-4" key={x}>{x}</th>)}</tr></thead><tbody>{orders.map(o=><tr className="border-t border-[var(--border)]" key={o[0]}><td className="p-4"><Link className="font-black text-[var(--forest)]" href={`/${locale}/fpo/orders/${o[0]}`}>{o[0]}</Link></td><td className="p-4">{o[1]}</td><td className="p-4">{o[2]}</td><td className="tabular p-4 font-bold">{o[3]}</td><td className="p-4"><StatusChip status={o[4]}/></td></tr>)}</tbody></table></div></Card></>}
+import { OrdersContent } from "@/features/navigation/fpo-page-content";
+import { requireLocale } from "@/lib/i18n/locale";
+
+export default async function OrdersPage({ params }: { params: Promise<{ locale: string }> }) {
+  const locale = requireLocale((await params).locale);
+  return <OrdersContent locale={locale} />;
+}

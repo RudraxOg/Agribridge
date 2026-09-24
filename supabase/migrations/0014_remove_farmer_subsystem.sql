@@ -8,8 +8,10 @@ drop policy if exists "document permission uploads farmer objects" on storage.ob
 drop table if exists public.farmer_auth_methods;
 drop table if exists public.land_documents;
 
-delete from storage.objects where bucket_id = 'farmer-documents';
-delete from storage.buckets where id = 'farmer-documents';
+-- Supabase Storage blocks direct SQL deletion from storage.objects and buckets.
+-- Object cleanup must be performed through the Storage API before this schema
+-- migration in a populated deployment. The following migration recreates this
+-- bucket, so preserving an empty bucket is correct for a fresh project.
 
 delete from public.stock_lot_assets
 where file_asset_id in (

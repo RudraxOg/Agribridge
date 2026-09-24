@@ -1,0 +1,8 @@
+import { redirect } from "next/navigation";
+import { WelcomeHero } from "@/components/onboarding/WelcomeHero";
+import { WelcomeExperience } from "@/components/onboarding/WelcomeExperience";
+import { LanguageSwitcher } from "@/components/shell/language-switcher";
+import { getDemoAccessContext } from "@/features/guided-demo/lib/get-demo-access-context";
+import { requireLocale } from "@/lib/i18n/locale";
+import { roleHome } from "@/lib/authorization/permissions";
+export default async function GuidedDemoWelcome({params}:{params:Promise<{locale:string}>}){const locale=requireLocale((await params).locale);const access=await getDemoAccessContext();if(!access)redirect(`/${locale}/sign-in`);if(access.status==="completed"||access.status==="skipped")redirect(roleHome(locale,access.role,access.organization?.slug));return <main id="main-content" className="relative min-h-dvh overflow-hidden bg-[var(--canvas)] px-4 py-5 md:px-8 md:py-10"><div aria-hidden className="absolute inset-x-0 top-0 h-[34rem] bg-[radial-gradient(ellipse_at_10%_5%,rgb(103_169_92_/_24%),transparent_56%),radial-gradient(ellipse_at_90%_0%,rgb(46_139_87_/_14%),transparent_45%)]"/><div className="relative mx-auto max-w-6xl"><div className="mb-6 flex justify-end"><LanguageSwitcher locale={locale}/></div><WelcomeHero name={access.profile.displayName} organization={access.organization?.name} role={access.role}/><section className="mt-6"><WelcomeExperience locale={locale} role={access.role} organizationSlug={access.organization?.slug}/></section><p className="mt-6 text-center text-sm font-bold text-[var(--text-muted)]">You can restart this anytime from Help.</p></div></main>}

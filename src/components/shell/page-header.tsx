@@ -1,2 +1,38 @@
 import { ReadAloudButton } from "@/components/accessibility/read-aloud-button";
-export function PageHeader({ eyebrow, title, description, actions }: { eyebrow?: string; title: string; description?: string; actions?: React.ReactNode }) { return <div className="mb-6 flex flex-col justify-between gap-4 md:flex-row md:items-end"><div>{eyebrow && <p className="mb-2 text-xs font-extrabold tracking-[.16em] text-[var(--field)] uppercase">{eyebrow}</p>}<div className="flex items-center gap-1"><h1 className="text-3xl leading-tight font-black tracking-[-.025em] md:text-4xl">{title}</h1><ReadAloudButton text={`${title}. ${description ?? ""}`} /></div>{description && <p className="mt-2 max-w-2xl text-[var(--text-muted)]">{description}</p>}</div>{actions && <div className="flex flex-wrap gap-2">{actions}</div>}</div>; }
+export function PageHeader({
+  eyebrow,
+  title,
+  description,
+  actions,
+}: {
+  eyebrow?: string;
+  title: string;
+  description?: string;
+  actions?: React.ReactNode;
+}) {
+  return (
+    <div className="mb-6 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+      <div className="min-w-0">
+        {eyebrow && (
+          <p className="mb-2 text-xs font-extrabold tracking-[.16em] text-[var(--field)] uppercase">
+            {eyebrow}
+          </p>
+        )}
+        <div className="flex items-start gap-1">
+          <h1 className="text-2xl leading-tight font-black tracking-[-.025em] sm:text-3xl md:text-4xl">
+            {title}
+          </h1>
+          <span className="hidden sm:contents">
+            <ReadAloudButton text={`${title}. ${description ?? ""}`} />
+          </span>
+        </div>
+        {description && (
+          <p className="mt-2 max-w-2xl text-[var(--text-muted)]">
+            {description}
+          </p>
+        )}
+      </div>
+      {actions && <div className="flex flex-wrap gap-2">{actions}</div>}
+    </div>
+  );
+}

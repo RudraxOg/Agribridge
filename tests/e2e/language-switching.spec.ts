@@ -1,2 +1,8 @@
-import { expect,test } from "@playwright/test";
-test("switches from English to Hindi",async({page})=>{await page.goto("/en");await page.getByLabel("Language").evaluate((element)=>{const select=element as HTMLSelectElement;select.value="hi";select.dispatchEvent(new Event("change",{bubbles:true}))});await expect(page).toHaveURL(/\/hi$/);await expect(page.getByRole("heading",{level:1})).toContainText("फसल")});
+import { expect, test } from "@playwright/test";
+
+test("switches from English to Hindi", async ({ page }) => {
+  await page.goto("/en");
+  await page.getByLabel("Language").selectOption("hi");
+  await expect(page).toHaveURL(/\/hi$/);
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("फसल");
+});
