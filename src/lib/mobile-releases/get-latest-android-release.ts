@@ -1,6 +1,7 @@
 import "server-only";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { usesLiveWorkspace } from "@/lib/auth/auth-mode";
+import { publishedAndroidRelease } from "./published-android-release";
 import type { AndroidReleaseState } from "./types";
 
 type ReleaseQuery = {
@@ -13,7 +14,8 @@ type ReleaseQuery = {
 };
 
 export async function getLatestAndroidRelease(): Promise<AndroidReleaseState> {
-  if (!usesLiveWorkspace()) return { release: null, unavailable: true };
+  if (!usesLiveWorkspace())
+    return { release: publishedAndroidRelease, unavailable: false };
   const admin = createAdminClient();
   const releases = (admin.from as unknown as (table: string) => ReleaseQuery)(
     "mobile_app_releases",

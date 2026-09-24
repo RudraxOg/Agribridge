@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getLatestAndroidRelease } from "@/lib/mobile-releases/get-latest-android-release";
 import { usesLiveWorkspace } from "@/lib/auth/auth-mode";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { publishedAndroidApkUrl } from "@/lib/mobile-releases/published-android-release";
 import { checkLocalRateLimit, privacyKey } from "@/lib/security/rate-limit";
 type DownloadQuery = {
   select(columns: string): DownloadQuery;
@@ -31,9 +32,13 @@ export async function GET(request: Request) {
       { status: 404 },
     );
   if (!usesLiveWorkspace())
-    return NextResponse.redirect(
-      new URL(`/en/download?demo=apk-not-configured`, request.url),
-    );
+    return NextResponse.redirect(publishedAndroidApkUrl, {
+      headers: {
+        "Cache-Control": "no-store",
+        "Referrer-Policy": "no-referrer",
+        "X-Content-Type-Options": "nosniff",
+      },
+    });
   const admin = createAdminClient();
   const releases = (admin.from as unknown as (table: string) => DownloadQuery)(
     "mobile_app_releases",

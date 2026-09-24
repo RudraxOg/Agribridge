@@ -81,6 +81,10 @@ export function AndroidDownloadDialog({
           </p>
         ) : release ? (
           <>
+            <p className="mt-4 text-sm text-[var(--text-muted)]">
+              This signed Android app opens the AgriBridge website. Product
+              workflows in this release are simulated.
+            </p>
             <AndroidReleaseDetails release={release} />
             <div className="mt-5 rounded-xl border border-[var(--harvest)]/45 bg-amber-50 p-4 text-sm">
               <AlertTriangle
@@ -99,7 +103,7 @@ export function AndroidDownloadDialog({
             </div>
             <AndroidInstallSteps />
             <a
-              className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[var(--forest)] px-4 font-bold text-white"
+              className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[var(--forest)] px-4 font-bold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--forest)]"
               href={release.downloadUrl}
             >
               <Download aria-hidden size={18} />

@@ -21,7 +21,7 @@ export default async function DownloadPage({
       <PageHeader
         eyebrow="Choose how to install"
         title="Install AgriBridge"
-        description="Use the web app on a supported browser, or download the official Android APK when a release is available."
+        description="Install the web app from your browser, or download the signed Android APK. Both connect to the same AgriBridge website."
       />
       <div className="grid items-start gap-6 md:grid-cols-2">
         <Card id="web-app" className="scroll-mt-6 p-5 sm:p-7">
@@ -50,13 +50,13 @@ export default async function DownloadPage({
           <h2 className="mt-3 text-2xl font-black">Install Android APK</h2>
           <p className="mt-2 text-[var(--text-muted)]">
             Download and install the official Android release directly on an
-            Android device.
+            Android device. Product workflows in this release are simulated.
           </p>
           {release ? (
             <>
               <AndroidReleaseDetails release={release} />
               <a
-                className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[var(--forest)] px-4 font-bold text-white hover:bg-[var(--forest-deep)]"
+                className="mt-5 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-[var(--forest)] px-4 font-bold text-white hover:bg-[var(--forest-deep)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--forest)]"
                 href={release.downloadUrl}
               >
                 <Download aria-hidden size={18} />
